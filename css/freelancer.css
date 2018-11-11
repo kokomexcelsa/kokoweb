@@ -125,7 +125,17 @@ header .intro-text .skills {
   header .intro-text .skills {
     font-size: 1.75em;
   }
+  .icon-mexcelsa{
+    height: 30px;
+    width: 30px;
+  }
 }
+
+.icon-mexcelsa{
+  height: 60px;
+  width: 60px;
+}
+
 .navbar-custom {
   background: #2C3E50;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
