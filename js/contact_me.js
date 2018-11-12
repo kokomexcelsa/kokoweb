@@ -21,13 +21,14 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "././mail/contact_me.php",
+                url: "https://formspree.io/qqkerk@hotmail.com",
                 type: "POST",
                 data: {
                     name: name,
                     phone: phone,
-                    email: email,
-                    message: message
+                    _replyto: email,
+                    message: message,
+                    _subject: 'From KoKo mexcelsa'
                 },
                 cache: false,
                 success: function() {
@@ -49,7 +50,7 @@ $(function() {
                     $('#success').html("<div class='alert alert-danger'>");
                     $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                         .append("</button>");
-                    $('#success > .alert-danger').append("<strong>抱歉 " + firstName + "郵件伺服器沒有回應，請稍後再試！");
+                    $('#success > .alert-danger').append("<strong>抱歉 " + firstName + " 郵件伺服器沒有回應，請稍後再試！");
                     $('#success > .alert-danger').append('</div>');
                     //clear all fields
                     $('#contactForm').trigger("reset");
