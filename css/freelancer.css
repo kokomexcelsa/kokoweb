@@ -34,6 +34,9 @@ a.active {
   border-radius:10px;
   border:2px #2F4F4F solid;
 }
+.btn-default{
+  height: 60px;
+}
 h1,
 h2,
 h3,
