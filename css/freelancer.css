@@ -36,6 +36,7 @@ a.active {
 }
 .btn-default{
   height: 60px;
+  border:2px #2F4F4F solid;
 }
 h1,
 h2,
