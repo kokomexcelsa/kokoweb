@@ -97,7 +97,6 @@ header .container-fluid {
   background-image: url(../img/pohu11.jpg);
   background-repeat: no-repeat;
   background-position: center center;
-  background-attachment: fixed;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
