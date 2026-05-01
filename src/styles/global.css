@@ -165,6 +165,61 @@ p {
   line-height: 1.7;
 }
 
+.home-hero {
+  min-height: 78vh;
+  display: grid;
+  align-items: end;
+  padding: 120px var(--space-page) 64px;
+  color: white;
+  background:
+    linear-gradient(90deg, rgb(12 22 29 / 0.84), rgb(12 22 29 / 0.5) 50%, rgb(12 22 29 / 0.12)),
+    var(--hero-image) center / cover;
+}
+
+.home-hero .eyebrow,
+.home-hero p {
+  color: rgb(255 255 255 / 0.88);
+}
+
+.home-hero h1 {
+  max-width: 980px;
+  color: white;
+}
+
+.home-hero-content {
+  width: min(var(--content-wide), 100%);
+  margin: 0 auto;
+}
+
+.home-hero-content p {
+  font-size: 1.25rem;
+}
+
+.hero-actions {
+  margin-top: 28px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.hero-actions a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 10px 14px;
+  color: var(--color-ink);
+  background: white;
+  border-radius: var(--radius-small);
+  text-decoration: none;
+  font-weight: 800;
+}
+
+.hero-actions a + a {
+  color: white;
+  background: rgb(255 255 255 / 0.16);
+  border: 1px solid rgb(255 255 255 / 0.45);
+}
+
 .detail-hero {
   width: min(var(--content-wide), calc(100% - (var(--space-page) * 2)));
   margin: 0 auto;
