@@ -1,0 +1,28 @@
+---
+import '../styles/global.css';
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+const {
+  title = '大魔術熊貓工程師 Ko Ko',
+  description = 'Microsoft AI MVP, author, speaker, and AI application architect.'
+} = Astro.props;
+---
+
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+  </head>
+  <body>
+    <main>
+      <slot />
+    </main>
+  </body>
+</html>
