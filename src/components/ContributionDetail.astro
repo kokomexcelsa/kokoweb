@@ -2,7 +2,6 @@
 import type { CollectionEntry } from 'astro:content';
 import EvidenceGallery from './EvidenceGallery.astro';
 import { formatDate, labelForFormat, labelForLink, labelForType, splitParagraphs } from '../utils/format';
-import { withBase } from '../utils/url';
 
 interface Props {
   contribution: CollectionEntry<'contributions'>['data'];
@@ -47,10 +46,6 @@ const evidence = contribution.evidence as {
       <div>
         <dt>地點</dt>
         <dd>{contribution.location || labelForFormat(contribution.format)}</dd>
-      </div>
-      <div>
-        <dt>原始網址</dt>
-        <dd><a href={withBase(contribution.legacyPath)}>保留舊網址</a></dd>
       </div>
     </dl>
   </header>
