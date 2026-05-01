@@ -23,18 +23,6 @@ items:
       - LangChain
       - FastAPI
       - Vector Database
-  - id: slideshare-langserve-2024
-    title: Hello World Dev Conference 工作坊：使用 LangServe 快速部署 AI
-    type: deck
-    url: https://www.slideshare.net/slideshow/20240912-hello-world-dev-conference-langserve-ai/271757618
-    year: 2024
-    publisher: Slideshare
-    summary: Hello World 2024 工作坊投影片，包含 LangServe、LangChain、向量資料庫與 Azure OpenAI 實作。
-    topics:
-      - LangServe
-      - LangChain
-      - Azure OpenAI
-      - AI Deployment
   - id: tibame-azure-openai
     title: 駕馭 Azure OpenAI
     type: course
@@ -46,3 +34,16 @@ items:
       - Azure AI
       - LangChain
       - FastAPI
+  - id: ithome-ironman-2025-langchain-azure-ai
+    title: LangChain 愛 Azure AI
+    type: series
+    url: https://ithelp.ithome.com.tw/articles/10380646
+    year: 2025
+    publisher: iThome 鐵人賽
+    summary: 2025 iThome 鐵人賽系列文章，聚焦 LangChain 1.0、Azure AI Foundry、Azure OpenAI、Azure AI Search、RAG 與 Azure AI 相關套件整合。
+    topics:
+      - LangChain
+      - Azure AI Foundry
+      - Azure OpenAI
+      - Azure AI Search
+      - RAG

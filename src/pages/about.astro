@@ -5,9 +5,14 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 const [profileEntry] = await getCollection('profile');
 const [booksEntry] = await getCollection('books');
 const [writingEntry] = await getCollection('writing');
-const [authorityEntry] = await getCollection('authority');
 const profile = profileEntry.data;
 const specialties = profile.specialties as string[];
+const certifications = profile.certifications as {
+  name: string;
+  issuer: string;
+  url: string;
+  year?: number;
+}[];
 type BookRecord = {
   title: string;
   publisher: string;
@@ -23,14 +28,8 @@ type WritingRecord = {
   publisher: string;
   summary: string;
 };
-type AuthorityRecord = {
-  label: string;
-  url: string;
-  summary: string;
-};
 const books = booksEntry.data.books as BookRecord[];
 const writing = writingEntry.data.items as WritingRecord[];
-const authority = authorityEntry.data.records as AuthorityRecord[];
 ---
 
 <BaseLayout
@@ -61,6 +60,21 @@ const authority = authorityEntry.data.records as AuthorityRecord[];
     </aside>
   </section>
 
+  <section class="page-section" id="certifications" aria-labelledby="certifications-title">
+    <div class="section-heading">
+      <p class="eyebrow">Credentials</p>
+      <h2 id="certifications-title">雲端與 AI 認證</h2>
+    </div>
+    <div class="card-grid">
+      {certifications.map((cert) => (
+        <article class="metric-card">
+          <h3>{cert.url ? <a href={cert.url} target="_blank" rel="noreferrer">{cert.name}</a> : cert.name}</h3>
+          <p>{cert.issuer}{cert.year ? ` · ${cert.year}` : ''}</p>
+        </article>
+      ))}
+    </div>
+  </section>
+
   <section class="page-section" id="books" aria-labelledby="books-title">
     <div class="section-heading">
       <p class="eyebrow">Books</p>
@@ -82,7 +96,7 @@ const authority = authorityEntry.data.records as AuthorityRecord[];
   <section class="page-section" id="writing" aria-labelledby="writing-title">
     <div class="section-heading">
       <p class="eyebrow">Writing</p>
-      <h2 id="writing-title">寫作、課程與投影片</h2>
+      <h2 id="writing-title">寫作與課程</h2>
     </div>
     <div class="record-list">
       {writing.map((item: WritingRecord) => (
@@ -96,21 +110,6 @@ const authority = authorityEntry.data.records as AuthorityRecord[];
               <li>{item.type}</li>
             </ul>
           </div>
-        </article>
-      ))}
-    </div>
-  </section>
-
-  <section class="page-section" aria-labelledby="authority-title">
-    <div class="section-heading">
-      <p class="eyebrow">Sources</p>
-      <h2 id="authority-title">公開佐證來源</h2>
-    </div>
-    <div class="card-grid">
-      {authority.map((record: AuthorityRecord) => (
-        <article class="metric-card">
-          <h3><a href={record.url} target="_blank" rel="noreferrer">{record.label}</a></h3>
-          <p>{record.summary}</p>
         </article>
       ))}
     </div>

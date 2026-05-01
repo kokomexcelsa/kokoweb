@@ -1,37 +1,47 @@
-id: "sp2025-05-25"
-legacyPath: "/speech/sp2025-05-25.html"
-type: "workshop"
+id: sp2025-05-25
+legacyPath: /speech/sp2025-05-25.html
+type: workshop
 date: 2025-05-25
 title:
-  zh: "Vibe Coding MCP"
-  en: "Vibe Coding with MCP"
-event: "Season of Agent 2025 - Taiwan"
-location: "台灣微軟"
+  zh: Vibe Coding MCP
+  en: Vibe Coding with MCP
+event: Season of Agent 2025 - Taiwan
+location: 台灣微軟
 role: speaker
-format: "in-person"
+format: in-person
 topics:
-  - "AI Agent"
-  - "MCP"
-  - "Vibe Coding"
-  - "LangChain"
+  - AI Agent
+  - MCP
+  - Vibe Coding
+  - LangChain
 microsoftProducts:
-  - "Azure AI Foundry"
-  - "Azure OpenAI"
-  - "Microsoft Azure"
+  - Azure AI Foundry
+  - Azure OpenAI
+  - Microsoft Azure
 links:
-  event: "https://www.accupass.com/event/2504231451581062831903"
-  profile: "https://globalai.community/chapters/taoyuan/events/season-of-agent-2025-taiwan/"
+  event: https://www.accupass.com/event/2504231451581062831903
+  profile: https://globalai.community/chapters/taoyuan/events/season-of-agent-2025-taiwan/
 evidence:
-  - type: "link"
-    href: "https://www.accupass.com/event/2504231451581062831903"
-    label: "ACCUPASS 活動頁"
-  - type: "link"
-    href: "https://globalai.community/chapters/taoyuan/events/season-of-agent-2025-taiwan/"
-    label: "Global AI Community 活動頁"
+  - type: link
+    href: https://www.accupass.com/event/2504231451581062831903
+    label: ACCUPASS 活動頁
+  - type: link
+    href: https://globalai.community/chapters/taoyuan/events/season-of-agent-2025-taiwan/
+    label: Global AI Community 活動頁
+  - type: screenshot
+    src: /sp-photos/url-photos/sp20250525-url-1.png
+    alt: Season of Agent ACCUPASS 活動頁截圖，包含 KoKo 議程
+    label: Season of Agent ACCUPASS 活動頁截圖，包含 KoKo 議程
 summary:
-  zh: "這是我在 Season of Agent 2025 - Taiwan 的工作坊分享。活動由 Global AI Taoyuan 與資策會主辦，在台灣微軟舉辦，聚焦 AI Agent、Azure AI Foundry、Azure OpenAI 與 MCP 等主題；我的時段為「Vibe Coding MCP」。"
-  en: "This workshop was delivered at Season of Agent 2025 - Taiwan. The event was hosted by Global AI Taoyuan and III at Microsoft Taiwan, with sessions focused on AI agents, Azure AI Foundry, Azure OpenAI, and MCP. My session was Vibe Coding with MCP."
+  zh: |-
+    這是我在 Season of Agent 2025 - Taiwan 的工作坊分享。活動由 Global AI Taoyuan 與資策會主辦，在台灣微軟舉辦，活動頁與 Global AI Community 頁面都能佐證議程與講者資訊。
+
+    我的時段是「Vibe Coding MCP」，放在 Azure AI Foundry、Azure AI、Azure OpenAI、Semantic Kernel 與 A2A 等 Agent 主題之中。這筆紀錄能呈現我在 AI Agent、MCP 與 Microsoft AI 平台相關社群活動中的實務分享。
+  en: |-
+    This workshop was delivered at Season of Agent 2025 - Taiwan, hosted by Global AI Taoyuan and III at Microsoft Taiwan. Both the ACCUPASS page and the Global AI Community page provide public evidence for the agenda and speaker information.
+
+    My session was Vibe Coding MCP, placed alongside topics such as Azure AI Foundry, Azure AI, Azure OpenAI, Semantic Kernel, and A2A. This record demonstrates my practical contribution to the AI Agent, MCP, and Microsoft AI platform community.
 proofStatus:
   eventPage: found
-  evidence: public-link
+  evidence: public-link-and-screenshot
 language: mixed

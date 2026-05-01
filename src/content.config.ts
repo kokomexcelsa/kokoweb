@@ -119,6 +119,17 @@ const profile = defineCollection({
       phoneDisplay: z.boolean().default(false)
     }),
     specialties: z.array(z.string()).default([]),
+    certifications: z
+      .array(
+        z.object({
+          name: z.string(),
+          issuer: z.string().optional().default(''),
+          url: z.string().optional().default(''),
+          year: z.number().int().optional()
+        })
+      )
+      .optional()
+      .default([]),
     brandPrinciples: z.array(z.string()).default([])
   })
 });

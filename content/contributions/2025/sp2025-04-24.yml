@@ -1,0 +1,44 @@
+id: sp2025-04-24
+legacyPath: /speech/sp2025-04-24.html
+type: speaking
+date: 2025-04-24
+title:
+  zh: AI 之眼打造傳統工廠生產線的升級
+  en: AI Vision for Upgrading Traditional Factory Production Lines
+event: "GDG on Campus NCHU: Build with AI 2025 - Session 2"
+location: 國立中興大學應用科技大樓
+role: speaker
+format: in-person
+topics:
+  - AI
+  - Computer Vision
+  - Factory Automation
+  - Edge Computing
+microsoftProducts: []
+links:
+  event: https://gdg.community.dev/events/details/google-gdg-on-campus-national-chung-hsing-university-taichung-taiwan-presents-gdg-on-campus-nchu-build-with-ai-2025-session-2-zhuan-jia-jiang-zuo/
+  article: https://www.dcard.tw/f/nchu/p/258612065
+evidence:
+  - type: link
+    href: https://gdg.community.dev/events/details/google-gdg-on-campus-national-chung-hsing-university-taichung-taiwan-presents-gdg-on-campus-nchu-build-with-ai-2025-session-2-zhuan-jia-jiang-zuo/
+    label: GDG on Campus NCHU 活動頁
+  - type: article
+    href: https://www.dcard.tw/f/nchu/p/258612065
+    label: 中興大學活動宣傳
+  - type: screenshot
+    src: /sp-photos/url-photos/sp20250424-url-1.png
+    alt: GDG on Campus NCHU 活動頁截圖，包含 KoKo 講者資訊
+    label: GDG on Campus NCHU 活動頁截圖，包含 KoKo 講者資訊
+summary:
+  zh: |-
+    這是我在 GDG on Campus NCHU Build with AI 2025 的專家講座。活動頁公開標示我以 GDG Professional 與 Microsoft AI MVP 身分受邀，主題是「AI 之眼打造傳統工廠生產線的升級」。
+
+    分享重點放在傳統工廠導入 AI 的真實限制，包含生產線設備老舊、資料品質、ROI、雲端與邊緣運算取捨、資安門檻，以及如何用 object detection 等 AI 技術改善生產線流程。這筆紀錄能佐證我把 AI/ML 實務經驗帶進校園社群，協助學生理解產業場景。
+  en: |-
+    This expert session was delivered at GDG on Campus NCHU Build with AI 2025. The public event page identifies me as a GDG Professional and Microsoft AI MVP invited to speak about upgrading traditional factory production lines with AI vision.
+
+    The session focused on real constraints in factory AI adoption, including legacy equipment, data quality, ROI, cloud-versus-edge tradeoffs, security requirements, and how object detection can improve production-line workflows. It demonstrates my contribution to bringing practical AI and ML experience into a university developer community.
+proofStatus:
+  eventPage: found
+  evidence: public-link-and-screenshot
+language: mixed

@@ -1,0 +1,33 @@
+id: sp2025-10-07
+legacyPath: /speech/sp2025-10-07.html
+type: workshop
+date: 2025-10-07
+title:
+  zh: 司法院 LangChain 奇幻旅程系列課程：向量資料庫與 LangServe 篇
+  en: "LangChain Journey for Judicial Yuan: Vector Databases and LangServe"
+event: 司法院 LangChain 奇幻旅程系列課程
+location: 司法院
+role: instructor
+format: other
+topics:
+  - LangChain
+  - Qdrant
+  - Vector Database
+  - RAG
+  - LangServe
+microsoftProducts: []
+links: {}
+evidence: []
+summary:
+  zh: |-
+    這是我在司法院 LangChain 奇幻旅程系列課程中的向量資料庫與 LangServe 篇，課程期間為 2025/10/07 到 2025/10/09。這是針對特定單位的進階技術訓練，主軸是把 LangChain 應用從原型推進到可服務化的架構。
+
+    課程內容包含向量資料庫與 RAG 原理、Qdrant Cloud 申請、Qdrant Python SDK、Qdrant 與 LangChain 整合、FastAPI、LangServe、Agent 服務化、容器化與部署上雲。這筆紀錄目前沒有公開活動頁，後續可補活動照片。
+  en: |-
+    This was the vector database and LangServe module of my LangChain Journey training for the Judicial Yuan, delivered from 2025-10-07 to 2025-10-09. It was an advanced technical training program focused on moving LangChain applications from prototypes toward service-ready architectures.
+
+    The module covered vector database and RAG fundamentals, Qdrant Cloud setup, Qdrant Python SDK usage, Qdrant integration with LangChain, FastAPI, LangServe, serving agents, containerization, and cloud deployment. There is no public event page available at the moment, so event photos can be added later.
+proofStatus:
+  eventPage: not-found
+  evidence: pending-photo
+language: mixed

@@ -1,6 +1,6 @@
 import sharp from 'sharp';
 
-const files = ['img/pohutukawa-hero.jpg', 'img/og-panda-engineer.jpg', 'pohu.JPG'];
+const files = ['img/pohutukawa-hero.jpg', 'img/og-panda-engineer.jpg', 'img/panda-logo.jpg', 'pohu.JPG'];
 const failures = [];
 
 for (const file of files) {

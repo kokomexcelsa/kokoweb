@@ -66,7 +66,6 @@ export function labelForLink(key: string): string {
   const labels: Record<string, string> = {
     event: '活動頁',
     recording: '錄影',
-    slides: '投影片',
     article: '文章',
     source: '原始碼',
     profile: '公開頁面'

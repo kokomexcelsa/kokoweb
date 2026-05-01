@@ -4,8 +4,7 @@ import { normalizeCurrentPath, withBase } from '../utils/url';
 const navItems = [
   { href: '/index.html', label: '首頁' },
   { href: '/speech.html', label: '演講' },
-  { href: '/contributions.html', label: '貢獻' },
-  { href: '/mvp.html', label: 'MVP' },
+  { href: '/portfolio.html', label: '作品集' },
   { href: '/about.html', label: '關於' }
 ];
 const currentPath = normalizeCurrentPath(Astro.url.pathname);
@@ -13,7 +12,7 @@ const currentPath = normalizeCurrentPath(Astro.url.pathname);
 
 <header class="site-header">
   <a class="brand" href={withBase('/index.html')} aria-label="大魔術熊貓工程師首頁">
-    <span class="brand-mark" aria-hidden="true">MP</span>
+    <img class="brand-mark" src={withBase('/img/panda-logo.jpg')} alt="大魔術熊貓工程師 logo" width="42" height="42" loading="eager" />
     <span class="brand-text">
       <strong>大魔術熊貓工程師</strong>
       <small>Ko Ko</small>

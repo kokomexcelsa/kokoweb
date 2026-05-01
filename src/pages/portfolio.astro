@@ -1,0 +1,79 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { withBase } from '../utils/url';
+
+const works = [
+  {
+    title: 'AI 房價預測服務',
+    category: 'AI / Chatbot',
+    image: '/img/portfolio/intro-aiahouse.gif',
+    summary: '整合多個 AI 模型預測台中市區房價，並以聊天機器人作為使用者介面，展示資料科學模型如何落地成一般人可使用的服務。'
+  },
+  {
+    title: '農業大數據物聯網',
+    category: 'IoT / Data',
+    image: '/img/portfolio/intro-agriiot1.png',
+    summary: '整合感測器、天候資料與病蟲害預測，協助農民掌握作物生長條件與風險，降低農損並改善田間管理流程。'
+  },
+  {
+    title: '農業倉儲 ERP 系統',
+    category: 'ERP / Web',
+    image: '/img/portfolio/intro-erp.PNG',
+    summary: '可自訂倉庫平面圖與農產品出入庫紀錄，協助農企業掌握保存期限、庫存狀態與倉儲配置。'
+  },
+  {
+    title: '公司內部系統模板',
+    category: 'Enterprise Web',
+    image: '/img/portfolio/data.gif',
+    summary: '過去接案時期累積的後台與內部系統介面模板，涵蓋資料表、查詢、管理流程與營運資料呈現。'
+  },
+  {
+    title: '資料科學競賽與 AI 實作',
+    category: 'Data Science',
+    image: '/img/portfolio/data-kaggle.png',
+    summary: '包含 Kaggle、T-Brain 與 AI 實作分享，呈現從資料分析、模型建置到技術教學的完整實作經驗。'
+  },
+  {
+    title: '學校點名系統',
+    category: 'Education App',
+    image: '/img/portfolio/intro-rollcall.jpg',
+    summary: '以實際校園流程為基礎開發的點名應用，降低紙本作業與行政負擔，讓教師能快速完成出席管理。'
+  },
+  {
+    title: '外接相機系統',
+    category: 'Mobile / Hardware',
+    image: '/img/portfolio/intro-camera.jpg',
+    summary: '處理外接相機與行動裝置整合的應用案例，展示跨硬體、行動端與操作流程設計的實作能力。'
+  },
+  {
+    title: '簡約記帳',
+    category: 'Mobile App',
+    image: '/img/portfolio/intro-account.png',
+    summary: '曾獲重灌狂人專文推薦的記帳 App，聚焦快速輸入、簡潔分類與日常個人財務管理。'
+  }
+];
+---
+
+<BaseLayout
+  title="作品集 | 大魔術熊貓工程師"
+  description="Ko Ko 大魔術熊貓工程師過去接案與產品實作中較具代表性的作品整理。"
+>
+  <section class="list-hero">
+    <p class="eyebrow">Portfolio</p>
+    <h1>作品集</h1>
+    <p class="lede">早期接案、產品開發與資料應用中較具代表性的作品。這些案例補足演講紀錄之外的實作背景。</p>
+  </section>
+
+  <section class="page-section portfolio-grid" aria-label="作品列表">
+    {works.map((work) => (
+      <article class="portfolio-card">
+        <img src={withBase(work.image)} alt={work.title} loading="lazy" />
+        <div>
+          <p class="eyebrow">{work.category}</p>
+          <h2>{work.title}</h2>
+          <p>{work.summary}</p>
+        </div>
+      </article>
+    ))}
+  </section>
+</BaseLayout>

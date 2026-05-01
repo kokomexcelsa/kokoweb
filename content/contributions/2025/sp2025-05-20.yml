@@ -1,0 +1,32 @@
+id: sp2025-05-20
+legacyPath: /speech/sp2025-05-20.html
+type: workshop
+date: 2025-05-20
+title:
+  zh: 治理 AI 的時代洪流並提升工作效率：AI 入門篇
+  en: "Navigating the AI Wave and Improving Work Efficiency: AI Fundamentals"
+event: 陽明交通大學防災與水環境研究中心 AI 入門課程
+location: 陽明交通大學防災與水環境研究中心
+role: instructor
+format: in-person
+topics:
+  - Generative AI
+  - Prompt Engineering
+  - AI Governance
+  - Productivity
+microsoftProducts: []
+links: {}
+evidence: []
+summary:
+  zh: |-
+    這是我在陽明交通大學防災與水環境研究中心的 AI 入門課程。課程針對非純軟體背景的研究與行政工作者，從日常工作效率、資料整理、文件閱讀與生成式 AI 風險開始建立共同語言。
+
+    內容包含 ChatGPT、NotebookLM、Perplexity、Claude、Canva AI 等工具的使用方式，也說明提示詞設計、模型選擇、免費與付費方案限制、AI 生成內容的驗證方式，以及治理與資安風險。這筆紀錄目前沒有公開活動頁，先保留課程脈絡，後續可補活動照片。
+  en: |-
+    This AI fundamentals workshop was delivered for National Yang Ming Chiao Tung University's Disaster Prevention and Water Environment Research Center. It was designed for researchers and administrative staff without a pure software background, using work efficiency, document understanding, and generative AI risk as entry points.
+
+    The workshop covered tools such as ChatGPT, NotebookLM, Perplexity, Claude, and Canva AI, along with prompt design, model selection, free-versus-paid limitations, verification of generated content, governance, and security concerns. There is no public event page available at the moment, so the record keeps the course context and can be supplemented with event photos later.
+proofStatus:
+  eventPage: not-found
+  evidence: pending-photo
+language: mixed

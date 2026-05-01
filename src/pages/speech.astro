@@ -19,7 +19,6 @@ const grouped = speeches.reduce<Record<string, ContributionEntry[]>>((acc, entry
 }, {});
 
 const years = Object.keys(grouped).sort((a, b) => Number(b) - Number(a));
-const microsoftCount = speeches.filter((entry) => entry.data.microsoftProducts.length > 0).length;
 ---
 
 <BaseLayout
@@ -29,7 +28,7 @@ const microsoftCount = speeches.filter((entry) => entry.data.microsoftProducts.l
   <section class="list-hero">
     <p class="eyebrow">Speaking</p>
     <h1>演講紀錄</h1>
-    <p class="lede">保留舊站每一個演講網址，內容改由結構化資料生成，方便續任 MVP 時補 proof、摘要與 Microsoft 技術分類。</p>
+    <p class="lede">公開技術演講、工作坊與社群分享紀錄，聚焦 AI Agent、Azure AI、LangChain、雲端架構與軟體工程實作。</p>
     <dl class="stat-strip" aria-label="演講統計">
       <div>
         <dt>總筆數</dt>
@@ -38,10 +37,6 @@ const microsoftCount = speeches.filter((entry) => entry.data.microsoftProducts.l
       <div>
         <dt>年度範圍</dt>
         <dd>{years.at(-1)} - {years.at(0)}</dd>
-      </div>
-      <div>
-        <dt>Microsoft 技術</dt>
-        <dd>{microsoftCount}</dd>
       </div>
     </dl>
   </section>
@@ -73,7 +68,6 @@ const microsoftCount = speeches.filter((entry) => entry.data.microsoftProducts.l
                   <ul class="inline-meta">
                     <li>{labelForType(entry.data.type)}</li>
                     <li>{entry.data.location || labelForFormat(entry.data.format)}</li>
-                    <li>{entry.data.evidence.length} proof</li>
                     {entry.data.microsoftProducts.length > 0 && <li>{entry.data.microsoftProducts.join(' / ')}</li>}
                   </ul>
                 </div>

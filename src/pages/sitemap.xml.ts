@@ -36,8 +36,7 @@ export async function GET(context: APIContext) {
   const communityPeriods = (await getCollection('communityPeriods')) as CommunityEntry[];
   const extraGeneratedUrls = [
     '/about.html',
-    '/contributions.html',
-    '/mvp.html'
+    '/portfolio.html'
   ];
   const lastmodByPath = new Map<string, Date | string>();
 
@@ -57,6 +56,7 @@ export async function GET(context: APIContext) {
 
   const sitemapPaths = [
     ...legacyUrls.filter((record) => record.sitemap).map((record) => record.path),
+    ...contributions.map((entry) => entry.data.legacyPath),
     ...extraGeneratedUrls
   ];
   const uniquePaths = [...new Set(sitemapPaths)];

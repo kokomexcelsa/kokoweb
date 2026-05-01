@@ -1,0 +1,37 @@
+id: sp2025-11-29
+legacyPath: /speech/sp2025-11-29.html
+type: speaking
+date: 2025-11-29
+title:
+  zh: 使用 Azure AI 與 LangGraph 來開發 AI Agent
+  en: Building AI Agents with Azure AI and LangGraph
+event: .NET Conf 2025 Taiwan
+location: 台大社科院
+role: speaker
+format: in-person
+topics:
+  - AI Agent
+  - Azure AI
+  - Microsoft Foundry
+  - LangGraph
+  - .NET Conf
+microsoftProducts:
+  - Azure AI Foundry
+  - Microsoft Foundry
+  - Microsoft Azure
+links:
+  event: https://study4-tw.kktix.cc/events/dotnetconf2025
+evidence: []
+summary:
+  zh: |-
+    這是我在 .NET Conf 2025 Taiwan 的演講，主題是使用 Azure AI 與 LangGraph 來開發 AI Agent。活動頁可佐證 .NET Conf 2025 Taiwan 的活動日期、地點與 AI/雲端議程方向；目前公開頁面沒有列出個別講者姓名，因此這筆紀錄先標示為待補活動照片。
+
+    內容介紹 Azure AI、Microsoft Foundry、LangChain 與 LangGraph，並以 live demo 示範如何使用 Microsoft Foundry 與 LangGraph 打造 AI Agent。這筆紀錄是續任期間最重要的 Microsoft AI 技術分享之一，後續應優先補上現場照片或議程截圖。
+  en: |-
+    This talk was delivered at .NET Conf 2025 Taiwan and focused on building AI agents with Azure AI and LangGraph. The public event page verifies the event date, venue, and AI/cloud agenda direction, but it currently does not list individual speaker names, so this record is marked as pending event photos.
+
+    The session introduced Azure AI, Microsoft Foundry, LangChain, and LangGraph, with a live demo showing how to build AI agents using Microsoft Foundry and LangGraph. This is one of the most important Microsoft AI technical contributions in the renewal period and should be supplemented with an on-site photo or agenda screenshot.
+proofStatus:
+  eventPage: found-event-only
+  evidence: pending-photo
+language: mixed

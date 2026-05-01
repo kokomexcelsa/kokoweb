@@ -1,0 +1,40 @@
+id: sp2025-11-08
+legacyPath: /speech/sp2025-11-08.html
+type: speaking
+date: 2025-11-08
+title:
+  zh: 使用 Gemini 與 LangGraph 來開發 AI Agent
+  en: Building AI Agents with Gemini and LangGraph
+event: DevFest Taichung 2025
+location: 逢甲大學 人言大樓
+role: speaker
+format: in-person
+topics:
+  - AI Agent
+  - LangGraph
+  - Gemini
+  - LangChain
+microsoftProducts: []
+links:
+  event: https://gdg.community.dev/events/details/google-gdg-taichung-presents-devfest-taichung-2025/
+evidence:
+  - type: link
+    href: https://gdg.community.dev/events/details/google-gdg-taichung-presents-devfest-taichung-2025/
+    label: DevFest Taichung 2025 活動頁
+  - type: screenshot
+    src: /sp-photos/url-photos/sp20251108-url-1.png
+    alt: DevFest Taichung 活動頁截圖，包含 Ko Ko 講者資訊
+    label: DevFest Taichung 活動頁截圖，包含 Ko Ko 講者資訊
+summary:
+  zh: |-
+    這是我在 DevFest Taichung 2025 的演講。GDG Taichung 活動頁公開標示講者為 Ko Ko（微軟 AI 最有價值專家），主題是「使用 Gemini 與 LangGraph 來開發 AI Agent」。
+
+    內容以 LangGraph 作為 AI Agent 編排框架，說明它在 LangChain 生態系中的定位，並結合 Gemini 與 Vertex AI 的能力展示多功能 Agent 的開發方式。這筆紀錄雖然主題使用 Google 技術，但能呈現我在跨平台 Agent 架構與開發者社群中的持續影響力。
+  en: |-
+    This talk was delivered at DevFest Taichung 2025. The GDG Taichung event page publicly lists Ko Ko, Microsoft AI MVP, as the speaker for a session on building AI agents with Gemini and LangGraph.
+
+    The talk positioned LangGraph as an AI agent orchestration framework within the LangChain ecosystem and demonstrated how to combine it with Gemini and Vertex AI to build multi-function agents. Although the session used Google technologies, it demonstrates my ongoing influence in cross-platform agent architecture and developer communities.
+proofStatus:
+  eventPage: found
+  evidence: public-link-and-screenshot
+language: mixed

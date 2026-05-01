@@ -76,13 +76,9 @@ button:focus-visible {
 .brand-mark {
   width: 42px;
   height: 42px;
-  display: grid;
-  place-items: center;
-  color: white;
-  background: var(--color-ink);
+  display: block;
   border-radius: var(--radius-small);
-  font-weight: 800;
-  letter-spacing: 0;
+  object-fit: cover;
 }
 
 .brand-text {
@@ -438,7 +434,7 @@ h3 {
   max-width: 760px;
   margin: 32px 0 0;
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   border: 1px solid var(--color-line);
   border-radius: var(--radius);
   overflow: hidden;
@@ -628,6 +624,34 @@ h3 {
   margin-bottom: 12px;
 }
 
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 28px;
+}
+
+.portfolio-card {
+  display: grid;
+  grid-template-columns: minmax(180px, 42%) minmax(0, 1fr);
+  gap: 22px;
+  align-items: start;
+  padding-bottom: 28px;
+  border-bottom: 1px solid var(--color-line);
+}
+
+.portfolio-card img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius);
+  background: white;
+}
+
+.portfolio-card h2 {
+  font-size: clamp(1.25rem, 2.2vw, 1.65rem);
+}
+
 @media (max-width: 760px) {
   .site-header {
     align-items: flex-start;
@@ -649,7 +673,9 @@ h3 {
   .community-evidence,
   .overview-grid,
   .card-grid,
-  .about-layout {
+  .about-layout,
+  .portfolio-grid,
+  .portfolio-card {
     grid-template-columns: 1fr;
   }
 

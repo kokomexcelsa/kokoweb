@@ -1,0 +1,43 @@
+id: sp2025-05-07
+legacyPath: /speech/sp2025-05-07.html
+type: speaking
+date: 2025-05-07
+title:
+  zh: LangChain 整合 Azure AI Search：打造智能 AI Agent 最佳實踐
+  en: Integrating LangChain with Azure AI Search to Build Smarter AI Agents
+event: Microsoft Reactor MVP 聚技站
+location: Microsoft Reactor 線上直播
+role: speaker
+format: online
+topics:
+  - AI Agent
+  - LangChain
+  - Azure AI Search
+  - RAG
+microsoftProducts:
+  - Azure AI Search
+  - Azure OpenAI
+  - Microsoft Azure
+links:
+  event: https://developer.microsoft.com/en-us/reactor/events/25411/
+evidence:
+  - type: link
+    href: https://developer.microsoft.com/en-us/reactor/events/25411/
+    label: Microsoft Reactor 活動頁
+  - type: screenshot
+    src: /sp-photos/url-photos/sp20250507-url-1.png
+    alt: Microsoft Reactor 活動頁截圖，包含 Ko Ko 講者資訊
+    label: Microsoft Reactor 活動頁截圖，包含 Ko Ko 講者資訊
+summary:
+  zh: |-
+    這是我在 2025 大中華區 MVP 聚技站的 Microsoft Reactor 線上分享。Microsoft Reactor 活動頁公開標示講者為 Microsoft AI MVP Ko Ko，主題是「LangChain 整合 Azure AI Search：打造智能 AI Agent 最佳實踐」。
+
+    內容聚焦在企業知識檢索與 AI Agent 的結合：先說明 LangChain 在 LLM 應用中的角色，再以 Azure AI Search 作為企業級搜尋與知識檢索服務，示範如何讓 Agent 能夠查詢非結構化資料、取得可靠上下文，並提升 RAG/Agent 應用的實務可用性。
+  en: |-
+    This Microsoft Reactor livestream was part of the 2025 Greater China MVP community series. The public event page lists Microsoft AI MVP Ko Ko as the speaker for a session on integrating LangChain with Azure AI Search to build intelligent AI agents.
+
+    The talk focused on combining enterprise knowledge retrieval with AI agents. It explained LangChain's role in LLM applications and showed how Azure AI Search can serve as an enterprise search and knowledge retrieval layer, giving agents reliable context over unstructured data and improving the practicality of RAG and agent applications.
+proofStatus:
+  eventPage: found
+  evidence: public-link-and-screenshot
+language: mixed

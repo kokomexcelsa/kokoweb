@@ -18,12 +18,43 @@ contact:
   phoneDisplay: false
 specialties:
   - Azure OpenAI
+  - Microsoft Foundry
+  - Azure AI Foundry
   - AI Agent
   - LLM application architecture
   - Microsoft Azure
   - Web full-stack
   - Technical writing
   - Community speaking
+certifications:
+  - name: "Microsoft Certified: Azure Solutions Architect Expert"
+    issuer: Microsoft
+    year: 2020
+    url: https://www.credly.com/badges/61ceda57-e1b3-4df2-b5c8-28d173d58721
+  - name: "Microsoft Certified: Azure AI Engineer Associate"
+    issuer: Microsoft
+    year: 2021
+    url: https://www.credly.com/badges/2722e78c-c988-483d-9510-4b36019f08a1
+  - name: "Microsoft Certified: Azure Data Scientist Associate"
+    issuer: Microsoft
+    year: 2021
+    url: https://www.credly.com/badges/7128fe13-ceff-404e-accc-5d60c0b9f451
+  - name: "Microsoft Certified: Azure Developer Associate"
+    issuer: Microsoft
+    year: 2021
+    url: https://www.credly.com/badges/d3533710-032f-472f-b6a0-914a49d03556
+  - name: "Microsoft Certified: DevOps Engineer Expert"
+    issuer: Microsoft
+    year: 2021
+    url: https://www.credly.com/badges/1e4058c8-58b3-471f-b4ce-3e908c478aa2
+  - name: "Microsoft Certified: Azure Fundamentals"
+    issuer: Microsoft
+    year: 2020
+    url: https://www.credly.com/badges/0a2d4e7f-aeaa-4d69-903b-fa50aa335fab
+  - name: "AWS Certified Solutions Architect - Associate"
+    issuer: Amazon Web Services
+    year: 2020
+    url: https://www.credly.com/badges/f69c7476-829f-4aaf-8c23-8e2db6949e71
 brandPrinciples:
   - 專業、清楚、可驗證
   - 保留大魔術熊貓工程師的辨識度，但避免卡通化
