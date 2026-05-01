@@ -1,0 +1,24 @@
+---
+import { getCollection } from 'astro:content';
+import type { CollectionEntry } from 'astro:content';
+import CommunityPeriodPage from '../../components/CommunityPeriodPage.astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+type CommunityEntry = CollectionEntry<'communityPeriods'>;
+
+export async function getStaticPaths() {
+  const periods = ((await getCollection('communityPeriods')) as CommunityEntry[])
+    .sort((a: CommunityEntry, b: CommunityEntry) => b.data.year - a.data.year);
+
+  return periods.map((entry: CommunityEntry) => ({
+    params: { slug: entry.data.id },
+    props: { period: entry.data }
+  }));
+}
+
+const { period } = Astro.props as { period: CommunityEntry['data'] };
+---
+
+<BaseLayout title={`${period.title.zh} | 大魔術熊貓工程師`} description="大魔術熊貓工程師社群活動規畫、管理與協辦紀錄。">
+  <CommunityPeriodPage period={period} />
+</BaseLayout>

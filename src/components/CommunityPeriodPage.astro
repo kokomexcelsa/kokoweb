@@ -1,0 +1,69 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import { formatDate } from '../utils/format';
+import { withBase } from '../utils/url';
+
+interface Props {
+  period: CollectionEntry<'communityPeriods'>['data'];
+}
+
+const { period } = Astro.props;
+type CommunitySection = {
+  communityId: string;
+  role: string;
+  summary: string;
+  evidence: {
+    type: string;
+    src?: string;
+    href?: string;
+    alt?: string;
+    label?: string;
+  }[];
+};
+const sections = period.sections as CommunitySection[];
+---
+
+<article>
+  <header class="list-hero">
+    <p class="eyebrow">Community</p>
+    <h1>{period.title.zh}</h1>
+    <p class="lede">社群管理、活動協辦、工作人員與核心成員紀錄。</p>
+    <dl class="stat-strip" aria-label="社群年度統計">
+      <div>
+        <dt>期間</dt>
+        <dd>{period.period.start ? formatDate(period.period.start) : period.year} - {period.period.end ? formatDate(period.period.end) : period.year}</dd>
+      </div>
+      <div>
+        <dt>紀錄</dt>
+        <dd>{period.sections.length}</dd>
+      </div>
+      <div>
+        <dt>舊網址</dt>
+        <dd><a href={withBase(period.legacyPath)}>保留</a></dd>
+      </div>
+    </dl>
+  </header>
+
+  <section class="page-section community-grid" aria-label="社群活動證據">
+    {sections.map((section: CommunitySection) => (
+      <article class="community-card">
+        <div>
+          <p class="eyebrow">{section.role}</p>
+          <h2>{section.summary}</h2>
+        </div>
+        <div class="community-evidence">
+          {section.evidence.map((item: CommunitySection['evidence'][number]) => (
+            item.src ? (
+              <figure class="evidence-card">
+                <img src={withBase(item.src)} alt={item.alt || section.summary} loading="lazy" />
+                <figcaption>{item.alt || section.summary}</figcaption>
+              </figure>
+            ) : item.href ? (
+              <a href={item.href} target="_blank" rel="noreferrer">{item.label || item.href}</a>
+            ) : null
+          ))}
+        </div>
+      </article>
+    ))}
+  </section>
+</article>
