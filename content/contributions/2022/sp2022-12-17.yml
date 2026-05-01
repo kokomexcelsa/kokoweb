@@ -1,14 +1,14 @@
-id: "sp2025-03-15"
-legacyPath: "/speech/sp2025-03-15.html"
+id: "sp2022-12-17"
+legacyPath: "/speech/sp2022-12-17.html"
 type: "speaking"
-date: 2025-03-15
+date: 2022-12-17
 title:
-  zh: "The Basic of AI Agent: Tool Call"
+  zh: "用 Azure Machine Learning 來做 AI 繪圖"
   en: ""
-event: "Global AI Bootcamp - Taipei 2025"
-location: "台北大學民生校區"
+event: ".NET Conf Taiwan 2022"
+location: "Live stream"
 role: speaker
-format: "in-person"
+format: "online"
 topics: []
 microsoftProducts: []
 links: {}

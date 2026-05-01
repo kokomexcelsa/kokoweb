@@ -1,0 +1,23 @@
+id: "sp2019-09-11"
+legacyPath: "/speech/sp2019-09-11.html"
+type: "speaking"
+date: 2019-09-11
+title:
+  zh: "基於數據科學的房地產價格預測，做成chatbot應用，最後如何被政府一句話終止開發"
+  en: ""
+event: "Chatbot Developers Taiwan 台中小小聚"
+location: "微程式夢森林"
+role: speaker
+format: "in-person"
+topics: []
+microsoftProducts: []
+links: {}
+evidence: []
+summary:
+  zh: ""
+  en: ""
+proofStatus:
+  importedFromList: ready
+  detailPage: found
+  evidence: pending
+language: mixed

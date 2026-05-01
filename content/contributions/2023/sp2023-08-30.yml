@@ -1,12 +1,12 @@
-id: "sp2025-03-15"
-legacyPath: "/speech/sp2025-03-15.html"
+id: "sp2023-08-30"
+legacyPath: "/speech/sp2023-08-30.html"
 type: "speaking"
-date: 2025-03-15
+date: 2023-08-30
 title:
-  zh: "The Basic of AI Agent: Tool Call"
+  zh: "An Overview of Azure OpenAI: Demonstrating with a storyteller"
   en: ""
-event: "Global AI Bootcamp - Taipei 2025"
-location: "台北大學民生校區"
+event: "Generative AI 小聚"
+location: "Fourdesire"
 role: speaker
 format: "in-person"
 topics: []

@@ -1,12 +1,12 @@
-id: "sp2025-03-15"
-legacyPath: "/speech/sp2025-03-15.html"
+id: "sp2020-12-19"
+legacyPath: "/speech/sp2020-12-19.html"
 type: "speaking"
-date: 2025-03-15
+date: 2020-12-19
 title:
-  zh: "The Basic of AI Agent: Tool Call"
+  zh: "ML.NET 在遷移式學習的應用與挑戰"
   en: ""
-event: "Global AI Bootcamp - Taipei 2025"
-location: "台北大學民生校區"
+event: ".NET Conference 2020"
+location: "台灣大學"
 role: speaker
 format: "in-person"
 topics: []

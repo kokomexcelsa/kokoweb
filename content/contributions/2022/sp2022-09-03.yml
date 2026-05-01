@@ -1,0 +1,23 @@
+id: "sp2022-09-03"
+legacyPath: "/speech/sp2022-09-03.html"
+type: "speaking"
+date: 2022-09-03
+title:
+  zh: "Run Bokeh in back-end, draw real-time charts to front-end, and make data scientists happy"
+  en: ""
+event: "PyCon Asia Pacific"
+location: "Live stream"
+role: speaker
+format: "online"
+topics: []
+microsoftProducts: []
+links: {}
+evidence: []
+summary:
+  zh: ""
+  en: ""
+proofStatus:
+  importedFromList: ready
+  detailPage: found
+  evidence: pending
+language: mixed

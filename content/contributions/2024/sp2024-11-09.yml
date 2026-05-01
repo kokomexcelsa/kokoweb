@@ -1,12 +1,12 @@
-id: "sp2025-03-15"
-legacyPath: "/speech/sp2025-03-15.html"
+id: "sp2024-11-09"
+legacyPath: "/speech/sp2024-11-09.html"
 type: "speaking"
-date: 2025-03-15
+date: 2024-11-09
 title:
-  zh: "The Basic of AI Agent: Tool Call"
+  zh: "Exploring NotebookLM: Pros and Cons of AI in Knowledge Management"
   en: ""
-event: "Global AI Bootcamp - Taipei 2025"
-location: "台北大學民生校區"
+event: "GDG Taichung"
+location: "Monospace"
 role: speaker
 format: "in-person"
 topics: []

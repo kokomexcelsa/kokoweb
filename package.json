@@ -10,7 +10,8 @@
     "dev": "astro dev",
     "build": "astro build && node scripts/copy-static-assets.mjs",
     "preview": "astro preview",
-    "check": "astro check"
+    "check": "astro check",
+    "content:import:speech-list": "node scripts/import-speech-list.mjs"
   },
   "dependencies": {
     "astro": "6.2.1"

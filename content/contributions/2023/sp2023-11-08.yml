@@ -1,0 +1,23 @@
+id: "sp2023-11-08"
+legacyPath: "/speech/sp2023-11-08.html"
+type: "workshop"
+date: 2023-11-08
+title:
+  zh: "Hands-On Workshop: Getting Started with Django and Building a Website with AI Services"
+  en: ""
+event: "ModernWeb 2023"
+location: "台北瓶蓋工廠"
+role: speaker
+format: "in-person"
+topics: []
+microsoftProducts: []
+links: {}
+evidence: []
+summary:
+  zh: ""
+  en: ""
+proofStatus:
+  importedFromList: ready
+  detailPage: found
+  evidence: pending
+language: mixed

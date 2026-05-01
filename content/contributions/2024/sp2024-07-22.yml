@@ -1,14 +1,14 @@
-id: "sp2025-03-15"
-legacyPath: "/speech/sp2025-03-15.html"
+id: "sp2024-07-22"
+legacyPath: "/speech/sp2024-07-22.html"
 type: "speaking"
-date: 2025-03-15
+date: 2024-07-22
 title:
-  zh: "The Basic of AI Agent: Tool Call"
+  zh: "Introduce to Vector Database and Qdrant"
   en: ""
-event: "Global AI Bootcamp - Taipei 2025"
-location: "台北大學民生校區"
+event: "R-Ladies"
+location: "Live Stream"
 role: speaker
-format: "in-person"
+format: "online"
 topics: []
 microsoftProducts: []
 links: {}

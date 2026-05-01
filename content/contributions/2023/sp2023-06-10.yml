@@ -1,12 +1,12 @@
-id: "sp2025-03-15"
-legacyPath: "/speech/sp2025-03-15.html"
+id: "sp2023-06-10"
+legacyPath: "/speech/sp2023-06-10.html"
 type: "speaking"
-date: 2025-03-15
+date: 2023-06-10
 title:
-  zh: "The Basic of AI Agent: Tool Call"
+  zh: "Platform engineering with Django"
   en: ""
-event: "Global AI Bootcamp - Taipei 2025"
-location: "台北大學民生校區"
+event: "Hong Kong Open Source Conference"
+location: "Hong Kong Science Park"
 role: speaker
 format: "in-person"
 topics: []

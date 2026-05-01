@@ -1,12 +1,12 @@
-id: "sp2025-03-15"
-legacyPath: "/speech/sp2025-03-15.html"
+id: "sp2024-07-13"
+legacyPath: "/speech/sp2024-07-13.html"
 type: "speaking"
-date: 2025-03-15
+date: 2024-07-13
 title:
-  zh: "The Basic of AI Agent: Tool Call"
+  zh: "Integrate LINE bot with LangChain"
   en: ""
-event: "Global AI Bootcamp - Taipei 2025"
-location: "台北大學民生校區"
+event: "Chatbot Developers Taiwan"
+location: "N型未來學院"
 role: speaker
 format: "in-person"
 topics: []

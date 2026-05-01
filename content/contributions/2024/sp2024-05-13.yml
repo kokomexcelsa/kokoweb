@@ -1,12 +1,12 @@
-id: "sp2025-03-15"
-legacyPath: "/speech/sp2025-03-15.html"
+id: "sp2024-05-13"
+legacyPath: "/speech/sp2024-05-13.html"
 type: "speaking"
-date: 2025-03-15
+date: 2024-05-13
 title:
-  zh: "The Basic of AI Agent: Tool Call"
+  zh: "Logic APP build Low Code/No Code AI Workflow"
   en: ""
-event: "Global AI Bootcamp - Taipei 2025"
-location: "台北大學民生校區"
+event: "Microsoft Reactor 低程式碼 AI 時代"
+location: "Microsoft Reactor"
 role: speaker
 format: "in-person"
 topics: []

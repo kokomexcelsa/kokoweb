@@ -1,12 +1,12 @@
-id: "sp2025-03-15"
-legacyPath: "/speech/sp2025-03-15.html"
+id: "sp2019-03-17"
+legacyPath: "/speech/sp2019-03-17.html"
 type: "speaking"
-date: 2025-03-15
+date: 2019-03-17
 title:
-  zh: "The Basic of AI Agent: Tool Call"
+  zh: "論文導讀 YOLO V1"
   en: ""
-event: "Global AI Bootcamp - Taipei 2025"
-location: "台北大學民生校區"
+event: "AI Tech"
+location: "微程式夢森林"
 role: speaker
 format: "in-person"
 topics: []

@@ -1,12 +1,12 @@
-id: "sp2025-03-15"
-legacyPath: "/speech/sp2025-03-15.html"
+id: "sp2020-08-02-2"
+legacyPath: "/speech/sp2020-08-02-2.html"
 type: "speaking"
-date: 2025-03-15
+date: 2020-08-02
 title:
-  zh: "The Basic of AI Agent: Tool Call"
+  zh: "我在健身房學Python---工程師的時間管理"
   en: ""
-event: "Global AI Bootcamp - Taipei 2025"
-location: "台北大學民生校區"
+event: "開源人年會COSCUP"
+location: "國立臺灣科技大學"
 role: speaker
 format: "in-person"
 topics: []

@@ -1,0 +1,23 @@
+id: "sp2024-10-17"
+legacyPath: "/speech/sp2024-10-17.html"
+type: "workshop"
+date: 2024-10-17
+title:
+  zh: "應用 LLM 框架：LangChain 入門工作坊"
+  en: ""
+event: "資料科學家小聚"
+location: "Live Stream"
+role: speaker
+format: "online"
+topics: []
+microsoftProducts: []
+links: {}
+evidence: []
+summary:
+  zh: ""
+  en: ""
+proofStatus:
+  importedFromList: ready
+  detailPage: found
+  evidence: pending
+language: mixed

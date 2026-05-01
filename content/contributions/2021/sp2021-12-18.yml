@@ -1,12 +1,12 @@
-id: "sp2025-03-15"
-legacyPath: "/speech/sp2025-03-15.html"
+id: "sp2021-12-18"
+legacyPath: "/speech/sp2021-12-18.html"
 type: "speaking"
-date: 2025-03-15
+date: 2021-12-18
 title:
-  zh: "The Basic of AI Agent: Tool Call"
+  zh: "Introduction to MLOps in Azure Machine Learning with Live Demo"
   en: ""
-event: "Global AI Bootcamp - Taipei 2025"
-location: "台北大學民生校區"
+event: ".NET Conf Taiwan 2021"
+location: "臺北文創大樓"
 role: speaker
 format: "in-person"
 topics: []

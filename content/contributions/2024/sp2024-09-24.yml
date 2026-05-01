@@ -1,12 +1,12 @@
-id: "sp2025-03-15"
-legacyPath: "/speech/sp2025-03-15.html"
+id: "sp2024-09-24"
+legacyPath: "/speech/sp2024-09-24.html"
 type: "speaking"
-date: 2025-03-15
+date: 2024-09-24
 title:
-  zh: "The Basic of AI Agent: Tool Call"
+  zh: "生成式 AI 開發與應用場景的深度思考"
   en: ""
-event: "Global AI Bootcamp - Taipei 2025"
-location: "台北大學民生校區"
+event: "企業級生成式 AI 應用構建實戰"
+location: "Microsoft Reactor"
 role: speaker
 format: "in-person"
 topics: []

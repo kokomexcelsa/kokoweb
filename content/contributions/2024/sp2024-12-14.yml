@@ -1,12 +1,12 @@
-id: "sp2025-03-15"
-legacyPath: "/speech/sp2025-03-15.html"
+id: "sp2024-12-14"
+legacyPath: "/speech/sp2024-12-14.html"
 type: "speaking"
-date: 2025-03-15
+date: 2024-12-14
 title:
-  zh: "The Basic of AI Agent: Tool Call"
+  zh: "The Paradigm Shift from MLOps to LLMOps"
   en: ""
-event: "Global AI Bootcamp - Taipei 2025"
-location: "台北大學民生校區"
+event: ".NET Conf Taiwan 2024"
+location: "台中沃茲新創空間"
 role: speaker
 format: "in-person"
 topics: []

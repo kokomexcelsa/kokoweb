@@ -1,0 +1,23 @@
+id: "sp2023-07-02"
+legacyPath: "/speech/sp2023-07-02.html"
+type: "speaking"
+date: 2023-07-02
+title:
+  zh: "Introduction to the Semantic Kernel - The powerful tool of making LLM application"
+  en: ""
+event: "Microsoft Build After Party in Taiwan 2023"
+location: "Live Stream"
+role: speaker
+format: "online"
+topics: []
+microsoftProducts: []
+links: {}
+evidence: []
+summary:
+  zh: ""
+  en: ""
+proofStatus:
+  importedFromList: ready
+  detailPage: found
+  evidence: pending
+language: mixed

@@ -1,0 +1,23 @@
+id: "sp2019-08-18"
+legacyPath: "/speech/sp2019-08-18.html"
+type: "speaking"
+date: 2019-08-18
+title:
+  zh: "基於數據科學的房地產價格預測，做成chatbot應用，最後如何被政府一句話終止開發"
+  en: ""
+event: "開源人年會COSCUP"
+location: "國立臺灣科技大學"
+role: speaker
+format: "in-person"
+topics: []
+microsoftProducts: []
+links: {}
+evidence: []
+summary:
+  zh: ""
+  en: ""
+proofStatus:
+  importedFromList: ready
+  detailPage: found
+  evidence: pending
+language: mixed

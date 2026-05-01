@@ -1,12 +1,12 @@
-id: "sp2025-03-15"
-legacyPath: "/speech/sp2025-03-15.html"
+id: "sp2021-02-03"
+legacyPath: "/speech/sp2021-02-03.html"
 type: "speaking"
-date: 2025-03-15
+date: 2021-02-03
 title:
-  zh: "The Basic of AI Agent: Tool Call"
+  zh: "聊天機器人的行銷與開發技巧應用在婚禮上，並且成功娶到老婆"
   en: ""
-event: "Global AI Bootcamp - Taipei 2025"
-location: "台北大學民生校區"
+event: "Chatbot Developers Taiwan 台中小小聚"
+location: "Monospace"
 role: speaker
 format: "in-person"
 topics: []

@@ -1,0 +1,23 @@
+id: "sp2021-06-09"
+legacyPath: "/speech/sp2021-06-09.html"
+type: "speaking"
+date: 2021-06-09
+title:
+  zh: "使用 C# 與 .NET 也能打造機器學習模型你所不知道的 ML.NET 初體驗"
+  en: ""
+event: "Will 保哥的技術交流中心"
+location: "Live stream"
+role: speaker
+format: "online"
+topics: []
+microsoftProducts: []
+links: {}
+evidence: []
+summary:
+  zh: ""
+  en: ""
+proofStatus:
+  importedFromList: ready
+  detailPage: found
+  evidence: pending
+language: mixed

@@ -1,12 +1,12 @@
-id: "sp2025-03-15"
-legacyPath: "/speech/sp2025-03-15.html"
-type: "speaking"
-date: 2025-03-15
+id: "sp2024-09-12"
+legacyPath: "/speech/sp2024-09-12.html"
+type: "workshop"
+date: 2024-09-12
 title:
-  zh: "The Basic of AI Agent: Tool Call"
+  zh: "Deploy AI with LangServe workshop"
   en: ""
-event: "Global AI Bootcamp - Taipei 2025"
-location: "台北大學民生校區"
+event: "Hello World Dev Conference 2024"
+location: "台北文創會議中心"
 role: speaker
 format: "in-person"
 topics: []
