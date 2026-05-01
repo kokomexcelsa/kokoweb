@@ -12,7 +12,9 @@
     "preview": "astro preview",
     "check": "astro check",
     "content:import:speech-list": "node scripts/import-speech-list.mjs",
-    "content:import:community": "node scripts/import-community-periods.mjs"
+    "content:import:community": "node scripts/import-community-periods.mjs",
+    "assets:brand": "node scripts/create-brand-images.mjs",
+    "check:images": "node scripts/check-image-metadata.mjs"
   },
   "dependencies": {
     "astro": "6.2.1"
@@ -20,6 +22,7 @@
   "devDependencies": {
     "@astrojs/check": "^0.9.5",
     "cheerio": "^1.1.2",
+    "sharp": "^0.34.5",
     "typescript": "^5.9.3"
   }
 }
