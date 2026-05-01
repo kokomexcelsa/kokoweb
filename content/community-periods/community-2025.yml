@@ -1,0 +1,17 @@
+id: community-2025
+legacyPath: /community/community-2025.html
+year: 2025
+period:
+  start: 2024-04-01
+  end: 2025-03-31
+title:
+  zh: 202404-202503 社群活動規畫整理
+  en: Community Contributions 2024-04 to 2025-03
+sections:
+  - communityId: ai-tech
+    role: admin
+    summary: ''
+    evidence: []
+    relatedContributionIds: []
+sitemap: true
+noindex: false

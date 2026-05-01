@@ -1,5 +1,17 @@
 {
   "extends": "astro/tsconfigs/strict",
+  "include": ["src/**/*", "scripts/**/*.mjs", "astro.config.mjs"],
+  "exclude": [
+    "node_modules",
+    "dist",
+    ".astro",
+    "vendor",
+    "js",
+    "blog-template",
+    "cart-template",
+    "company-template",
+    "data-template"
+  ],
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
