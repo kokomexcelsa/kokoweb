@@ -69,7 +69,7 @@ const evidence = contribution.evidence as {
     <div class="summary-grid">
       <div>
         <h3>中文</h3>
-        {summaryZh.length > 0 ? summaryZh.map((paragraph) => <p>{paragraph}</p>) : <p>這筆資料已先保留舊頁 URL，摘要待補。</p>}
+        {summaryZh.length > 0 ? summaryZh.map((paragraph) => <p>{paragraph}</p>) : <p>這是早期公開分享紀錄，保留活動標題、日期與相關連結供查閱。</p>}
       </div>
       {summaryEn.length > 0 && (
         <div lang="en">
@@ -81,12 +81,12 @@ const evidence = contribution.evidence as {
   </section>
 
   {(topics.length > 0 || microsoftProducts.length > 0 || primaryLinks.length > 0) && (
-    <section class="page-section detail-content" aria-labelledby="proof-title">
+    <section class="page-section detail-content" aria-labelledby="details-title">
       <div class="section-heading">
         <p class="eyebrow">Details</p>
-        <h2 id="proof-title">技術分類與活動連結</h2>
+        <h2 id="details-title">技術分類與活動連結</h2>
       </div>
-      <div class="proof-layout">
+      <div class="details-layout">
         {topics.length > 0 && (
           <div>
             <h3>主題</h3>
@@ -106,7 +106,7 @@ const evidence = contribution.evidence as {
         {primaryLinks.length > 0 && (
           <div>
             <h3>主要連結</h3>
-            <ul class="proof-list">
+            <ul class="detail-link-list">
               {primaryLinks.map(([label, href]) => (
                 <li><a href={href} target="_blank" rel="noreferrer">{labelForLink(label)}</a></li>
               ))}

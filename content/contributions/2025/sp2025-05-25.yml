@@ -34,13 +34,13 @@ evidence:
     label: Season of Agent ACCUPASS 活動頁截圖，包含 KoKo 議程
 summary:
   zh: |-
-    這是我在 Season of Agent 2025 - Taiwan 的工作坊分享。活動由 Global AI Taoyuan 與資策會主辦，在台灣微軟舉辦，活動頁與 Global AI Community 頁面都能佐證議程與講者資訊。
+    這是我在 Season of Agent 2025 - Taiwan 的工作坊分享。活動由 Global AI Taoyuan 與資策會主辦，在台灣微軟舉辦，活動頁與 Global AI Community 頁面都公開列出議程與講者資訊。
 
-    我的時段是「Vibe Coding MCP」，放在 Azure AI Foundry、Azure AI、Azure OpenAI、Semantic Kernel 與 A2A 等 Agent 主題之中。這筆紀錄能呈現我在 AI Agent、MCP 與 Microsoft AI 平台相關社群活動中的實務分享。
+    我的時段是「Vibe Coding MCP」，放在 Azure AI Foundry、Azure AI、Azure OpenAI、Semantic Kernel 與 A2A 等 Agent 主題之中。這場工作坊呈現我在 AI Agent、MCP 與 Microsoft AI 平台相關社群活動中的實務分享。
   en: |-
-    This workshop was delivered at Season of Agent 2025 - Taiwan, hosted by Global AI Taoyuan and III at Microsoft Taiwan. Both the ACCUPASS page and the Global AI Community page provide public evidence for the agenda and speaker information.
+    This workshop was delivered at Season of Agent 2025 - Taiwan, hosted by Global AI Taoyuan and III at Microsoft Taiwan. Both the ACCUPASS page and the Global AI Community page publicly list the agenda and speaker information.
 
-    My session was Vibe Coding MCP, placed alongside topics such as Azure AI Foundry, Azure AI, Azure OpenAI, Semantic Kernel, and A2A. This record demonstrates my practical contribution to the AI Agent, MCP, and Microsoft AI platform community.
+    My session was Vibe Coding MCP, placed alongside topics such as Azure AI Foundry, Azure AI, Azure OpenAI, Semantic Kernel, and A2A. The workshop demonstrates practical sharing for the AI Agent, MCP, and Microsoft AI platform community.
 proofStatus:
   eventPage: found
   evidence: public-link-and-screenshot

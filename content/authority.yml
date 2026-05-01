@@ -45,7 +45,7 @@ records:
     label: COSCUP 2025 OpenAI Agent SDK vs LangGraph 講題頁
     category: speaking
     url: https://coscup.org/2025/en/sessions/SMVJFB
-    summary: COSCUP x RubyConf Taiwan 2025 session 頁，佐證 Ko Ko 的 OpenAI Agent SDK 與 LangGraph 原始碼解析演講。
+    summary: COSCUP x RubyConf Taiwan 2025 session 頁，列出 Ko Ko 的 OpenAI Agent SDK 與 LangGraph 原始碼解析演講。
     verifiedAt: 2026-05-01
   - id: ithome-ironman-2025-langchain-azure-ai
     label: 2025 iThome 鐵人賽 LangChain 愛 Azure AI 系列
@@ -69,7 +69,7 @@ records:
     label: .NET Conf 2025 Taiwan 活動頁
     category: speaking
     url: https://study4-tw.kktix.cc/events/dotnetconf2025
-    summary: KKTIX 活動頁佐證 .NET Conf 2025 Taiwan 於 2025/11/29 舉辦，主題包含 AI、.NET、ASP.NET Core、Blazor、C# 與雲端技術；個別講者姓名需以後續活動照片補強。
+    summary: KKTIX 活動頁說明 .NET Conf 2025 Taiwan 於 2025/11/29 舉辦，主題包含 AI、.NET、ASP.NET Core、Blazor、C# 與雲端技術。
     verifiedAt: 2026-05-01
   - id: agentcamp-taoyuan-2026
     label: AgentCamp - Taoyuan 活動頁

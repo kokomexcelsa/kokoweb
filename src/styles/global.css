@@ -338,14 +338,14 @@ h3 {
   gap: 40px;
 }
 
-.proof-layout {
+.details-layout {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 28px;
 }
 
 .tag-list,
-.proof-list {
+.detail-link-list {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -368,7 +368,7 @@ h3 {
   background: color-mix(in srgb, var(--color-azure) 14%, white);
 }
 
-.proof-list {
+.detail-link-list {
   display: grid;
 }
 
@@ -664,7 +664,7 @@ h3 {
 
   .detail-hero,
   .summary-grid,
-  .proof-layout,
+  .details-layout,
   .evidence-grid,
   .stat-strip,
   .year-block,
