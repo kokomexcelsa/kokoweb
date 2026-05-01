@@ -1,16 +1,21 @@
 ---
 import '../styles/global.css';
+import SeoMeta from '../components/SeoMeta.astro';
 import SiteFooter from '../components/SiteFooter.astro';
 import SiteHeader from '../components/SiteHeader.astro';
 
 interface Props {
   title?: string;
   description?: string;
+  noindex?: boolean;
+  image?: string;
 }
 
 const {
   title = '大魔術熊貓工程師 Ko Ko',
-  description = 'Microsoft AI MVP, author, speaker, and AI application architect.'
+  description = 'Microsoft AI MVP, author, speaker, and AI application architect.',
+  noindex = false,
+  image = '/img/pohutukawa-hero.jpg'
 } = Astro.props;
 ---
 
@@ -21,6 +26,7 @@ const {
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{title}</title>
     <meta name="description" content={description} />
+    <SeoMeta title={title} description={description} noindex={noindex} image={image} />
   </head>
   <body>
     <a class="skip-link" href="#main">跳到主要內容</a>

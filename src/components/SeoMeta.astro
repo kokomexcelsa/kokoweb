@@ -1,0 +1,51 @@
+---
+import { withBase } from '../utils/url';
+
+interface Props {
+  title: string;
+  description: string;
+  noindex?: boolean;
+  image?: string;
+  type?: string;
+}
+
+const {
+  title,
+  description,
+  noindex = false,
+  image = '/img/pohutukawa-hero.jpg',
+  type = 'website'
+} = Astro.props;
+const site = Astro.site ?? new URL('https://kokomexcelsa.github.io');
+const canonical = new URL(Astro.url.pathname, site).toString();
+const imageUrl = new URL(withBase(image), site).toString();
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Person',
+  name: 'Ko Ko',
+  alternateName: ['大魔術熊貓工程師', 'KoKo Mexcelsa'],
+  jobTitle: 'Microsoft AI MVP',
+  url: new URL(withBase('/index.html'), site).toString(),
+  image: imageUrl,
+  sameAs: [
+    'https://magic-panda-engineer.github.io/',
+    'https://github.com/kokomexcelsa',
+    'https://linktr.ee/qqkerk'
+  ]
+};
+---
+
+<link rel="canonical" href={canonical} />
+{noindex && <meta name="robots" content="noindex,follow" />}
+<meta property="og:locale" content="zh_TW" />
+<meta property="og:type" content={type} />
+<meta property="og:title" content={title} />
+<meta property="og:description" content={description} />
+<meta property="og:url" content={canonical} />
+<meta property="og:image" content={imageUrl} />
+<meta property="og:image:alt" content="大魔術熊貓工程師 Ko Ko" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content={title} />
+<meta name="twitter:description" content={description} />
+<meta name="twitter:image" content={imageUrl} />
+<script is:inline type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
