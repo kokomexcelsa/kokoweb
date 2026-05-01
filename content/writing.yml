@@ -1,0 +1,48 @@
+items:
+  - id: blog
+    title: 大魔術熊貓工程師技術部落格
+    type: blog
+    url: https://magic-panda-engineer.github.io/
+    publisher: 大魔術熊貓工程師
+    summary: 對外發表的技術筆記與 AI、雲端、軟體工程實作文章。
+    topics:
+      - AI
+      - Azure
+      - OpenAI
+      - Software Engineering
+  - id: ithome-ironman-2023-llm
+    title: 全端 LLM 應用開發
+    type: series
+    url: https://ithelp.ithome.com.tw/users/20120030/ironman/7039
+    year: 2023
+    publisher: iThome 鐵人賽
+    summary: 30 篇大型語言模型應用開發系列，涵蓋向量資料庫、Hugging Face、Azure ML、LangChain 與 FastAPI。
+    topics:
+      - LLM
+      - Azure ML
+      - LangChain
+      - FastAPI
+      - Vector Database
+  - id: slideshare-langserve-2024
+    title: Hello World Dev Conference 工作坊：使用 LangServe 快速部署 AI
+    type: deck
+    url: https://www.slideshare.net/slideshow/20240912-hello-world-dev-conference-langserve-ai/271757618
+    year: 2024
+    publisher: Slideshare
+    summary: Hello World 2024 工作坊投影片，包含 LangServe、LangChain、向量資料庫與 Azure OpenAI 實作。
+    topics:
+      - LangServe
+      - LangChain
+      - Azure OpenAI
+      - AI Deployment
+  - id: tibame-azure-openai
+    title: 駕馭 Azure OpenAI
+    type: course
+    url: https://www.tibame.com/program/Azure_OpenAI
+    publisher: 緯育 TibaMe
+    summary: Azure OpenAI、Azure AI、向量資料庫、LangChain、FastAPI 與雲端部署課程。
+    topics:
+      - Azure OpenAI
+      - Azure AI
+      - LangChain
+      - FastAPI

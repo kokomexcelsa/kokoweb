@@ -1,0 +1,31 @@
+records:
+  - id: blog-about
+    label: 關於 KoKo Mexcelsa
+    category: brand
+    url: https://magic-panda-engineer.github.io/about/
+    summary: 公開品牌來源，說明 KoKo、Mexcelsa 與「大魔術熊貓工程師」的命名脈絡。
+    verifiedAt: 2026-04-30
+  - id: hello-world-2024-speaker
+    label: Hello World 2024 講者頁
+    category: speaking
+    url: https://hwdc.ithome.com.tw/2024/speaker-page/352
+    summary: iThome Hello World Dev Conference 2024 講者與工作坊頁面。
+    verifiedAt: 2026-04-30
+  - id: ithome-ironman-2023
+    label: iThome 鐵人賽：全端 LLM 應用開發
+    category: writing
+    url: https://ithelp.ithome.com.tw/users/20120030/ironman/7039
+    summary: 2023 iThome 鐵人賽 30 篇 LLM 應用開發系列。
+    verifiedAt: 2026-04-30
+  - id: tibame-azure-openai
+    label: TibaMe Azure OpenAI 課程
+    category: teaching
+    url: https://www.tibame.com/program/Azure_OpenAI
+    summary: 公開課程頁，標示微軟 MVP KOKO 老師與 Azure OpenAI 企業應用課程內容。
+    verifiedAt: 2026-04-30
+  - id: slideshare-langserve-2024
+    label: Hello World 2024 LangServe 投影片
+    category: speaking
+    url: https://www.slideshare.net/slideshow/20240912-hello-world-dev-conference-langserve-ai/271757618
+    summary: 公開投影片頁，佐證 Hello World 2024 工作坊內容與講者自我介紹。
+    verifiedAt: 2026-04-30

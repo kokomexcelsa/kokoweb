@@ -28,8 +28,8 @@ links:
     url: https://www.credly.com/
     category: credential
   - id: slideshare
-    label: Slideshare
-    url: https://www.slideshare.net/
+    label: LangServe Workshop Slides
+    url: https://www.slideshare.net/slideshow/20240912-hello-world-dev-conference-langserve-ai/271757618
     category: speaking
   - id: facebook
     label: 大魔術熊貓工程師 Facebook

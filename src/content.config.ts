@@ -158,10 +158,52 @@ const books = defineCollection({
   })
 });
 
+const writing = defineCollection({
+  loader: glob({
+    pattern: 'writing.yml',
+    base: './content'
+  }),
+  schema: z.object({
+    items: z.array(
+      z.object({
+        id: z.string(),
+        title: z.string(),
+        type: z.enum(['blog', 'series', 'article', 'deck', 'course']).default('article'),
+        url: z.string(),
+        year: z.number().int().optional(),
+        publisher: z.string().optional().default(''),
+        summary: z.string().optional().default(''),
+        topics: z.array(z.string()).optional().default([])
+      })
+    )
+  })
+});
+
+const authority = defineCollection({
+  loader: glob({
+    pattern: 'authority.yml',
+    base: './content'
+  }),
+  schema: z.object({
+    records: z.array(
+      z.object({
+        id: z.string(),
+        label: z.string(),
+        category: z.enum(['brand', 'speaking', 'writing', 'teaching', 'credential', 'source']),
+        url: z.string(),
+        summary: z.string().optional().default(''),
+        verifiedAt: z.coerce.date().optional()
+      })
+    )
+  })
+});
+
 export const collections = {
   contributions: contribution,
   communityPeriods,
   profile,
   externalLinks,
-  books
+  books,
+  writing,
+  authority
 };
