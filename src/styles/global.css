@@ -315,6 +315,131 @@ h3 {
   font-size: 0.9rem;
 }
 
+.list-hero {
+  width: min(var(--content-wide), calc(100% - (var(--space-page) * 2)));
+  margin: 0 auto;
+  padding: 72px 0 40px;
+  border-bottom: 1px solid var(--color-line);
+}
+
+.stat-strip {
+  max-width: 760px;
+  margin: 32px 0 0;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+.stat-strip div {
+  padding: 16px;
+  background: white;
+}
+
+.stat-strip div + div {
+  border-left: 1px solid var(--color-line);
+}
+
+.stat-strip dt {
+  color: var(--color-muted);
+  font-size: 0.9rem;
+}
+
+.stat-strip dd {
+  margin: 4px 0 0;
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.year-index {
+  margin-bottom: 32px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.year-index a {
+  padding: 6px 10px;
+  color: var(--color-ink);
+  text-decoration: none;
+  background: var(--color-soft);
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-small);
+}
+
+.timeline-list {
+  display: grid;
+  gap: 44px;
+}
+
+.year-block {
+  display: grid;
+  grid-template-columns: 160px minmax(0, 1fr);
+  gap: 28px;
+}
+
+.year-heading {
+  position: sticky;
+  top: 16px;
+  align-self: start;
+}
+
+.year-heading h2 {
+  font-size: 2rem;
+}
+
+.year-heading span {
+  color: var(--color-muted);
+}
+
+.record-list {
+  display: grid;
+  border-top: 1px solid var(--color-line);
+}
+
+.record-row {
+  display: grid;
+  grid-template-columns: 128px minmax(0, 1fr);
+  gap: 20px;
+  padding: 18px 0;
+  border-bottom: 1px solid var(--color-line);
+}
+
+.record-row time {
+  color: var(--color-muted);
+  font-variant-numeric: tabular-nums;
+}
+
+.record-row h3 {
+  margin: 0 0 4px;
+}
+
+.record-row p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.inline-meta {
+  list-style: none;
+  margin: 8px 0 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.inline-meta li {
+  color: var(--color-muted);
+  font-size: 0.9rem;
+}
+
+.inline-meta li + li::before {
+  content: "/";
+  margin-right: 8px;
+  color: var(--color-line);
+}
+
 @media (max-width: 760px) {
   .site-header {
     align-items: flex-start;
@@ -328,7 +453,19 @@ h3 {
   .detail-hero,
   .summary-grid,
   .proof-layout,
-  .evidence-grid {
+  .evidence-grid,
+  .stat-strip,
+  .year-block,
+  .record-row {
     grid-template-columns: 1fr;
+  }
+
+  .stat-strip div + div {
+    border-top: 1px solid var(--color-line);
+    border-left: 0;
+  }
+
+  .year-heading {
+    position: static;
   }
 }

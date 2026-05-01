@@ -1,0 +1,81 @@
+---
+import { getCollection } from 'astro:content';
+import type { CollectionEntry } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { formatDate, labelForFormat } from '../utils/format';
+import { withBase } from '../utils/url';
+
+type ContributionEntry = CollectionEntry<'contributions'>;
+
+const speeches = ((await getCollection('contributions')) as ContributionEntry[])
+  .filter((entry: ContributionEntry) => entry.data.legacyPath.startsWith('/speech/'))
+  .sort((a: ContributionEntry, b: ContributionEntry) => b.data.date.getTime() - a.data.date.getTime());
+
+const grouped = speeches.reduce<Record<string, ContributionEntry[]>>((acc, entry) => {
+  const year = String(entry.data.date.getUTCFullYear());
+  acc[year] = acc[year] ?? [];
+  acc[year].push(entry);
+  return acc;
+}, {});
+
+const years = Object.keys(grouped).sort((a, b) => Number(b) - Number(a));
+const microsoftCount = speeches.filter((entry) => entry.data.microsoftProducts.length > 0).length;
+---
+
+<BaseLayout
+  title="演講紀錄 | 大魔術熊貓工程師"
+  description="Ko Ko 大魔術熊貓工程師的技術演講、工作坊與公開分享紀錄。"
+>
+  <section class="list-hero">
+    <p class="eyebrow">Speaking</p>
+    <h1>演講紀錄</h1>
+    <p class="lede">保留舊站每一個演講網址，內容改由結構化資料生成，方便續任 MVP 時補 proof、摘要與 Microsoft 技術分類。</p>
+    <dl class="stat-strip" aria-label="演講統計">
+      <div>
+        <dt>總筆數</dt>
+        <dd>{speeches.length}</dd>
+      </div>
+      <div>
+        <dt>年度範圍</dt>
+        <dd>{years.at(-1)} - {years.at(0)}</dd>
+      </div>
+      <div>
+        <dt>Microsoft 技術</dt>
+        <dd>{microsoftCount}</dd>
+      </div>
+    </dl>
+  </section>
+
+  <section class="page-section">
+    <div class="year-index" aria-label="年度索引">
+      {years.map((year) => <a href={`#year-${year}`}>{year}</a>)}
+    </div>
+
+    <div class="timeline-list">
+      {years.map((year) => (
+        <section class="year-block" id={`year-${year}`} aria-labelledby={`year-title-${year}`}>
+          <div class="year-heading">
+            <h2 id={`year-title-${year}`}>{year}</h2>
+            <span>{grouped[year].length} 場</span>
+          </div>
+          <div class="record-list">
+            {grouped[year].map((entry) => (
+              <article class="record-row">
+                <time datetime={entry.data.date.toISOString()}>{formatDate(entry.data.date)}</time>
+                <div>
+                  <h3><a href={withBase(entry.data.legacyPath)}>{entry.data.title.zh || entry.data.title.en}</a></h3>
+                  <p>{entry.data.event}</p>
+                  <ul class="inline-meta">
+                    <li>{entry.data.location || labelForFormat(entry.data.format)}</li>
+                    <li>{entry.data.evidence.length} proof</li>
+                    {entry.data.microsoftProducts.length > 0 && <li>{entry.data.microsoftProducts.join(' / ')}</li>}
+                  </ul>
+                </div>
+              </article>
+            ))}
+          </div>
+        </section>
+      ))}
+    </div>
+  </section>
+</BaseLayout>
