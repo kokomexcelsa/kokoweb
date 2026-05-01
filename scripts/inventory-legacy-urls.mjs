@@ -45,6 +45,7 @@ function categoryFor(relativePath) {
 
 function sitemapFlag(relativePath, category) {
   if (category === 'search-verification') return false;
+  if (category === 'legacy-html') return false;
   if (category === 'legacy-template') return false;
   if (category === 'legacy-archive') return false;
   if (category === 'legacy-answer') return false;
@@ -56,6 +57,7 @@ function sitemapFlag(relativePath, category) {
 function noindexFlag(category) {
   return [
     'search-verification',
+    'legacy-html',
     'legacy-template',
     'legacy-archive',
     'legacy-answer',
