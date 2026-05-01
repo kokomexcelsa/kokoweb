@@ -1,5 +1,7 @@
 ---
 import '../styles/global.css';
+import SiteFooter from '../components/SiteFooter.astro';
+import SiteHeader from '../components/SiteHeader.astro';
 
 interface Props {
   title?: string;
@@ -21,8 +23,13 @@ const {
     <meta name="description" content={description} />
   </head>
   <body>
-    <main>
-      <slot />
-    </main>
+    <a class="skip-link" href="#main">跳到主要內容</a>
+    <div class="site-shell">
+      <SiteHeader />
+      <main id="main">
+        <slot />
+      </main>
+      <SiteFooter />
+    </div>
   </body>
 </html>

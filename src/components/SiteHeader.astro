@@ -1,0 +1,24 @@
+---
+import { withBase } from '../utils/url';
+
+const navItems = [
+  { href: '/index.html', label: '首頁' },
+  { href: '/speech.html', label: '演講' },
+  { href: '/contributions.html', label: '貢獻' },
+  { href: '/mvp.html', label: 'MVP' },
+  { href: '/about.html', label: '關於' }
+];
+---
+
+<header class="site-header">
+  <a class="brand" href={withBase('/index.html')} aria-label="大魔術熊貓工程師首頁">
+    <span class="brand-mark" aria-hidden="true">MP</span>
+    <span class="brand-text">
+      <strong>大魔術熊貓工程師</strong>
+      <small>Ko Ko</small>
+    </span>
+  </a>
+  <nav class="site-nav" aria-label="主要導覽">
+    {navItems.map((item) => <a href={withBase(item.href)}>{item.label}</a>)}
+  </nav>
+</header>
