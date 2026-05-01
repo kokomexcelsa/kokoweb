@@ -1,0 +1,31 @@
+name:
+  zh: 大魔術熊貓工程師
+  en: Magic Panda Engineer
+personName:
+  zh: Ko Ko
+  en: Ko Ko (Kirk)
+headline:
+  zh: Microsoft AI MVP、生成式 AI 作者、技術講者與 AI 應用架構顧問
+  en: Microsoft AI MVP, author, speaker, and AI application architect
+shortBio:
+  zh: 專注於 LLM、Azure OpenAI、AI Agent、雲端架構與全端應用開發，長期投入技術寫作、社群活動與大型技術年會分享。
+  en: Focused on LLM, Azure OpenAI, AI agents, cloud architecture, and full-stack application development, with long-running contributions in writing, communities, and technical conferences.
+legacyBrand:
+  name: KoKo Mexcelsa
+  story: Mexcelsa 來自波胡圖卡瓦樹的拉丁文學名 M. excelsa，也保留追求卓越的品牌脈絡；新版首頁以大魔術熊貓工程師作為主要公開識別，KoKo Mexcelsa 作為歷史品牌故事保留。
+contact:
+  email: qqkerk@hotmail.com
+  phoneDisplay: false
+specialties:
+  - Azure OpenAI
+  - AI Agent
+  - LLM application architecture
+  - Microsoft Azure
+  - Web full-stack
+  - Technical writing
+  - Community speaking
+brandPrinciples:
+  - 專業、清楚、可驗證
+  - 保留大魔術熊貓工程師的辨識度，但避免卡通化
+  - 以 MVP 貢獻、作者與講者證據作為主要內容
+  - 舊品牌故事保留在 About，不再作為首頁主訊息

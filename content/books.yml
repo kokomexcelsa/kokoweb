@@ -1,0 +1,41 @@
+books:
+  - title: AI Agent 奇幻旅程：MCP 通往異世界金鑰（含最新 OpenAI GPT-5 範例）
+    publisher: 天瓏網路書店
+    url: https://linktr.ee/qqkerk
+    topics:
+      - AI Agent
+      - MCP
+      - OpenAI
+  - title: Python 原力爆擊：OpenAI / Gemini / AWS / Ollama 生成式 AI 應用新手指南
+    publisher: 天瓏網路書店
+    url: https://linktr.ee/qqkerk
+    topics:
+      - Python
+      - OpenAI
+      - Gemini
+      - AWS
+      - Ollama
+  - title: LangChain 奇幻旅程：OpenAI x Gemini x 多模態應用開發指南
+    publisher: 天瓏網路書店
+    url: https://linktr.ee/qqkerk
+    topics:
+      - LangChain
+      - OpenAI
+      - Gemini
+      - Multimodal AI
+  - title: 極速 ChatGPT 開發者兵器指南：跨界整合 Prompt Flow、LangChain 與 Semantic Kernel 框架
+    publisher: 天瓏網路書店
+    url: https://linktr.ee/qqkerk
+    topics:
+      - ChatGPT
+      - Prompt Flow
+      - LangChain
+      - Semantic Kernel
+  - title: 探索 Azure OpenAI 與 Cognitive Service for Language 開發實踐（使用 .NET 與 Node.js）
+    publisher: 天瓏網路書店
+    url: https://linktr.ee/qqkerk
+    topics:
+      - Azure OpenAI
+      - Azure AI Language
+      - .NET
+      - Node.js

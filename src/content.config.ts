@@ -97,7 +97,71 @@ const communityPeriods = defineCollection({
   })
 });
 
+const profile = defineCollection({
+  loader: glob({
+    pattern: 'profile.yml',
+    base: './content'
+  }),
+  schema: z.object({
+    name: localizedText,
+    personName: localizedText,
+    headline: localizedText,
+    shortBio: localizedText,
+    legacyBrand: z
+      .object({
+        name: z.string(),
+        story: z.string()
+      })
+      .optional(),
+    contact: z.object({
+      email: z.email(),
+      phoneDisplay: z.boolean().default(false)
+    }),
+    specialties: z.array(z.string()).default([]),
+    brandPrinciples: z.array(z.string()).default([])
+  })
+});
+
+const externalLinks = defineCollection({
+  loader: glob({
+    pattern: 'external-links.yml',
+    base: './content'
+  }),
+  schema: z.object({
+    links: z.array(
+      z.object({
+        id: z.string(),
+        label: z.string(),
+        url: z.string(),
+        category: z.enum(['profile', 'social', 'writing', 'speaking', 'book', 'credential', 'source']).default('profile'),
+        primary: z.boolean().optional().default(false)
+      })
+    )
+  })
+});
+
+const books = defineCollection({
+  loader: glob({
+    pattern: 'books.yml',
+    base: './content'
+  }),
+  schema: z.object({
+    books: z.array(
+      z.object({
+        title: z.string(),
+        publisher: z.string().optional().default(''),
+        url: z.string().optional().default(''),
+        year: z.number().int().optional(),
+        topics: z.array(z.string()).optional().default([])
+      })
+    )
+  })
+});
+
 export const collections = {
   contributions: contribution,
-  communityPeriods
+  communityPeriods,
+  profile,
+  externalLinks,
+  books
 };
