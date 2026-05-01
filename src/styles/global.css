@@ -273,11 +273,11 @@ p {
 
 .detail-hero .title-en {
   max-width: 900px;
-  margin-top: 10px;
+  margin-top: 12px;
   color: var(--color-azure-dark);
-  font-size: clamp(1.25rem, 2.6vw, 1.85rem);
-  font-weight: 650;
-  line-height: 1.35;
+  font-size: clamp(1.65rem, 3.6vw, 2.45rem);
+  font-weight: 750;
+  line-height: 1.18;
 }
 
 .meta-list {
@@ -294,11 +294,23 @@ p {
 .meta-list dt {
   color: var(--color-muted);
   font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.meta-list dt span {
+  margin-left: 6px;
+  color: var(--color-ink);
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 0.95rem;
 }
 
 .meta-list dd {
   margin: 2px 0 0;
   font-weight: 700;
+}
+
+.meta-list dd span {
+  font-family: "Segoe UI", Arial, sans-serif;
 }
 
 .section-heading {

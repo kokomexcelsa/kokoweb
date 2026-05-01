@@ -18,6 +18,17 @@ export function labelForFormat(format: string): string {
   return labels[format] ?? format;
 }
 
+export function labelForFormatEn(format: string): string {
+  const labels: Record<string, string> = {
+    'in-person': 'In person',
+    online: 'Online',
+    hybrid: 'Hybrid',
+    published: 'Published',
+    other: 'Other'
+  };
+  return labels[format] ?? format;
+}
+
 export function labelForType(type: string): string {
   const labels: Record<string, string> = {
     speaking: '演講',
@@ -30,6 +41,22 @@ export function labelForType(type: string): string {
     research: '研究',
     certification: '證照',
     mentoring: '指導'
+  };
+  return labels[type] ?? type;
+}
+
+export function labelForTypeEn(type: string): string {
+  const labels: Record<string, string> = {
+    speaking: 'Speaking',
+    workshop: 'Workshop',
+    community: 'Community',
+    writing: 'Writing',
+    book: 'Book',
+    media: 'Media',
+    'open-source': 'Open source',
+    research: 'Research',
+    certification: 'Certification',
+    mentoring: 'Mentoring'
   };
   return labels[type] ?? type;
 }

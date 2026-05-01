@@ -1,7 +1,15 @@
 ---
 import type { CollectionEntry } from 'astro:content';
 import EvidenceGallery from './EvidenceGallery.astro';
-import { formatDate, labelForFormat, labelForLink, labelForType, splitParagraphs } from '../utils/format';
+import {
+  formatDate,
+  labelForFormat,
+  labelForFormatEn,
+  labelForLink,
+  labelForType,
+  labelForTypeEn,
+  splitParagraphs
+} from '../utils/format';
 
 interface Props {
   contribution: CollectionEntry<'contributions'>['data'];
@@ -14,6 +22,9 @@ const summaryEn = splitParagraphs(contribution.summary.en);
 const topics = contribution.topics as string[];
 const microsoftProducts = contribution.microsoftProducts as string[];
 const primaryLinks = Object.entries(contribution.links as Record<string, string>).filter(([, href]) => Boolean(href));
+const typeLabel = labelForType(contribution.type);
+const typeLabelEn = labelForTypeEn(contribution.type);
+const fallbackLocation = `${labelForFormat(contribution.format)} / ${labelForFormatEn(contribution.format)}`;
 const evidence = contribution.evidence as {
   type: string;
   src?: string;
@@ -26,26 +37,26 @@ const evidence = contribution.evidence as {
 <article>
   <header class="detail-hero">
     <div>
-      <p class="eyebrow">{labelForType(contribution.type)}</p>
+      <p class="eyebrow">{typeLabel} / <span lang="en">{typeLabelEn}</span></p>
       <h1>{title}</h1>
       {contribution.title.en && contribution.title.en !== title && <p class="lede title-en" lang="en">{contribution.title.en}</p>}
     </div>
     <dl class="meta-list">
       <div>
-        <dt>日期</dt>
+        <dt>日期 / <span lang="en">Date</span></dt>
         <dd>{formatDate(contribution.date)}</dd>
       </div>
       <div>
-        <dt>類型</dt>
-        <dd>{labelForType(contribution.type)}</dd>
+        <dt>類型 / <span lang="en">Type</span></dt>
+        <dd>{typeLabel} / <span lang="en">{typeLabelEn}</span></dd>
       </div>
       <div>
-        <dt>活動</dt>
+        <dt>活動 / <span lang="en">Event</span></dt>
         <dd>{contribution.event || '未填'}</dd>
       </div>
       <div>
-        <dt>地點</dt>
-        <dd>{contribution.location || labelForFormat(contribution.format)}</dd>
+        <dt>地點 / <span lang="en">Location</span></dt>
+        <dd>{contribution.location || fallbackLocation}</dd>
       </div>
     </dl>
   </header>
