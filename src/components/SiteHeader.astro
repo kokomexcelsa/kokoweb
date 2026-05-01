@@ -1,5 +1,5 @@
 ---
-import { withBase, withoutBase } from '../utils/url';
+import { normalizeCurrentPath, withBase } from '../utils/url';
 
 const navItems = [
   { href: '/index.html', label: '首頁' },
@@ -8,7 +8,7 @@ const navItems = [
   { href: '/mvp.html', label: 'MVP' },
   { href: '/about.html', label: '關於' }
 ];
-const currentPath = withoutBase(Astro.url.pathname);
+const currentPath = normalizeCurrentPath(Astro.url.pathname);
 ---
 
 <header class="site-header">

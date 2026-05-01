@@ -12,6 +12,7 @@ type BookRecord = {
   title: string;
   publisher: string;
   url: string;
+  year?: number;
   topics: string[];
 };
 type WritingRecord = {
@@ -69,7 +70,7 @@ const authority = authorityEntry.data.records as AuthorityRecord[];
       {books.map((book: BookRecord) => (
         <article class="metric-card">
           <h3><a href={book.url} target="_blank" rel="noreferrer">{book.title}</a></h3>
-          <p>{book.publisher}</p>
+          <p>{book.publisher}{book.year ? ` · ${book.year}` : ''}</p>
           <ul class="tag-list">
             {book.topics.map((topic: string) => <li>{topic}</li>)}
           </ul>

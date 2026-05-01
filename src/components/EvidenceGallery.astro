@@ -50,7 +50,7 @@ const labelMap: Record<string, string> = {
         <div class="evidence-grid">
           {visualEvidence.map((item) => (
             <figure class="evidence-card">
-              <img src={withBase(item.src ?? '')} alt={item.alt || item.label || 'contribution evidence'} loading="lazy" />
+              <img src={withBase(item.src ?? '')} alt={item.alt || item.label || '貢獻佐證資料'} loading="lazy" />
               <figcaption>{labelMap[item.type] ?? item.type}</figcaption>
             </figure>
           ))}

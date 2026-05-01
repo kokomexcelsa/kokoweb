@@ -14,8 +14,7 @@ topics:
   - "OpenAI"
   - "NotebookLM"
 microsoftProducts:
-  - "Azure OpenAI"
-  - "Microsoft Azure"
+  []
 links:
   event: "https://gdg.community.dev/events/details/google-gdg-taichung-presents-google-developer-group-taichung-shi-yi-yue-xiao-ju-llm-de-ying-yong/"
 evidence:

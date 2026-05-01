@@ -14,7 +14,7 @@ html {
 body {
   margin: 0;
   min-height: 100vh;
-  line-height: 1.6;
+  line-height: 1.65;
 }
 
 a {
@@ -109,6 +109,8 @@ button:focus-visible {
   color: var(--color-ink);
   text-decoration: none;
   border-radius: var(--radius-small);
+  cursor: pointer;
+  transition: background-color 180ms ease, color 180ms ease;
 }
 
 .site-nav a:hover {
@@ -164,8 +166,8 @@ button:focus-visible {
 
 h1 {
   margin: 0 0 16px;
-  font-size: clamp(2rem, 6vw, 4rem);
-  line-height: 1.05;
+  font-size: clamp(2.2rem, 5vw, 3.45rem);
+  line-height: 1.12;
   letter-spacing: 0;
   overflow-wrap: anywhere;
 }
@@ -173,12 +175,12 @@ h1 {
 p {
   max-width: 680px;
   color: var(--color-muted);
-  font-size: 1.125rem;
+  font-size: 1.0625rem;
   line-height: 1.7;
 }
 
 .home-hero {
-  min-height: 78vh;
+  min-height: 72vh;
   display: grid;
   align-items: end;
   padding: 120px var(--space-page) 64px;
@@ -204,7 +206,7 @@ p {
 }
 
 .home-hero-content p {
-  font-size: 1.25rem;
+  font-size: 1.18rem;
 }
 
 .hero-actions {
@@ -224,6 +226,8 @@ p {
   border-radius: var(--radius-small);
   text-decoration: none;
   font-weight: 800;
+  cursor: pointer;
+  transition: background-color 180ms ease, border-color 180ms ease;
 }
 
 .hero-actions a + a {
@@ -246,7 +250,25 @@ p {
 .lede {
   max-width: 760px;
   color: var(--color-muted);
-  font-size: 1.25rem;
+  font-size: 1.125rem;
+}
+
+.title-en,
+.record-title-en {
+  display: block;
+  margin-top: 6px;
+  color: var(--color-muted);
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 0.98rem;
+  font-weight: 500;
+  line-height: 1.45;
+  text-transform: none;
+}
+
+.detail-hero .title-en {
+  max-width: 900px;
+  color: var(--color-azure-dark);
+  font-size: clamp(1.05rem, 2vw, 1.35rem);
 }
 
 .meta-list {
@@ -277,7 +299,7 @@ p {
 
 h2 {
   margin: 0;
-  font-size: clamp(1.75rem, 4vw, 2.75rem);
+  font-size: clamp(1.55rem, 3vw, 2.25rem);
   line-height: 1.15;
   letter-spacing: 0;
   overflow-wrap: anywhere;
@@ -417,7 +439,7 @@ h3 {
 
 .stat-strip dd {
   margin: 4px 0 0;
-  font-size: 1.5rem;
+  font-size: 1.35rem;
   font-weight: 800;
 }
 
@@ -455,7 +477,7 @@ h3 {
 }
 
 .year-heading h2 {
-  font-size: 2rem;
+  font-size: 1.75rem;
 }
 
 .year-heading span {
@@ -482,6 +504,7 @@ h3 {
 
 .record-row h3 {
   margin: 0 0 4px;
+  line-height: 1.35;
 }
 
 .record-row p {
@@ -523,7 +546,7 @@ h3 {
 }
 
 .community-card h2 {
-  font-size: clamp(1.4rem, 3vw, 2rem);
+  font-size: clamp(1.25rem, 2.5vw, 1.75rem);
 }
 
 .community-evidence {
@@ -549,6 +572,13 @@ h3 {
   border: 1px solid var(--color-line);
   border-radius: var(--radius);
   min-width: 0;
+}
+
+.metric-card a,
+.record-row a,
+.evidence-links a,
+.year-index a {
+  cursor: pointer;
 }
 
 .metric-card h2,

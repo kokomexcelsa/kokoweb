@@ -12,7 +12,7 @@ const optionalLocalizedText = z.object({
   en: z.string().optional().default('')
 });
 
-const linkMap = z.record(z.string(), z.string().optional().default('')).default({});
+const linkMap = z.record(z.string(), z.string().optional().default('')).optional().default({});
 
 const evidenceItem = z.object({
   type: z.enum(['link', 'screenshot', 'photo', 'slides', 'recording', 'article', 'profile']).default('link'),
@@ -74,7 +74,8 @@ const communityPeriods = defineCollection({
   schema: z.object({
     id: z.string().min(1),
     legacyPath: z.string().startsWith('/').endsWith('.html'),
-    year: z.number().int(),
+    kind: z.enum(['period', 'index']).optional().default('period'),
+    year: z.number().int().optional(),
     period: z
       .object({
         start: z.coerce.date().optional(),

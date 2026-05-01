@@ -21,6 +21,7 @@ const years = [...new Set(contributions.map((entry) => entry.data.date.getUTCFul
 <BaseLayout
   title="大魔術熊貓工程師 Ko Ko | Microsoft AI MVP"
   description={profile.shortBio.zh}
+  canonicalPath="/index.html"
 >
   <section class="home-hero" style={`--hero-image: url("${withBase('/img/pohutukawa-hero.jpg')}")`}>
     <div class="home-hero-content">
@@ -59,7 +60,12 @@ const years = [...new Set(contributions.map((entry) => entry.data.date.getUTCFul
         <article class="record-row">
           <time datetime={entry.data.date.toISOString()}>{formatDate(entry.data.date)}</time>
           <div>
-            <h3><a href={withBase(entry.data.legacyPath)}>{entry.data.title.zh || entry.data.title.en}</a></h3>
+            <h3>
+              <a href={withBase(entry.data.legacyPath)}>{entry.data.title.zh || entry.data.title.en}</a>
+              {entry.data.title.en && entry.data.title.en !== (entry.data.title.zh || entry.data.title.en) && (
+                <span class="record-title-en" lang="en">{entry.data.title.en}</span>
+              )}
+            </h3>
             <p>{entry.data.event}</p>
             <ul class="inline-meta">
               <li>{entry.data.evidence.length} proof</li>

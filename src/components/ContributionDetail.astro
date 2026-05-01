@@ -1,7 +1,7 @@
 ---
 import type { CollectionEntry } from 'astro:content';
 import EvidenceGallery from './EvidenceGallery.astro';
-import { formatDate, labelForFormat, splitParagraphs } from '../utils/format';
+import { formatDate, labelForFormat, labelForLink, labelForType, splitParagraphs } from '../utils/format';
 import { withBase } from '../utils/url';
 
 interface Props {
@@ -14,7 +14,7 @@ const summaryZh = splitParagraphs(contribution.summary.zh);
 const summaryEn = splitParagraphs(contribution.summary.en);
 const topics = contribution.topics as string[];
 const microsoftProducts = contribution.microsoftProducts as string[];
-const primaryLinks = Object.entries(contribution.links as Record<string, string>);
+const primaryLinks = Object.entries(contribution.links as Record<string, string>).filter(([, href]) => Boolean(href));
 const evidence = contribution.evidence as {
   type: string;
   src?: string;
@@ -27,14 +27,18 @@ const evidence = contribution.evidence as {
 <article>
   <header class="detail-hero">
     <div>
-      <p class="eyebrow">{contribution.type}</p>
+      <p class="eyebrow">{labelForType(contribution.type)}</p>
       <h1>{title}</h1>
-      {contribution.title.en && contribution.title.en !== title && <p class="lede">{contribution.title.en}</p>}
+      {contribution.title.en && contribution.title.en !== title && <p class="lede title-en" lang="en">{contribution.title.en}</p>}
     </div>
     <dl class="meta-list">
       <div>
         <dt>日期</dt>
         <dd>{formatDate(contribution.date)}</dd>
+      </div>
+      <div>
+        <dt>類型</dt>
+        <dd>{labelForType(contribution.type)}</dd>
       </div>
       <div>
         <dt>活動</dt>
@@ -98,7 +102,7 @@ const evidence = contribution.evidence as {
             <h3>主要連結</h3>
             <ul class="proof-list">
               {primaryLinks.map(([label, href]) => (
-                <li><a href={href} target="_blank" rel="noreferrer">{label}</a></li>
+                <li><a href={href} target="_blank" rel="noreferrer">{labelForLink(label)}</a></li>
               ))}
             </ul>
           </div>

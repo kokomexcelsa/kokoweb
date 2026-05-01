@@ -117,7 +117,7 @@ const legacyPublicFileManifest = publicFiles.sort().map((source) => ({
   path: `/${source}`,
   source,
   category: source === 'sitemap.xml' ? 'sitemap' : source === 'fix.patch' ? 'patch-file' : 'public-file',
-  deploy: source === 'fix.patch' ? false : true,
+  deploy: true,
   requiresApprovalToRemove: true
 }));
 

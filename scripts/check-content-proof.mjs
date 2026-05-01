@@ -49,10 +49,15 @@ function hasEvidence(evidence) {
   return asArray(evidence).some((item) => item?.href || item?.src);
 }
 
-function checkEvidence(evidence, owner) {
+function checkEvidence(evidence, owner, options = {}) {
   const items = asArray(evidence);
   if (!hasEvidence(items)) {
-    errors.push(`${owner}: missing evidence href/src`);
+    const message = `${owner}: missing evidence href/src`;
+    if (options.required) {
+      errors.push(message);
+    } else {
+      warnings.push(message);
+    }
     return;
   }
 
@@ -86,6 +91,23 @@ function warnLargeTextDelta(record, owner) {
   }
 }
 
+function warnSynthesizedEnglishTitle(record, owner) {
+  if (!record?.title?.en || !record.legacyPath?.startsWith('/speech/')) return;
+  if (record.title.en === record.title.zh || record?.proofStatus?.title === 'synthesized') return;
+  const source = path.join(root, record.legacyPath.replace(/^\//, ''));
+  if (!existsSync(source)) return;
+
+  const $ = cheerio.load(readFileSync(source, 'utf8'));
+  const boldTexts = $('#portfolio-speech p b')
+    .toArray()
+    .map((element) => $(element).text().replace(/\s+/g, ' ').trim())
+    .filter(Boolean);
+
+  if (!boldTexts.includes(record.title.en)) {
+    warnings.push(`${owner}: title.en is not an exact <b> title in the legacy detail page; verify it is not synthesized`);
+  }
+}
+
 for (const file of walk(contributionRoot)) {
   const record = parse(readFileSync(file, 'utf8'));
   const owner = relative(file);
@@ -105,11 +127,15 @@ for (const file of walk(contributionRoot)) {
     legacyPaths.add(record.legacyPath);
   }
 
-  checkEvidence(record?.evidence, owner);
+  checkEvidence(record?.evidence, owner, {
+    required: record?.proofStatus?.evidence === 'required'
+  });
   warnLargeTextDelta(record, owner);
+  warnSynthesizedEnglishTitle(record, owner);
 }
 
-for (const file of walk(communityRoot)) {
+const communityFiles = walk(communityRoot);
+for (const file of communityFiles) {
   const record = parse(readFileSync(file, 'utf8'));
   const owner = relative(file);
   if (!record?.id) errors.push(`${owner}: missing id`);
@@ -117,7 +143,9 @@ for (const file of walk(communityRoot)) {
   if (!record?.title?.zh) errors.push(`${owner}: missing title.zh`);
 
   for (const section of asArray(record?.sections)) {
-    checkEvidence(section.evidence, `${owner}#${section.communityId ?? 'section'}`);
+    checkEvidence(section.evidence, `${owner}#${section.communityId ?? 'section'}`, {
+      required: section?.proofStatus?.evidence === 'required'
+    });
   }
 }
 
@@ -129,4 +157,4 @@ if (errors.length > 0) {
   throw new Error(errors.join('\n'));
 }
 
-console.log(`Checked ${ids.size} contribution records and ${walk(communityRoot).length} community period records for proof readiness.`);
+console.log(`Checked ${ids.size} contribution records and ${communityFiles.length} community period records for proof readiness.`);

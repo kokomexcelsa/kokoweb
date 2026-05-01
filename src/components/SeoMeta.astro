@@ -7,6 +7,8 @@ interface Props {
   noindex?: boolean;
   image?: string;
   type?: string;
+  canonicalPath?: string;
+  structuredData?: Record<string, unknown> | Record<string, unknown>[];
 }
 
 const {
@@ -14,10 +16,12 @@ const {
   description,
   noindex = false,
   image = '/img/og-panda-engineer.jpg',
-  type = 'website'
+  type = 'website',
+  canonicalPath,
+  structuredData = []
 } = Astro.props;
 const site = Astro.site ?? new URL('https://kokomexcelsa.github.io');
-const canonical = new URL(Astro.url.pathname, site).toString();
+const canonical = new URL(canonicalPath ? withBase(canonicalPath) : Astro.url.pathname, site).toString();
 const imageUrl = new URL(withBase(image), site).toString();
 const jsonLd = {
   '@context': 'https://schema.org',
@@ -29,10 +33,13 @@ const jsonLd = {
   image: imageUrl,
   sameAs: [
     'https://magic-panda-engineer.github.io/',
-    'https://github.com/kokomexcelsa',
+    'https://github.com/Ko-Ko-Kirk',
+    'https://mvp.microsoft.com/en-us/PublicProfile/5003846?fullName=Ko%20Ko',
     'https://linktr.ee/qqkerk'
   ]
 };
+const structuredDataItems = Array.isArray(structuredData) ? structuredData : [structuredData];
+const jsonLdItems = [jsonLd, ...structuredDataItems.filter(Boolean)];
 ---
 
 <link rel="canonical" href={canonical} />
@@ -48,4 +55,4 @@ const jsonLd = {
 <meta name="twitter:title" content={title} />
 <meta name="twitter:description" content={description} />
 <meta name="twitter:image" content={imageUrl} />
-<script is:inline type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+{jsonLdItems.map((item) => <script is:inline type="application/ld+json" set:html={JSON.stringify(item)} />)}

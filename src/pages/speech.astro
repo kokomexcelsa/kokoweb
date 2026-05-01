@@ -2,7 +2,7 @@
 import { getCollection } from 'astro:content';
 import type { CollectionEntry } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
-import { formatDate, labelForFormat } from '../utils/format';
+import { formatDate, labelForFormat, labelForType } from '../utils/format';
 import { withBase } from '../utils/url';
 
 type ContributionEntry = CollectionEntry<'contributions'>;
@@ -63,9 +63,15 @@ const microsoftCount = speeches.filter((entry) => entry.data.microsoftProducts.l
               <article class="record-row">
                 <time datetime={entry.data.date.toISOString()}>{formatDate(entry.data.date)}</time>
                 <div>
-                  <h3><a href={withBase(entry.data.legacyPath)}>{entry.data.title.zh || entry.data.title.en}</a></h3>
+                  <h3>
+                    <a href={withBase(entry.data.legacyPath)}>{entry.data.title.zh || entry.data.title.en}</a>
+                    {entry.data.title.en && entry.data.title.en !== (entry.data.title.zh || entry.data.title.en) && (
+                      <span class="record-title-en" lang="en">{entry.data.title.en}</span>
+                    )}
+                  </h3>
                   <p>{entry.data.event}</p>
                   <ul class="inline-meta">
+                    <li>{labelForType(entry.data.type)}</li>
                     <li>{entry.data.location || labelForFormat(entry.data.format)}</li>
                     <li>{entry.data.evidence.length} proof</li>
                     {entry.data.microsoftProducts.length > 0 && <li>{entry.data.microsoftProducts.join(' / ')}</li>}

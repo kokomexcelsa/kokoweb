@@ -1,9 +1,6 @@
 id: "community"
 legacyPath: "/community/community.html"
-year: 2019
-period:
-  start: 2019-01-01
-  end: 2019-12-31
+kind: "index"
 title:
   zh: "社群活動規畫整理"
   en: ""

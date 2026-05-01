@@ -1,6 +1,6 @@
 ---
 import type { CollectionEntry } from 'astro:content';
-import { formatDate } from '../utils/format';
+import { formatPeriod } from '../utils/format';
 import { withBase } from '../utils/url';
 
 interface Props {
@@ -21,6 +21,9 @@ type CommunitySection = {
   }[];
 };
 const sections = period.sections as CommunitySection[];
+const periodLabel = period.kind === 'index'
+  ? '總覽'
+  : formatPeriod(period.period.start, period.period.end, period.year);
 ---
 
 <article>
@@ -31,7 +34,7 @@ const sections = period.sections as CommunitySection[];
     <dl class="stat-strip" aria-label="社群年度統計">
       <div>
         <dt>期間</dt>
-        <dd>{period.period.start ? formatDate(period.period.start) : period.year} - {period.period.end ? formatDate(period.period.end) : period.year}</dd>
+        <dd>{periodLabel}</dd>
       </div>
       <div>
         <dt>紀錄</dt>

@@ -32,4 +32,5 @@ proofStatus:
   importedFromList: ready
   detailPage: found
   evidence: imported
+  title: synthesized
 language: mixed

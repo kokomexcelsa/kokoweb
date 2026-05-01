@@ -3,7 +3,7 @@
     "path": "/fix.patch",
     "source": "fix.patch",
     "category": "patch-file",
-    "deploy": false,
+    "deploy": true,
     "requiresApprovalToRemove": true
   },
   {

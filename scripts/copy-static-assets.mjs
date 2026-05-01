@@ -1,4 +1,4 @@
-import { cp, mkdir, readFile, rm, writeFile } from 'node:fs/promises';
+import { cp, mkdir, readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 
 const root = process.cwd();
@@ -25,7 +25,8 @@ const passthroughDirectories = [
 ];
 
 const files = [
-  'pohu.JPG'
+  'pohu.JPG',
+  'fix.patch'
 ];
 
 const generatedLegacyCategories = new Set([
@@ -60,8 +61,11 @@ function hasCanonical(html) {
 }
 
 function injectLegacyHeadTags(html, record) {
-  if (!hasHead(html) || exactCopyCategories.has(record.category)) {
+  if (exactCopyCategories.has(record.category)) {
     return html;
+  }
+  if (!hasHead(html)) {
+    throw new Error(`${record.source} is marked for legacy passthrough but has no <head> for canonical/noindex injection.`);
   }
 
   const tags = [];
@@ -108,9 +112,9 @@ await mkdir(dist, { recursive: true });
 for (const directory of directories) {
   const source = path.join(root, directory);
   const target = path.join(dist, directory);
-  await rm(target, { recursive: true, force: true });
   await cp(source, target, {
     recursive: true,
+    force: true,
     filter: shouldCopy
   });
 }
@@ -118,9 +122,9 @@ for (const directory of directories) {
 for (const directory of passthroughDirectories) {
   const source = path.join(root, directory);
   const target = path.join(dist, directory);
-  await rm(target, { recursive: true, force: true });
   await cp(source, target, {
     recursive: true,
+    force: true,
     filter: shouldCopy
   });
 }

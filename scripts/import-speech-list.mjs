@@ -99,7 +99,14 @@ function dedupe(values) {
 
 function inferFormat(location) {
   const normalized = location.toLowerCase();
-  if (normalized.includes('live stream') || normalized.includes('online') || location.includes('線上')) {
+  if (
+    normalized.includes('live stream') ||
+    normalized.includes('online') ||
+    normalized.includes('youtube') ||
+    normalized.includes('bilibili') ||
+    normalized.includes('twitch') ||
+    location.includes('線上')
+  ) {
     return 'online';
   }
   return 'in-person';

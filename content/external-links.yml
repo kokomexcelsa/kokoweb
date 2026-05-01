@@ -11,21 +11,21 @@ links:
     primary: true
   - id: github
     label: GitHub
-    url: https://github.com/kokomexcelsa
+    url: https://github.com/Ko-Ko-Kirk
     category: social
     primary: true
   - id: mvp
     label: Microsoft MVP Page
-    url: https://mvp.microsoft.com/
+    url: https://mvp.microsoft.com/en-us/PublicProfile/5003846?fullName=Ko%20Ko
     category: credential
     primary: true
   - id: scholar
     label: Google Scholar
-    url: https://scholar.google.com/
+    url: https://scholar.google.com/citations?hl=en&user=7UJzn3sAAAAJ
     category: profile
   - id: credly
     label: Certification in Credly
-    url: https://www.credly.com/
+    url: https://www.credly.com/users/ko-ko/badges
     category: credential
   - id: slideshare
     label: LangServe Workshop Slides

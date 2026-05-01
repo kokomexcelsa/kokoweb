@@ -55,7 +55,12 @@ const latest = contributions.slice(0, 24);
           <article class="record-row">
             <time datetime={entry.data.date.toISOString()}>{formatDate(entry.data.date)}</time>
             <div>
-              <h3><a href={withBase(entry.data.legacyPath)}>{entry.data.title.zh || entry.data.title.en}</a></h3>
+              <h3>
+                <a href={withBase(entry.data.legacyPath)}>{entry.data.title.zh || entry.data.title.en}</a>
+                {entry.data.title.en && entry.data.title.en !== (entry.data.title.zh || entry.data.title.en) && (
+                  <span class="record-title-en" lang="en">{entry.data.title.en}</span>
+                )}
+              </h3>
               <p>{entry.data.event}</p>
               <ul class="inline-meta">
                 <li>{entry.data.evidence.length} proof</li>

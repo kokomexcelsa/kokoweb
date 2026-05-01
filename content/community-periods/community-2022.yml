@@ -1,6 +1,7 @@
 id: "community-2022"
 legacyPath: "/community/community-2022.html"
-year: 2023
+kind: "period"
+year: 2022
 period:
   start: 2022-03-01
   end: 2023-03-31

@@ -25,6 +25,8 @@ Run the local server:
 npm run dev -- --host 127.0.0.1
 ```
 
+The `public/` directory contains symlinks to the legacy asset folders, so `astro dev` can serve `/img/*`, `/sp-photos/*`, community evidence images, and passthrough legacy pages without waiting for a production build.
+
 Then inspect:
 
 - `http://127.0.0.1:4321/kokoweb/index.html`
@@ -36,6 +38,7 @@ Then inspect:
 - `http://127.0.0.1:4321/kokoweb/mvp.html`
 - `http://127.0.0.1:4321/kokoweb/about.html`
 - `http://127.0.0.1:4321/kokoweb/google0d273919ce2cabd0.html`
+- `http://127.0.0.1:4321/kokoweb/data-template/pages/index.html`
 
 ## Things To Check Visually
 

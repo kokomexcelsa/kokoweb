@@ -2,7 +2,7 @@
 import { getCollection } from 'astro:content';
 import type { CollectionEntry } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
-import { formatDate } from '../utils/format';
+import { formatDate, labelForType } from '../utils/format';
 import { withBase } from '../utils/url';
 
 type ContributionEntry = CollectionEntry<'contributions'>;
@@ -11,7 +11,11 @@ type CommunityEntry = CollectionEntry<'communityPeriods'>;
 const contributions = ((await getCollection('contributions')) as ContributionEntry[])
   .sort((a: ContributionEntry, b: ContributionEntry) => b.data.date.getTime() - a.data.date.getTime());
 const communityPeriods = ((await getCollection('communityPeriods')) as CommunityEntry[])
-  .sort((a: CommunityEntry, b: CommunityEntry) => b.data.year - a.data.year);
+  .sort((a: CommunityEntry, b: CommunityEntry) => {
+    const aTime = a.data.period.end?.getTime() ?? a.data.year ?? 0;
+    const bTime = b.data.period.end?.getTime() ?? b.data.year ?? 0;
+    return bTime - aTime;
+  });
 const [booksEntry] = await getCollection('books');
 const [writingEntry] = await getCollection('writing');
 const books = booksEntry.data.books;
@@ -83,10 +87,15 @@ const proofCount = contributions.reduce((total, entry) => total + entry.data.evi
         <article class="record-row">
           <time datetime={entry.data.date.toISOString()}>{formatDate(entry.data.date)}</time>
           <div>
-            <h3><a href={withBase(entry.data.legacyPath)}>{entry.data.title.zh || entry.data.title.en}</a></h3>
+            <h3>
+              <a href={withBase(entry.data.legacyPath)}>{entry.data.title.zh || entry.data.title.en}</a>
+              {entry.data.title.en && entry.data.title.en !== (entry.data.title.zh || entry.data.title.en) && (
+                <span class="record-title-en" lang="en">{entry.data.title.en}</span>
+              )}
+            </h3>
             <p>{entry.data.event}</p>
             <ul class="inline-meta">
-              <li>{entry.data.type}</li>
+              <li>{labelForType(entry.data.type)}</li>
               <li>{entry.data.evidence.length} proof</li>
               {entry.data.microsoftProducts.length > 0 && <li>{entry.data.microsoftProducts.join(' / ')}</li>}
             </ul>
