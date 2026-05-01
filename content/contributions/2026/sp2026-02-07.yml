@@ -1,0 +1,41 @@
+id: "sp2026-02-07"
+legacyPath: "/speech/sp2026-02-07.html"
+type: "speaking"
+date: 2026-02-07
+title:
+  zh: "微軟 Agent 服務與 LangGraph 使用"
+  en: "Build multi-agents with Microsoft Foundry and LangGraph"
+event: "AgentCamp - Taoyuan"
+location: "桃園高鐵站附近"
+role: speaker
+format: "in-person"
+topics:
+  - "AI Agent"
+  - "Multi-Agent"
+  - "LangGraph"
+  - "MCP"
+microsoftProducts:
+  - "Microsoft Foundry"
+  - "Azure AI Foundry"
+  - "Microsoft Azure"
+links:
+  event: "https://www.accupass.com/event/2512200233551606245038"
+  profile: "https://globalai.community/agentcamp/taoyuan/"
+  source: "https://docs.globalai.community/agentcamp/"
+evidence:
+  - type: "link"
+    href: "https://www.accupass.com/event/2512200233551606245038"
+    label: "ACCUPASS 活動頁"
+  - type: "link"
+    href: "https://globalai.community/agentcamp/taoyuan/"
+    label: "Global AI Community Taoyuan 活動頁"
+  - type: "link"
+    href: "https://docs.globalai.community/agentcamp/"
+    label: "AgentCamp 2026 官方說明"
+summary:
+  zh: "這是我在 AgentCamp - Taoyuan 的演講。AgentCamp 是 Global AI Community 2026 年全球串連活動，本場由 Global AI Taoyuan 主辦；我的議程為「微軟 Agent 服務與 LangGraph 使用 / Build multi-agents with Microsoft Foundry and LangGraph」。"
+  en: "This talk was delivered at AgentCamp - Taoyuan, part of Global AI Community's AgentCamp 2026 initiative. My session was Build multi-agents with Microsoft Foundry and LangGraph."
+proofStatus:
+  eventPage: found
+  evidence: public-link
+language: mixed
