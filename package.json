@@ -11,7 +11,8 @@
     "build": "astro build && node scripts/copy-static-assets.mjs",
     "preview": "astro preview",
     "check": "astro check",
-    "content:import:speech-list": "node scripts/import-speech-list.mjs"
+    "content:import:speech-list": "node scripts/import-speech-list.mjs",
+    "content:import:community": "node scripts/import-community-periods.mjs"
   },
   "dependencies": {
     "astro": "6.2.1"

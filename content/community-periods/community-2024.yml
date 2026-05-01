@@ -1,11 +1,11 @@
-id: "community-2025"
-legacyPath: "/community/community-2025.html"
-year: 2025
+id: "community-2024"
+legacyPath: "/community/community-2024.html"
+year: 2024
 period:
-  start: 2024-04-01
-  end: 2025-03-31
+  start: 2023-04-01
+  end: 2024-03-31
 title:
-  zh: "202404-202503 社群活動規畫整理"
+  zh: "202304-202403 社群活動規畫整理"
   en: ""
 sections:
   - communityId: "aitech-admin"
@@ -23,14 +23,6 @@ sections:
       - type: "screenshot"
         src: "https://magicpandaengineer.blob.core.windows.net/img/commu-photos/commu-chatbot-admin.png"
         alt: "chatbot taiwan"
-    relatedContributionIds: []
-  - communityId: "langchain-developers-taiwan"
-    role: "admin"
-    summary: "LangChain Developers Taiwan 管理員"
-    evidence:
-      - type: "screenshot"
-        src: "https://magicpandaengineer.blob.core.windows.net/img/commu-photos/commu-langchain-admin.png"
-        alt: "langchain taiwan"
     relatedContributionIds: []
 sitemap: true
 noindex: false

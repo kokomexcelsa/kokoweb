@@ -1,0 +1,69 @@
+id: "community-2022"
+legacyPath: "/community/community-2022.html"
+year: 2023
+period:
+  start: 2022-03-01
+  end: 2023-03-31
+title:
+  zh: "202203-202303 社群活動規畫整理"
+  en: ""
+sections:
+  - communityId: "aitech-admin"
+    role: "admin"
+    summary: "AI Tech 社群的管理人員之一"
+    evidence:
+      - type: "screenshot"
+        src: "/community-photo/aitech-admin.jpg"
+        alt: "aitech-admin"
+    relatedContributionIds: []
+  - communityId: "chatbot"
+    role: "admin"
+    summary: "Chatbot 社群核心幹部"
+    evidence:
+      - type: "screenshot"
+        src: "https://magicpandaengineer.blob.core.windows.net/img/commu-photos/commu-chatbot-admin.png"
+        alt: "chatbot taiwan"
+    relatedContributionIds: []
+  - communityId: "2022-coscup"
+    role: "staff"
+    summary: "2022 COSCUP開源人年會協辦社群"
+    evidence:
+      - type: "screenshot"
+        src: "https://magicpandaengineer.blob.core.windows.net/img/commu-photos/commu-20220731-coadmin.jpg"
+        alt: "2022 COSCUP開源人年會協辦社群"
+    relatedContributionIds: []
+  - communityId: "2022-global-ai-developers-day-organizer"
+    role: "organizer"
+    summary: "2022 Global AI Developers Day Organizer"
+    evidence:
+      - type: "link"
+        href: "https://globalai.community/developer-days/asia-global-ai-in-taiwan-5628/"
+        label: "2022 Global AI Developers Day Organizer"
+      - type: "screenshot"
+        src: "https://magicpandaengineer.blob.core.windows.net/img/sp-photos/sp20221030-url-1.png"
+        alt: "2022 Global AI Developers Day Organizer"
+    relatedContributionIds: []
+  - communityId: "2023-global-ai-bootcamp-organizer"
+    role: "organizer"
+    summary: "2023 Global AI Bootcamp Organizer"
+    evidence:
+      - type: "link"
+        href: "https://globalai.community/bootcamp-2023/asia-global-ai-in-taiwan-5905/"
+        label: "2023 Global AI Bootcamp Organizer"
+      - type: "screenshot"
+        src: "https://magicpandaengineer.blob.core.windows.net/img/sp-photos/sp20230303-url-1.png"
+        alt: "2023 Global AI Bootcamp Organizer"
+    relatedContributionIds: []
+  - communityId: "global-ai-in-taiwan-core-member"
+    role: "admin"
+    summary: "Global AI in Taiwan Core member"
+    evidence:
+      - type: "link"
+        href: "https://www.accupass.com/organizer/detail/2209280754204048860590"
+        label: "Global AI in Taiwan Core member"
+      - type: "screenshot"
+        src: "https://magicpandaengineer.blob.core.windows.net/img/commu-photos/commu-globalai-admin.png"
+        alt: "2023 Global AI Bootcamp Organizer"
+    relatedContributionIds: []
+sitemap: true
+noindex: false

@@ -1,0 +1,28 @@
+id: "community"
+legacyPath: "/community/community.html"
+year: 2019
+period:
+  start: 2019-01-01
+  end: 2019-12-31
+title:
+  zh: "社群活動規畫整理"
+  en: ""
+sections:
+  - communityId: "aitech-admin"
+    role: "admin"
+    summary: "AI Tech 社群的管理人員之一"
+    evidence:
+      - type: "screenshot"
+        src: "/community-photo/aitech-admin.jpg"
+        alt: "aitech-admin"
+    relatedContributionIds: []
+  - communityId: "20190804"
+    role: "staff"
+    summary: "20190804 Sqeeze net 演講工作人員"
+    evidence:
+      - type: "screenshot"
+        src: "/community-photo/aitech-20190804.png"
+        alt: "Sqeeze net"
+    relatedContributionIds: []
+sitemap: true
+noindex: false
