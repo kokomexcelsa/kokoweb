@@ -546,6 +546,22 @@ h3 {
   font-size: 1rem;
 }
 
+.about-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(280px, 420px);
+  gap: 40px;
+  align-items: start;
+  border-bottom: 1px solid var(--color-line);
+}
+
+.brand-story {
+  margin-top: 32px;
+}
+
+.brand-story h2 {
+  margin-bottom: 12px;
+}
+
 @media (max-width: 760px) {
   .site-header {
     align-items: flex-start;
@@ -566,7 +582,8 @@ h3 {
   .community-card,
   .community-evidence,
   .overview-grid,
-  .card-grid {
+  .card-grid,
+  .about-layout {
     grid-template-columns: 1fr;
   }
 

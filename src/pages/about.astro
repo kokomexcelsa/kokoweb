@@ -1,0 +1,117 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const [profileEntry] = await getCollection('profile');
+const [booksEntry] = await getCollection('books');
+const [writingEntry] = await getCollection('writing');
+const [authorityEntry] = await getCollection('authority');
+const profile = profileEntry.data;
+const specialties = profile.specialties as string[];
+type BookRecord = {
+  title: string;
+  publisher: string;
+  url: string;
+  topics: string[];
+};
+type WritingRecord = {
+  title: string;
+  type: string;
+  url: string;
+  year?: number;
+  publisher: string;
+  summary: string;
+};
+type AuthorityRecord = {
+  label: string;
+  url: string;
+  summary: string;
+};
+const books = booksEntry.data.books as BookRecord[];
+const writing = writingEntry.data.items as WritingRecord[];
+const authority = authorityEntry.data.records as AuthorityRecord[];
+---
+
+<BaseLayout
+  title="關於 Ko Ko | 大魔術熊貓工程師"
+  description={profile.shortBio.zh}
+>
+  <section class="list-hero">
+    <p class="eyebrow">About</p>
+    <h1>{profile.name.zh}</h1>
+    <p class="lede">{profile.headline.zh}</p>
+  </section>
+
+  <section class="page-section about-layout" aria-label="關於 Ko Ko">
+    <div>
+      <p>{profile.shortBio.zh}</p>
+      {profile.legacyBrand && (
+        <div class="brand-story">
+          <h2>{profile.legacyBrand.name}</h2>
+          <p>{profile.legacyBrand.story}</p>
+        </div>
+      )}
+    </div>
+    <aside class="metric-card">
+      <h2>專長</h2>
+      <ul class="tag-list">
+        {specialties.map((specialty: string) => <li>{specialty}</li>)}
+      </ul>
+    </aside>
+  </section>
+
+  <section class="page-section" id="books" aria-labelledby="books-title">
+    <div class="section-heading">
+      <p class="eyebrow">Books</p>
+      <h2 id="books-title">技術出版</h2>
+    </div>
+    <div class="card-grid">
+      {books.map((book: BookRecord) => (
+        <article class="metric-card">
+          <h3><a href={book.url} target="_blank" rel="noreferrer">{book.title}</a></h3>
+          <p>{book.publisher}</p>
+          <ul class="tag-list">
+            {book.topics.map((topic: string) => <li>{topic}</li>)}
+          </ul>
+        </article>
+      ))}
+    </div>
+  </section>
+
+  <section class="page-section" id="writing" aria-labelledby="writing-title">
+    <div class="section-heading">
+      <p class="eyebrow">Writing</p>
+      <h2 id="writing-title">寫作、課程與投影片</h2>
+    </div>
+    <div class="record-list">
+      {writing.map((item: WritingRecord) => (
+        <article class="record-row">
+          <span>{item.year ?? item.type}</span>
+          <div>
+            <h3><a href={item.url} target="_blank" rel="noreferrer">{item.title}</a></h3>
+            <p>{item.summary}</p>
+            <ul class="inline-meta">
+              <li>{item.publisher}</li>
+              <li>{item.type}</li>
+            </ul>
+          </div>
+        </article>
+      ))}
+    </div>
+  </section>
+
+  <section class="page-section" aria-labelledby="authority-title">
+    <div class="section-heading">
+      <p class="eyebrow">Sources</p>
+      <h2 id="authority-title">公開佐證來源</h2>
+    </div>
+    <div class="card-grid">
+      {authority.map((record: AuthorityRecord) => (
+        <article class="metric-card">
+          <h3><a href={record.url} target="_blank" rel="noreferrer">{record.label}</a></h3>
+          <p>{record.summary}</p>
+        </article>
+      ))}
+    </div>
+  </section>
+</BaseLayout>
