@@ -4,20 +4,34 @@ type: "speaking"
 date: 2021-12-18
 title:
   zh: "Introduction to MLOps in Azure Machine Learning with Live Demo"
-  en: ""
+  en: "Introduction to MLOps in Azure Machine Learning with Live Demo"
 event: ".NET Conf Taiwan 2021"
 location: "臺北文創大樓"
 role: speaker
 format: "in-person"
-topics: []
-microsoftProducts: []
-links: {}
-evidence: []
+topics:
+  - "MLOps"
+  - "Machine Learning"
+microsoftProducts:
+  - "Azure Machine Learning"
+  - "Microsoft Azure"
+links:
+  event: "https://dotnetconf.study4.tw/Session"
+evidence:
+  - type: "link"
+    href: "https://dotnetconf.study4.tw/Session"
+    label: "活動紀錄連結點此 / Click here to event link"
+  - type: "screenshot"
+    src: "https://magicpandaengineer.blob.core.windows.net/img/sp-photos/sp20211218-url-1.png"
+    alt: "Introduction to MLOps in Azure Machine Learning with Live Demo"
+  - type: "screenshot"
+    src: "https://magicpandaengineer.blob.core.windows.net/img/sp-photos/sp20211218-url-2.png"
+    alt: "Introduction to MLOps in Azure Machine Learning with Live Demo"
 summary:
-  zh: ""
-  en: ""
+  zh: "這場演講是在.NET Conf 2021 分享的內容。 我分享了 MLOps 的基本知識，以及使用 Azure Machine Learning 做了一個 Demo 。"
+  en: "This topic was shared in .NET Conf Taiwan 2021, which is the largest .NET conference in Taiwan. In this speech, I shared basic knowledge of MLOps, and I demonstrated a simple project to run MLOps with Azure Machine Learning."
 proofStatus:
   importedFromList: ready
   detailPage: found
-  evidence: pending
+  evidence: imported
 language: mixed

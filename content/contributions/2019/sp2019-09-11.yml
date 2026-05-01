@@ -9,15 +9,37 @@ event: "Chatbot Developers Taiwan 台中小小聚"
 location: "微程式夢森林"
 role: speaker
 format: "in-person"
-topics: []
-microsoftProducts: []
-links: {}
-evidence: []
+topics:
+  - "Chatbot"
+microsoftProducts:
+  []
+links:
+  event: "https://chatbots.kktix.cc/events/chatbots-taichung-002"
+  event2: "https://chibupapa.com/2019/09/17/attending-chatbots-meetup-taichung-002-on-20190911/"
+evidence:
+  - type: "link"
+    href: "https://chatbots.kktix.cc/events/chatbots-taichung-002"
+    label: "活動連結1點此"
+  - type: "link"
+    href: "https://chibupapa.com/2019/09/17/attending-chatbots-meetup-taichung-002-on-20190911/"
+    label: "活動連結2點此"
+  - type: "photo"
+    src: "/sp-photos/koko-photos/sp20190911-1.jpg"
+    alt: "數據科學的房地產價格預測"
+  - type: "photo"
+    src: "/sp-photos/koko-photos/sp20190911-2.jpg"
+    alt: "數據科學的房地產價格預測"
+  - type: "screenshot"
+    src: "/sp-photos/url-photos/sp20190911-url1.png"
+    alt: "數據科學的房地產價格預測"
+  - type: "screenshot"
+    src: "/sp-photos/url-photos/sp20190911-url2.png"
+    alt: "數據科學的房地產價格預測"
 summary:
   zh: ""
   en: ""
 proofStatus:
   importedFromList: ready
   detailPage: found
-  evidence: pending
+  evidence: imported
 language: mixed

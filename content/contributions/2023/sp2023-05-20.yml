@@ -3,21 +3,35 @@ legacyPath: "/speech/sp2023-05-20.html"
 type: "speaking"
 date: 2023-05-20
 title:
-  zh: "Building your own JARVIS: the setting up of HuggingGPT"
-  en: ""
+  zh: "打造鋼鐵人裡的賈維斯 HuggingGPT 架設攻略"
+  en: "Building your own JARVIS: the setting up of HuggingGPT"
 event: "Chatbot Developers Taiwan"
 location: "高賓閣"
 role: speaker
 format: "in-person"
-topics: []
-microsoftProducts: []
-links: {}
-evidence: []
+topics:
+  - "OpenAI"
+  - "Chatbot"
+microsoftProducts:
+  - "Azure OpenAI"
+  - "Microsoft Azure"
+links:
+  event: "https://chatbots.kktix.cc/events/chatbots-meetup-in-central-taiwan-024"
+evidence:
+  - type: "link"
+    href: "https://chatbots.kktix.cc/events/chatbots-meetup-in-central-taiwan-024"
+    label: "活動紀錄連結點此 / Click here to event link"
+  - type: "screenshot"
+    src: "https://magicpandaengineer.blob.core.windows.net/img/sp-photos/sp20230520-url-1.png"
+    alt: "Building your own JARVIS: the setting up of HuggingGPT"
+  - type: "screenshot"
+    src: "https://magicpandaengineer.blob.core.windows.net/img/sp-photos/sp20230520-url-2.png"
+    alt: "Building your own JARVIS: the setting up of HuggingGPT"
 summary:
-  zh: ""
-  en: ""
+  zh: "這場是我在 Chatbot Developers Taiwan 所分享的內容。 在這場分享中，我解釋了如何使用 Azure OpenAI 與 HuggingFace，利用 HuggingGPT 來建立自己的聊天機器人。"
+  en: "This session was shared in Chatbot Developers Taiwan. In this session, I explained how to use Azure OpenAI and HuggingFace to build your own chatbot with HuggingGPT."
 proofStatus:
   importedFromList: ready
   detailPage: found
-  evidence: pending
+  evidence: imported
 language: mixed

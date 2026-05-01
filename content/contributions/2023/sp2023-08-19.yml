@@ -3,21 +3,34 @@ legacyPath: "/speech/sp2023-08-19.html"
 type: "speaking"
 date: 2023-08-19
 title:
-  zh: "Stories About How I Learn New Skills with ChatGPT"
-  en: ""
+  zh: "關於我用 ChatGPT 學習新技能的那些事"
+  en: "Stories About How I Learn New Skills with ChatGPT"
 event: "Taichung.py 社群"
 location: "瑞嘉"
 role: speaker
 format: "in-person"
-topics: []
-microsoftProducts: []
-links: {}
-evidence: []
+topics:
+  - "ChatGPT"
+  - "Python"
+microsoftProducts:
+  []
+links:
+  event: "https://taichung-py.kktix.cc/events/meetup-202308-learning-django-by-chatgpt"
+evidence:
+  - type: "link"
+    href: "https://taichung-py.kktix.cc/events/meetup-202308-learning-django-by-chatgpt"
+    label: "活動紀錄連結點此 / Click here to event link"
+  - type: "screenshot"
+    src: "https://magicpandaengineer.blob.core.windows.net/img/sp-photos/sp20230819-url-1.png"
+    alt: "Stories About How I Learn New Skills with ChatGPT"
+  - type: "screenshot"
+    src: "https://magicpandaengineer.blob.core.windows.net/img/sp-photos/sp20230819-url-2.png"
+    alt: "Stories About How I Learn New Skills with ChatGPT"
 summary:
-  zh: ""
-  en: ""
+  zh: "這場是我在 Python 台中社群所分享的內容。在這場分享中，我介紹了如何使用 ChatGPT 來學習新技能，並且分享了我在學習過程中的心得。 並且分享了很多 prompt 的技巧，讓大家可以更有效率的學習新技能。"
+  en: "This session was shared in Taichung.py community. In this sharing, I introduce how to use ChatGPT to learn new skills, and share my experience in the learning process. Besides, I shared many prompt tricks to help everyone learn new skills more efficiently."
 proofStatus:
   importedFromList: ready
   detailPage: found
-  evidence: pending
+  evidence: imported
 language: mixed

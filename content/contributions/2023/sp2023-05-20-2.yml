@@ -3,21 +3,38 @@ legacyPath: "/speech/sp2023-05-20-2.html"
 type: "speaking"
 date: 2023-05-20
 title:
-  zh: "Accelerate AI Development with Neural Network Intelligence"
-  en: ""
+  zh: "使用 NNI 加速 AI 的開發"
+  en: "Accelerate AI Development with Neural Network Intelligence"
 event: "Open Source Conference Nagoya"
 location: "Live Stream"
 role: speaker
 format: "online"
-topics: []
-microsoftProducts: []
-links: {}
-evidence: []
+topics:
+  - "AutoML"
+  - "NNI"
+  - "Machine Learning"
+  - "Hyperparameter Tuning"
+microsoftProducts:
+  - "Azure Machine Learning"
+  - "Microsoft NNI"
+  - "Microsoft Azure"
+links:
+  event: "https://event.ospn.jp/osc2023-online-nagoya/session/908762"
+evidence:
+  - type: "link"
+    href: "https://event.ospn.jp/osc2023-online-nagoya/session/908762"
+    label: "活動紀錄連結點此 / Click here to event link"
+  - type: "screenshot"
+    src: "https://magicpandaengineer.blob.core.windows.net/img/sp-photos/sp20230520-2-url-1.png"
+    alt: "Accelerate AI Development with Neural Network Intelligence"
+  - type: "screenshot"
+    src: "https://magicpandaengineer.blob.core.windows.net/img/sp-photos/sp20230520-2-url-2.png"
+    alt: "Accelerate AI Development with Neural Network Intelligence"
 summary:
-  zh: ""
-  en: ""
+  zh: "這場是我在名古屋開源年會所分享的內容。 在這場分享中，我介紹了 Neural Network Intelligence（NNI），一套由微軟開發的開源工具。 內容包含了如何使用 NNI 來做 AutoML、Hyperparameter tuning、Feature engineering、Neural Architecture Search，以及如何整合使用 Azure Machine Learning。"
+  en: "This session was shared in Open Source Conference Nagoya. In this session, I introduced Neural Network Intelligence (NNI), an open-source tool developed by Microsoft. The content includes how to use NNI to do AutoML, Hyperparameter tuning, Feature engineering, Neural Architecture Search, and how to integrate with Azure Machine Learning."
 proofStatus:
   importedFromList: ready
   detailPage: found
-  evidence: pending
+  evidence: imported
 language: mixed

@@ -4,20 +4,36 @@ type: "speaking"
 date: 2020-08-02
 title:
   zh: "LINE BOT 整合 AI ，隨時隨地聽學外文"
-  en: ""
+  en: "Integration LINE bot with AI"
 event: "開源人年會COSCUP"
 location: "國立臺灣科技大學"
 role: speaker
 format: "in-person"
-topics: []
-microsoftProducts: []
-links: {}
-evidence: []
+topics:
+  - "LINE Bot"
+microsoftProducts:
+  - "Azure Cognitive Services"
+  - "Microsoft Azure"
+links:
+  event: "https://coscup.org/2020/zh-TW/agenda/LJD3YX"
+evidence:
+  - type: "link"
+    href: "https://coscup.org/2020/zh-TW/agenda/LJD3YX"
+    label: "活動紀錄連結點此"
+  - type: "photo"
+    src: "/sp-photos/koko-photos/sp20200802-1.jpg"
+    alt: "LINE BOT 整合 AI ，隨時隨地聽學外文"
+  - type: "photo"
+    src: "/sp-photos/koko-photos/sp20200802-2.jpg"
+    alt: "LINE BOT 整合 AI ，隨時隨地聽學外文"
+  - type: "screenshot"
+    src: "/sp-photos/url-photos/sp20200802-url1.png"
+    alt: "LINE BOT 整合 AI ，隨時隨地聽學外文"
 summary:
-  zh: ""
-  en: ""
+  zh: "這場演講是在全台最大的開源人年會COSCUP中分享的主題。這場演講介紹了Azure 上 AI 服務和 LINE bot 的整合，尤其是Azure Cognitive Services 的部份。"
+  en: "The speech was shared in COSCUP 2020, which is the largest international open source conference in Taiwan. This speech introduced how to integrate AI services on Azure with LINE bot, especially in Azure Cognitive Services."
 proofStatus:
   importedFromList: ready
   detailPage: found
-  evidence: pending
+  evidence: imported
 language: mixed

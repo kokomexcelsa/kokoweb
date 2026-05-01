@@ -4,20 +4,30 @@ type: "speaking"
 date: 2022-09-03
 title:
   zh: "Investment stratagies of real estate with data science and its performance"
-  en: ""
+  en: "Investment stratagies of real estate with data science and its performance"
 event: "PyCon Asia Pacific"
 location: "Live stream"
 role: speaker
 format: "online"
-topics: []
-microsoftProducts: []
-links: {}
-evidence: []
+topics:
+  - "Machine Learning"
+  - "Python"
+microsoftProducts:
+  []
+links:
+  recording: "https://youtu.be/LJUh6_7xvbM?list=PLqtzN042QpfdkQbkOlwtEJMBGZHHsvimo&t=770"
+evidence:
+  - type: "recording"
+    href: "https://youtu.be/LJUh6_7xvbM?list=PLqtzN042QpfdkQbkOlwtEJMBGZHHsvimo&t=770"
+    label: "活動紀錄連結點此 / Click here to event link"
+  - type: "screenshot"
+    src: "https://magicpandaengineer.blob.core.windows.net/img/sp-photos/sp20220903-2-url-1.png"
+    alt: "Run Bokeh in back-end"
 summary:
-  zh: ""
-  en: ""
+  zh: "這場演講是我在亞太地區最大的 Python 年會，PyCon APAC 所分享的內容。以全英文做分享。 我分享如何使用 machine learning and data science 來投資房地產，並且回顧其績效。"
+  en: "This speech was shared in PyCon Asia Pacific, which is the largest Python Conference among Asia Pacific. This is an English session. I shared how I use machine learning and data science to invest real estate, and review its performance."
 proofStatus:
   importedFromList: ready
   detailPage: found
-  evidence: pending
+  evidence: imported
 language: mixed

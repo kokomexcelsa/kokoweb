@@ -4,20 +4,35 @@ type: "speaking"
 date: 2020-10-24
 title:
   zh: "Bot Framework Composer--用圖形化介面來建立聊天機器人"
-  en: ""
+  en: "Introduce Bot Framework Composer--- A GUI tool for building bot"
 event: "行動科技年會MOPCON"
 location: "高雄國際會議中心"
 role: speaker
 format: "in-person"
-topics: []
-microsoftProducts: []
-links: {}
-evidence: []
+topics:
+  - "Chatbot"
+microsoftProducts:
+  - "Microsoft Bot Framework"
+links:
+  event: "https://mopcon.org/2020/schedule_unconf/"
+evidence:
+  - type: "link"
+    href: "https://mopcon.org/2020/schedule_unconf/"
+    label: "活動紀錄連結點此"
+  - type: "photo"
+    src: "https://kokomexcelsa.s3-ap-northeast-1.amazonaws.com/sp-photos/sp20201024-koko-1.jpg"
+    alt: "Bot Framework Composer--用圖形化介面來建立聊天機器人"
+  - type: "photo"
+    src: "https://kokomexcelsa.s3-ap-northeast-1.amazonaws.com/sp-photos/sp20201024-koko-2.jpg"
+    alt: "Bot Framework Composer--用圖形化介面來建立聊天機器人"
+  - type: "screenshot"
+    src: "https://kokomexcelsa.s3-ap-northeast-1.amazonaws.com/sp-photos/sp20201024-url-1.jpg"
+    alt: "PWA 開發血淚史"
 summary:
-  zh: ""
-  en: ""
+  zh: "這場演講是在南台灣最大的技術年會--- MOPCON 中分享的，主要在介紹Bot Framework Composer這款圖形化介面的工具。"
+  en: "This topic was shared in MOPCON, which is the largest technical conference in south Taiwan. I Introduced Bot Framework Composer, a brand-new GUI tool for building chatbot."
 proofStatus:
   importedFromList: ready
   detailPage: found
-  evidence: pending
+  evidence: imported
 language: mixed

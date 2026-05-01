@@ -4,20 +4,30 @@ type: "speaking"
 date: 2021-09-25
 title:
   zh: "Azure Machine Learning 從頭學"
-  en: ""
+  en: "Let's Learn Azure Machine Learning from scratch"
 event: "STUDY4.TW"
 location: "Live stream"
 role: speaker
 format: "online"
-topics: []
-microsoftProducts: []
-links: {}
-evidence: []
+topics:
+  - "Machine Learning"
+microsoftProducts:
+  - "Azure Machine Learning"
+  - "Microsoft Azure"
+links:
+  event: "https://www.accupass.com/event/2109080914115104917890"
+evidence:
+  - type: "link"
+    href: "https://www.accupass.com/event/2109080914115104917890"
+    label: "活動紀錄連結點此 / Click here to event link"
+  - type: "screenshot"
+    src: "https://magicpandaengineer.blob.core.windows.net/img/sp-photos/sp20210925-url-1.png"
+    alt: "Let's Learn Azure Machine Learning from scratch"
 summary:
-  zh: ""
-  en: ""
+  zh: "這場演講是在所分享的 STUDY4.TW。我從最基本的 Azure Machine Learning 的觀念講起，並透過 Live Demo 的方式，建立了小型的專案，來讓大家體會 Azure ML 的威力。"
+  en: "This topic was shared in STUDY4.TW . I introduce the basic concept of Azure Machine Learning. I built a small project to demostratep how powerful is Azure ML."
 proofStatus:
   importedFromList: ready
   detailPage: found
-  evidence: pending
+  evidence: imported
 language: mixed

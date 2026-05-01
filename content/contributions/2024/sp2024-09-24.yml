@@ -4,20 +4,36 @@ type: "speaking"
 date: 2024-09-24
 title:
   zh: "生成式 AI 開發與應用場景的深度思考"
-  en: ""
+  en: "In-depth Reflection on Generative AI Development and Application Scenarios"
 event: "企業級生成式 AI 應用構建實戰"
 location: "Microsoft Reactor"
 role: speaker
 format: "in-person"
-topics: []
-microsoftProducts: []
-links: {}
-evidence: []
+topics:
+  - "Generative AI"
+microsoftProducts:
+  []
+links:
+  event: "https://www.huodongxing.com/event/4768231393323?td=2533600690481"
+  recording: "https://www.youtube.com/watch?v=ZFvxTifI6Pw"
+evidence:
+  - type: "link"
+    href: "https://www.huodongxing.com/event/4768231393323?td=2533600690481"
+    label: "活動紀錄連結點此 / Click here to link"
+  - type: "recording"
+    href: "https://www.youtube.com/watch?v=ZFvxTifI6Pw"
+    label: "YouTube活動紀錄連結點此 / Click here to YouTubelink"
+  - type: "screenshot"
+    src: "https://magicpandaengineer.blob.core.windows.net/img/sp-photos/sp20240924-url-1.png"
+    alt: "Learn LangChain"
+  - type: "screenshot"
+    src: "https://magicpandaengineer.blob.core.windows.net/img/sp-photos/sp20240924-url-2.png"
+    alt: "Learn LangChain"
 summary:
-  zh: ""
-  en: ""
+  zh: "這場圓桌會議在 Microsoft Reactor 舉行。 會議探討了在金融、醫療和製造等各行業實施生成式 AI 的實際挑戰和戰略考量。我們強調了將 AI 開發與商業目標對齊、確保數據安全和解決道德問題的重要性。"
+  en: "This roundtable was held at the Microsoft Reactor. The session explored the practical challenges and strategic considerations of implementing generative AI across various industries, including finance, healthcare, and manufacturing. We emphasized the importance of aligning AI development with business objectives, ensuring data security, and addressing ethical concerns."
 proofStatus:
   importedFromList: ready
   detailPage: found
-  evidence: pending
+  evidence: imported
 language: mixed

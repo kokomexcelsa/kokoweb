@@ -3,21 +3,36 @@ legacyPath: "/speech/sp2025-03-15.html"
 type: "speaking"
 date: 2025-03-15
 title:
-  zh: "The Basic of AI Agent: Tool Call"
-  en: ""
+  zh: "AI Agent 的基礎：Tool Call"
+  en: "The Basic of AI Agent: Tool Call"
 event: "Global AI Bootcamp - Taipei 2025"
 location: "台北大學民生校區"
 role: speaker
 format: "in-person"
-topics: []
-microsoftProducts: []
-links: {}
-evidence: []
+topics:
+  - "AI Agent"
+  - "Tool Calling"
+  - "OpenAI"
+microsoftProducts:
+  - "Azure OpenAI"
+  - "Microsoft Azure"
+links:
+  event: "https://www.accupass.com/event/2502151309037693459180"
+evidence:
+  - type: "link"
+    href: "https://www.accupass.com/event/2502151309037693459180"
+    label: "活動紀錄連結點此 / Click here to event link"
+  - type: "screenshot"
+    src: "https://magicpandaengineer.blob.core.windows.net/img/sp-photos/sp20250315-url-1.png"
+    alt: "Learn AI Agent"
+  - type: "screenshot"
+    src: "https://magicpandaengineer.blob.core.windows.net/img/sp-photos/sp20250315-url-2.png"
+    alt: "Learn AI Agent"
 summary:
-  zh: ""
-  en: ""
+  zh: "這是我在 Global AI Bootcamp Taipei 2025 的演講。 在這次演講中，我解釋了 AI Agent 的基礎知識，以及如何在 AI Agent 中使用 Tool Call。 此外，我還 demo 了如何在 OpenAI Agent SDK 中使用 Azure OpenAI。"
+  en: "This speech was shared in Global AI Bootcamp Taipei 2025. In this speech, I explain the basic of AI Agent, and how to use tool call in AI Agent. Besides, I also demo how to use Azure OpenAI in OpenAI Agent SDK."
 proofStatus:
   importedFromList: ready
   detailPage: found
-  evidence: pending
+  evidence: imported
 language: mixed

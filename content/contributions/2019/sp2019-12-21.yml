@@ -9,15 +9,24 @@ event: "開源人年會COSCUP來台講"
 location: "國立臺中科技大學"
 role: speaker
 format: "in-person"
-topics: []
-microsoftProducts: []
-links: {}
-evidence: []
+topics:
+  []
+microsoftProducts:
+  []
+links:
+  event: "https://coscup.org/taigi2019/"
+evidence:
+  - type: "link"
+    href: "https://coscup.org/taigi2019/"
+    label: "活動連結點此"
+  - type: "photo"
+    src: "/sp-photos/koko-photos/sp20191221-1.jpg"
+    alt: "烏豬烏烏"
 summary:
   zh: ""
   en: ""
 proofStatus:
   importedFromList: ready
   detailPage: found
-  evidence: pending
+  evidence: imported
 language: mixed

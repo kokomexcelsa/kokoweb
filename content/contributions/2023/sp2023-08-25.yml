@@ -3,21 +3,34 @@ legacyPath: "/speech/sp2023-08-25.html"
 type: "speaking"
 date: 2023-08-25
 title:
-  zh: "Practical Development with Hugging Face"
-  en: ""
+  zh: "Hugging Face 開發實戰"
+  en: "Practical Development with Hugging Face"
 event: "AI Builder Day"
 location: "台北三創"
 role: speaker
 format: "in-person"
-topics: []
-microsoftProducts: []
-links: {}
-evidence: []
+topics:
+  - "Machine Learning"
+microsoftProducts:
+  - "Azure Machine Learning"
+  - "Microsoft Azure"
+links:
+  event: "https://www.accupass.com/event/2307060520237814235120"
+evidence:
+  - type: "link"
+    href: "https://www.accupass.com/event/2307060520237814235120"
+    label: "活動紀錄連結點此 / Click here to event link"
+  - type: "screenshot"
+    src: "https://magicpandaengineer.blob.core.windows.net/img/sp-photos/sp20230825-url-1.png"
+    alt: "Practical Development with Hugging Face"
+  - type: "screenshot"
+    src: "https://magicpandaengineer.blob.core.windows.net/img/sp-photos/sp20230825-url-2.png"
+    alt: "Practical Development with Hugging Face"
 summary:
-  zh: ""
-  en: ""
+  zh: "這場是我在 Alpha Camp 所舉辦的 AI Builder Day 活動分享的主題。 在這次分享中，我介紹了如何使用 Hugging Face 的模型來開發實戰應用，並分享了 Azure Machine Learning 與 Hugging Face 的整合。 此外，我也分享了許多實戰技巧，幫助大家更有效率地開發 LLM 應用並且解決問題。"
+  en: "This session was shared in AI Builder Day event held by Alpha Camp. In this session, I introduced how to develop practical applications with Hugging Face models and shared the integration of Azure Machine Learning with Hugging Face. In addition, I also shared many practical tips to help everyone develop LLM applications more efficiently and solve problems."
 proofStatus:
   importedFromList: ready
   detailPage: found
-  evidence: pending
+  evidence: imported
 language: mixed

@@ -4,20 +4,35 @@ type: "speaking"
 date: 2020-11-10
 title:
   zh: "Bot Framework 與它的快樂夥伴Composer"
-  en: ""
+  en: "Bot Framework and Its Good Friend Composer"
 event: "Chatbot Developers Taiwan 台北新手小聚"
 location: "天瓏書局"
 role: speaker
 format: "in-person"
-topics: []
-microsoftProducts: []
-links: {}
-evidence: []
+topics:
+  - "Chatbot"
+microsoftProducts:
+  - "Microsoft Bot Framework"
+links:
+  event: "https://chatbots.kktix.cc/events/meetup-025"
+evidence:
+  - type: "link"
+    href: "https://chatbots.kktix.cc/events/meetup-025"
+    label: "活動紀錄連結點此"
+  - type: "photo"
+    src: "https://kokomexcelsa.s3-ap-northeast-1.amazonaws.com/sp-photos/sp20201110-koko-1.jpg"
+    alt: "Bot Framework 與它的快樂夥伴Composer"
+  - type: "photo"
+    src: "https://kokomexcelsa.s3-ap-northeast-1.amazonaws.com/sp-photos/sp2020110-koko-2.jpg"
+    alt: "Bot Framework 與它的快樂夥伴Composer"
+  - type: "screenshot"
+    src: "https://kokomexcelsa.s3-ap-northeast-1.amazonaws.com/sp-photos/sp20201110-url-1.jpg"
+    alt: "Bot Framework 與它的快樂夥伴Composer"
 summary:
-  zh: ""
-  en: ""
+  zh: "這是在Chatbot Developers Taiwan分享的主題，一步步帶領大家操作Bot Framework Composer，有點 workshop 性質。"
+  en: "This topic was shared in Chatbot Developers Taiwan. It was a workshop like speech. I demo how to use Bot Framework Composer step by step."
 proofStatus:
   importedFromList: ready
   detailPage: found
-  evidence: pending
+  evidence: imported
 language: mixed

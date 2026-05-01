@@ -4,20 +4,32 @@ type: "speaking"
 date: 2020-12-19
 title:
   zh: "ML.NET 在遷移式學習的應用與挑戰"
-  en: ""
+  en: "Application and Challenge of ML.NET in Transfer Learning"
 event: ".NET Conference 2020"
 location: "台灣大學"
 role: speaker
 format: "in-person"
-topics: []
-microsoftProducts: []
-links: {}
-evidence: []
+topics:
+  []
+microsoftProducts:
+  []
+links:
+  event: "https://dotnetconf2020.study4.tw/Speaker"
+evidence:
+  - type: "link"
+    href: "https://dotnetconf2020.study4.tw/Speaker"
+    label: "活動紀錄連結點此"
+  - type: "photo"
+    src: "https://kokomexcelsa.s3-ap-northeast-1.amazonaws.com/sp-photos/sp20201219-koko-1.jpg"
+    alt: "ML.NET 在遷移式學習的應用與挑戰"
+  - type: "screenshot"
+    src: "https://kokomexcelsa.s3-ap-northeast-1.amazonaws.com/sp-photos/sp20201219-url-1.jpg"
+    alt: "ML.NET 在遷移式學習的應用與挑戰"
 summary:
-  zh: ""
-  en: ""
+  zh: "這個主題是在全台灣最大的.NET 年會，.NET CONF 中分享的。主要在討論ML.NET 在 transfer learning 的優缺和應用的場景。"
+  en: "This topic was shared in .NET CONF in Taiwan, which is the largest .NET user conference in Taiwan. This speech discussed pros and cons of ML.NET in transfer learning and how to apply it in business."
 proofStatus:
   importedFromList: ready
   detailPage: found
-  evidence: pending
+  evidence: imported
 language: mixed

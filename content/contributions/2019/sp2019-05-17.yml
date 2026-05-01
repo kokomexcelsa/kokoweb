@@ -9,15 +9,34 @@ event: "遠距工作者小聚"
 location: "Monospace"
 role: speaker
 format: "in-person"
-topics: []
-microsoftProducts: []
-links: {}
-evidence: []
+topics:
+  []
+microsoftProducts:
+  []
+links:
+  event: "https://www.accupass.com/event/1904080322311110602428"
+  event2: "https://medium.com/monospace-tw/%E9%81%A0%E8%B7%9D%E5%B7%A5%E4%BD%9C%E8%80%85%E6%B1%82%E8%81%B7%E5%B0%8F%E8%81%9A%E4%BA%A4%E6%B5%81%E5%9B%9E%E9%A5%8B-4fba0c385814"
+evidence:
+  - type: "link"
+    href: "https://www.accupass.com/event/1904080322311110602428"
+    label: "活動連結1點此"
+  - type: "link"
+    href: "https://medium.com/monospace-tw/%E9%81%A0%E8%B7%9D%E5%B7%A5%E4%BD%9C%E8%80%85%E6%B1%82%E8%81%B7%E5%B0%8F%E8%81%9A%E4%BA%A4%E6%B5%81%E5%9B%9E%E9%A5%8B-4fba0c385814"
+    label: "活動連結2點此"
+  - type: "photo"
+    src: "/sp-photos/koko-photos/sp20190517-1.jpg"
+    alt: "負面案例看遠距工作者該有什麼軟實力"
+  - type: "screenshot"
+    src: "/sp-photos/url-photos/sp20190517-url1.png"
+    alt: "負面案例看遠距工作者該有什麼軟實力"
+  - type: "screenshot"
+    src: "/sp-photos/url-photos/sp20190517-url2.png"
+    alt: "負面案例看遠距工作者該有什麼軟實力"
 summary:
   zh: ""
   en: ""
 proofStatus:
   importedFromList: ready
   detailPage: found
-  evidence: pending
+  evidence: imported
 language: mixed

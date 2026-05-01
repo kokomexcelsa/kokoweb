@@ -4,20 +4,29 @@ type: "speaking"
 date: 2021-11-30
 title:
   zh: "為什麼我這麼愛Chatbot"
-  en: ""
+  en: "Why I love Chatbot so much?"
 event: "Chatbot Developers Taiwan 台中小小聚"
 location: "Live stream"
 role: speaker
 format: "online"
-topics: []
-microsoftProducts: []
-links: {}
-evidence: []
+topics:
+  - "Chatbot"
+microsoftProducts:
+  []
+links:
+  article: "https://hackmd.io/ddVDWpj6TSi75f59Zkj9ag?view"
+evidence:
+  - type: "article"
+    href: "https://hackmd.io/ddVDWpj6TSi75f59Zkj9ag?view"
+    label: "活動紀錄連結點此 / Click here to event link"
+  - type: "screenshot"
+    src: "https://magicpandaengineer.blob.core.windows.net/img/sp-photos/sp20211130-url-1.png"
+    alt: "Why I love chatbot so much"
 summary:
-  zh: ""
-  en: ""
+  zh: "這場演講是在Chatbot Developers Taiwan 台中的小小聚所分享的內容。 我分享了我為什麼這麼熱愛聊天機器人，以及聊天機器人如何改變我的人生。"
+  en: "This topic was shared in Chatbot Developers Taiwan, which is the largest Chatbot community in Taiwan. I shared the reason why I love Chatbot so much. My life changed after I dedicated myself to building Chatbot."
 proofStatus:
   importedFromList: ready
   detailPage: found
-  evidence: pending
+  evidence: imported
 language: mixed

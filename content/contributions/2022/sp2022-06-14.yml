@@ -4,20 +4,29 @@ type: "speaking"
 date: 2022-06-14
 title:
   zh: "Teams Bot 應用開發"
-  en: ""
+  en: "Developing Teams Bot Application"
 event: "Chatbot Developers Taiwan"
 location: "Live stream"
 role: speaker
 format: "online"
-topics: []
-microsoftProducts: []
-links: {}
-evidence: []
+topics:
+  - "Chatbot"
+microsoftProducts:
+  []
+links:
+  event: "https://chatbots.kktix.cc/events/chatbots-meetup-in-central-taiwan-021"
+evidence:
+  - type: "link"
+    href: "https://chatbots.kktix.cc/events/chatbots-meetup-in-central-taiwan-021"
+    label: "活動紀錄連結點此 / Click here to event link"
+  - type: "screenshot"
+    src: "https://magicpandaengineer.blob.core.windows.net/img/sp-photos/sp20220614-url-1.png"
+    alt: "Developing Teams Bot Application"
 summary:
-  zh: ""
-  en: ""
+  zh: "這場演講是我在 Chatbot Developers Taiwan 所分享的內容 我介紹了如何開發 Teams Bots，並且介紹新一代版本的 App Studio：Developer Portal 的操作。在最後 Live Demo 部署了一個 Teams Bot 到 Teams 裡面。"
+  en: "This speech was shared in Chatbot Developers Taiwan, which is the largest Chatbot developers community in Taiwan. In this speech, I introduced how to develop Teams Bots, focusing on Developer Portal, which is a new version of App Studio. In the end, I deployed a Teams Bot with Live Demo."
 proofStatus:
   importedFromList: ready
   detailPage: found
-  evidence: pending
+  evidence: imported
 language: mixed

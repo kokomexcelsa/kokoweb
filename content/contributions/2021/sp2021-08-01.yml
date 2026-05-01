@@ -4,20 +4,32 @@ type: "speaking"
 date: 2021-08-01
 title:
   zh: "SignalR整合LINE，在LIFF裡建立一對一聊天管道"
-  en: ""
+  en: "Integrate SignalR with LINE chatbot in LIFF"
 event: "開源人年會COSCUP"
 location: "Live stream"
 role: speaker
 format: "online"
-topics: []
-microsoftProducts: []
-links: {}
-evidence: []
+topics:
+  []
+microsoftProducts:
+  []
+links:
+  event: "https://coscup.org/2021/en/session/YJZX73"
+evidence:
+  - type: "link"
+    href: "https://coscup.org/2021/en/session/YJZX73"
+    label: "活動紀錄連結點此 / Click here to event link"
+  - type: "screenshot"
+    src: "https://magicpandaengineer.blob.core.windows.net/img/sp-photos/sp20210801-url-1.png"
+    alt: "Integrate SignalR with LINE chatbot in LIFF"
+  - type: "screenshot"
+    src: "https://magicpandaengineer.blob.core.windows.net/img/sp-photos/sp20210801-url-2.png"
+    alt: "Integrate SignalR with LINE chatbot in LIFF"
 summary:
-  zh: ""
-  en: ""
+  zh: "這場演講是在開源人年會（COSCUP）分享的。LINE 開啟 webhook 之後，就無法一對一聊天了。本次演講會利用開源的websocket 套件，SignalR，在LIFF裡建立一對一聊天的管道，試圖解決客服問題。"
+  en: "This topic was shared in Conference for Open Source Coders, Users, and Promoters(COSCUP), which is the largest open source conference in Taiwan. As we known, it cannot have 1-1 chat once activating webhook in LINE channel. This speech will use open-source library, SignalR, building 1-1 chat in LIFF. It might solve customer service issues."
 proofStatus:
   importedFromList: ready
   detailPage: found
-  evidence: pending
+  evidence: imported
 language: mixed

@@ -4,20 +4,32 @@ type: "speaking"
 date: 2022-02-08
 title:
   zh: "用Chatbot來寄Email的自動化初體驗"
-  en: ""
+  en: "Chatbot Automatic From Sending Email"
 event: "Chatbot Developers Taiwan 台中小小聚"
 location: "Live stream"
 role: speaker
 format: "online"
-topics: []
-microsoftProducts: []
-links: {}
-evidence: []
+topics:
+  - "Chatbot"
+microsoftProducts:
+  []
+links:
+  event: "https://chatbots.kktix.cc/events/chatbots-meetup-in-central-taiwan-019"
+evidence:
+  - type: "link"
+    href: "https://chatbots.kktix.cc/events/chatbots-meetup-in-central-taiwan-019"
+    label: "活動紀錄連結點此 / Click here to event link"
+  - type: "screenshot"
+    src: "https://magicpandaengineer.blob.core.windows.net/img/sp-photos/sp20220208-url-1.png"
+    alt: "Chatbot Automatic From Sending Email"
+  - type: "screenshot"
+    src: "https://magicpandaengineer.blob.core.windows.net/img/sp-photos/sp20220208-url-2.png"
+    alt: "Chatbot Automatic From Sending Email"
 summary:
-  zh: ""
-  en: ""
+  zh: "這場演講是我在 Chatbot Developers Taiwan 所分享的內容 我示範了使用 Chatbot 來寄出 Email，讓大家來探索 Chatbot 更多自動化的可能性。"
+  en: "This speech was shared in Chatbot Developers Taiwan, which is the largest Chatbot developers community in Taiwan. In this speech, I demonstrated how to send Email from Chatbot. I hope users can find out more automation solution via Chatbot."
 proofStatus:
   importedFromList: ready
   detailPage: found
-  evidence: pending
+  evidence: imported
 language: mixed

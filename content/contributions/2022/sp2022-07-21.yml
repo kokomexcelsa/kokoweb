@@ -4,20 +4,29 @@ type: "speaking"
 date: 2022-07-21
 title:
   zh: "軟體工程師也是很辛苦的，不服來戰！"
-  en: ""
+  en: "Software engineering is also very difficult"
 event: "Tech Job N Coding"
 location: "Clubhouse"
 role: speaker
 format: "in-person"
-topics: []
-microsoftProducts: []
-links: {}
-evidence: []
+topics:
+  []
+microsoftProducts:
+  []
+links:
+  event: "https://www.clubhouse.com/room/xLAVy71d"
+evidence:
+  - type: "link"
+    href: "https://www.clubhouse.com/room/xLAVy71d"
+    label: "活動紀錄連結點此 / Click here to event link"
+  - type: "screenshot"
+    src: "https://magicpandaengineer.blob.core.windows.net/img/sp-photos/sp20220721-url-1.png"
+    alt: "Software engineering is also very difficult"
 summary:
-  zh: ""
-  en: ""
+  zh: "這場是我在 Tech Job N Coding 的分享，這是一個分享科技業工作經驗的社群。 我在這場演講中分享了我在軟體工程師的工作經驗，以及我在軟體工程師的工作中所付出的努力。"
+  en: "This session was shared in Tech Job N Coding, which is a community sharing working experence in tech industry. In this session, I shared my experience in software engineering, and how hard I work in software engineering."
 proofStatus:
   importedFromList: ready
   detailPage: found
-  evidence: pending
+  evidence: imported
 language: mixed

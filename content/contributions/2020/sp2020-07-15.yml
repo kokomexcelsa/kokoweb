@@ -4,20 +4,32 @@ type: "speaking"
 date: 2020-07-15
 title:
   zh: "簡介Azure在Chatbot開發上的應用"
-  en: ""
+  en: "Introduce Chatbot Developing on Azure"
 event: "Chatbot Developers Taiwan 台中小小聚"
 location: "微程式夢森林"
 role: speaker
 format: "in-person"
-topics: []
-microsoftProducts: []
-links: {}
-evidence: []
+topics:
+  - "Chatbot"
+microsoftProducts:
+  - "Microsoft Azure"
+links:
+  article: "https://hackmd.io/qrqoHkjDQz6wO2VqYWHxBg"
+evidence:
+  - type: "article"
+    href: "https://hackmd.io/qrqoHkjDQz6wO2VqYWHxBg"
+    label: "活動紀錄連結點此"
+  - type: "photo"
+    src: "/sp-photos/koko-photos/sp20200715-1.jpg"
+    alt: "簡介Azure在Chatbot開發上的應用"
+  - type: "screenshot"
+    src: "/sp-photos/url-photos/sp20200715-url1.png"
+    alt: "簡介Azure在Chatbot開發上的應用"
 summary:
-  zh: ""
-  en: ""
+  zh: "這場演講介紹了Azure 上開發 Chabot 的一些服務，包含了 LUIS, bot service 等服務。"
+  en: "This speech introduced services on Azure which are helpful for developing Chatbot, including LUIS, bot service and so on."
 proofStatus:
   importedFromList: ready
   detailPage: found
-  evidence: pending
+  evidence: imported
 language: mixed

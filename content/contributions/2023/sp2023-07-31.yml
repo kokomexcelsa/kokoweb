@@ -3,21 +3,31 @@ legacyPath: "/speech/sp2023-07-31.html"
 type: "speaking"
 date: 2023-07-31
 title:
-  zh: "Introduce to Open Source AI ecosystem: Huggging Face"
-  en: ""
+  zh: "入門 AI 開源的生態系平台 Hugging Face"
+  en: "Introduce to Open Source AI ecosystem: Huggging Face"
 event: "R-Ladies Taipei"
 location: "Live Stream"
 role: speaker
 format: "online"
-topics: []
-microsoftProducts: []
-links: {}
-evidence: []
+topics:
+  - "Machine Learning"
+microsoftProducts:
+  - "Azure Machine Learning"
+  - "Microsoft Azure"
+links:
+  event: "https://www.meetup.com/rladies-taipei/events/294283382/"
+evidence:
+  - type: "link"
+    href: "https://www.meetup.com/rladies-taipei/events/294283382/"
+    label: "活動紀錄連結點此 / Click here to event link"
+  - type: "screenshot"
+    src: "https://magicpandaengineer.blob.core.windows.net/img/sp-photos/sp20230731-url-1.png"
+    alt: "Introduce to Open Source AI ecosystem: Huggging Face"
 summary:
-  zh: ""
-  en: ""
+  zh: "這場演講是我在 R-Ladies Taipei 社群所分享的內容。 在這場分享中，我介紹了如何使用 Hugging Face 的開源生態系，並且分享如何在 Azure Machine Learning 上部署 Hugging Face 上面的 AI model。"
+  en: "This is the content I shared in the R-Ladies Taipei community. In this sharing, I introduced how to use the open-source ecosystem of Hugging Face, and shared how to deploy the AI model on Hugging Face on Azure Machine Learning."
 proofStatus:
   importedFromList: ready
   detailPage: found
-  evidence: pending
+  evidence: imported
 language: mixed

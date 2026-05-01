@@ -9,15 +9,40 @@ event: "AI Tech"
 location: "微程式夢森林"
 role: speaker
 format: "in-person"
-topics: []
-microsoftProducts: []
-links: {}
-evidence: []
+topics:
+  - "YOLO"
+microsoftProducts:
+  []
+links:
+  event: "https://aitech.kktix.cc/events/20190317-yolov1"
+  event2: "https://www.facebook.com/events/%E5%A4%A2%E6%A3%AE%E6%9E%97-dreamforest/ai-tech-yolov1/967564370108260/"
+evidence:
+  - type: "link"
+    href: "https://aitech.kktix.cc/events/20190317-yolov1"
+    label: "活動連結1點此"
+  - type: "link"
+    href: "https://www.facebook.com/events/%E5%A4%A2%E6%A3%AE%E6%9E%97-dreamforest/ai-tech-yolov1/967564370108260/"
+    label: "活動連結2點此"
+  - type: "photo"
+    src: "/sp-photos/koko-photos/sp20190317-1.jpg"
+    alt: "論文導讀 YOLO V1"
+  - type: "photo"
+    src: "/sp-photos/koko-photos/sp20190317-2.jpg"
+    alt: "論文導讀 YOLO V1"
+  - type: "photo"
+    src: "/sp-photos/koko-photos/sp20190317-3.jpg"
+    alt: "論文導讀 YOLO V1"
+  - type: "screenshot"
+    src: "/sp-photos/url-photos/sp20190317-url1.png"
+    alt: "論文導讀 YOLO V1"
+  - type: "screenshot"
+    src: "/sp-photos/url-photos/sp20190317-url2.png"
+    alt: "論文導讀 YOLO V1"
 summary:
   zh: ""
   en: ""
 proofStatus:
   importedFromList: ready
   detailPage: found
-  evidence: pending
+  evidence: imported
 language: mixed

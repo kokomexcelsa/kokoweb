@@ -4,20 +4,32 @@ type: "speaking"
 date: 2022-01-15
 title:
   zh: "Roundtable: AI Stories in Education, Industry, Entrepreneurship"
-  en: ""
+  en: "Roundtable: AI Stories in Education, Industry, Entrepreneurship"
 event: "Global AI Bootcamp 2022 China"
 location: "Live stream"
 role: speaker
 format: "online"
-topics: []
-microsoftProducts: []
-links: {}
-evidence: []
+topics:
+  []
+microsoftProducts:
+  []
+links:
+  event: "https://globalai.community/bootcamp-2022/asia-shanghai-4926/"
+evidence:
+  - type: "link"
+    href: "https://globalai.community/bootcamp-2022/asia-shanghai-4926/"
+    label: "活動紀錄連結點此 / Click here to event link"
+  - type: "screenshot"
+    src: "https://magicpandaengineer.blob.core.windows.net/img/sp-photos/sp20220115-url-1.png"
+    alt: "AI Stories in Education/Industry/Entrepreneurship"
+  - type: "screenshot"
+    src: "https://magicpandaengineer.blob.core.windows.net/img/sp-photos/sp20220115-url-2.png"
+    alt: "AI Stories in Education/Industry/Entrepreneurship"
 summary:
-  zh: ""
-  en: ""
+  zh: "這場圓桌會議是在 Global AI Bootcamp 2022 China 舉辦的。 我們討論了許多 AI 的觀點，包含了教育、產業與企業應用等等的面向。"
+  en: "This roundtable was shared in Global AI Bootcamp 2022 China. We discussed many AI insights including Education/Industry/Entrepreneurship."
 proofStatus:
   importedFromList: ready
   detailPage: found
-  evidence: pending
+  evidence: imported
 language: mixed

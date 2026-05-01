@@ -9,15 +9,30 @@ event: "台灣人工智慧學校"
 location: "台中分校"
 role: speaker
 format: "in-person"
-topics: []
-microsoftProducts: []
-links: {}
-evidence: []
+topics:
+  []
+microsoftProducts:
+  []
+links:
+  event: "https://aiacademy.neticrm.tw/civicrm/event/info?reset=1&id=141"
+evidence:
+  - type: "link"
+    href: "https://aiacademy.neticrm.tw/civicrm/event/info?reset=1&id=141"
+    label: "活動連結點此"
+  - type: "photo"
+    src: "/sp-photos/koko-photos/sp20200104-1.jpg"
+    alt: "業界都在用的自然語言理解工具，教你快速建構Line對話機器人"
+  - type: "photo"
+    src: "/sp-photos/koko-photos/sp20200104-2.jpg"
+    alt: "業界都在用的自然語言理解工具，教你快速建構Line對話機器人"
+  - type: "screenshot"
+    src: "/sp-photos/url-photos/sp20200104-url1.png"
+    alt: "業界都在用的自然語言理解工具，教你快速建構Line對話機器人"
 summary:
   zh: ""
   en: ""
 proofStatus:
   importedFromList: ready
   detailPage: found
-  evidence: pending
+  evidence: imported
 language: mixed

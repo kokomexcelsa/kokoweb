@@ -3,21 +3,38 @@ legacyPath: "/speech/sp2024-05-13.html"
 type: "speaking"
 date: 2024-05-13
 title:
-  zh: "Logic APP build Low Code/No Code AI Workflow"
-  en: ""
+  zh: "使用 Logic App 搭建 Low Code / No Code 的 AI 流程"
+  en: "Logic APP build Low Code/No Code AI Workflow"
 event: "Microsoft Reactor 低程式碼 AI 時代"
 location: "Microsoft Reactor"
 role: speaker
 format: "in-person"
-topics: []
-microsoftProducts: []
-links: {}
-evidence: []
+topics:
+  - "OpenAI"
+microsoftProducts:
+  - "Azure OpenAI"
+  - "Microsoft Azure"
+links:
+  event: "https://developer.microsoft.com/en-us/reactor/events/22673/"
+  recording: "https://www.youtube.com/watch?v=9NwKbHKDl2I"
+evidence:
+  - type: "link"
+    href: "https://developer.microsoft.com/en-us/reactor/events/22673/"
+    label: "活動紀錄連結點此 / Click here to event link"
+  - type: "recording"
+    href: "https://www.youtube.com/watch?v=9NwKbHKDl2I"
+    label: "YouTube 連結點此 / Click here to YouTube link"
+  - type: "screenshot"
+    src: "https://magicpandaengineer.blob.core.windows.net/img/sp-photos/sp20240513-url-1.png"
+    alt: "Learn LangChain"
+  - type: "screenshot"
+    src: "https://magicpandaengineer.blob.core.windows.net/img/sp-photos/sp20240513-url-2.png"
+    alt: "Learn LangChain"
 summary:
-  zh: ""
-  en: ""
+  zh: "這場演講是我在 Microsoft reactor 低程式碼 AI 時代台灣場次的分享。 在這場活動中，我分享了如何使用 Azure Logic App，結合 Azure OpenAI，快速打造一個 AI 工作流。"
+  en: "This is my speech at Microsoft reactor Low Code/No Code AI series Taiwan event. In this event, I shared how to use Azure Logic App, combined with Azure OpenAI, to quickly build an AI Workflow."
 proofStatus:
   importedFromList: ready
   detailPage: found
-  evidence: pending
+  evidence: imported
 language: mixed

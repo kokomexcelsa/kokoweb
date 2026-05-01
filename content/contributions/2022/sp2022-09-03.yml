@@ -4,20 +4,33 @@ type: "speaking"
 date: 2022-09-03
 title:
   zh: "Run Bokeh in back-end, draw real-time charts to front-end, and make data scientists happy"
-  en: ""
+  en: "Run Bokeh in back-end, draw real-time charts to front-end, and make data scientists happy"
 event: "PyCon Asia Pacific"
 location: "Live stream"
 role: speaker
 format: "online"
-topics: []
-microsoftProducts: []
-links: {}
-evidence: []
+topics:
+  - "Bokeh"
+  - "Python"
+microsoftProducts:
+  []
+links:
+  event: "https://tw.pycon.org/2022/en-us/conference/talk/254"
+evidence:
+  - type: "link"
+    href: "https://tw.pycon.org/2022/en-us/conference/talk/254"
+    label: "活動紀錄連結點此 / Click here to event link"
+  - type: "screenshot"
+    src: "https://magicpandaengineer.blob.core.windows.net/img/sp-photos/sp20220903-url-1.png"
+    alt: "Run Bokeh in back-end"
+  - type: "screenshot"
+    src: "https://magicpandaengineer.blob.core.windows.net/img/sp-photos/sp20220903-url-2.png"
+    alt: "Run Bokeh in back-end"
 summary:
-  zh: ""
-  en: ""
+  zh: "這場演講是我在亞太地區最大的 Python 年會，PyCon APAC 所分享的內容。以全英文做分享。 我分享了如何使用 Bokeh 來畫互動式圖表，並且教如何將 Bokeh 在後端跑起來。"
+  en: "This speech was shared in PyCon Asia Pacific, which is the largest Python Conference among Asia Pacific. This is an English session. I shared how to draw interactive charts with Bokeh, and how to make Bokeh run in Back-end."
 proofStatus:
   importedFromList: ready
   detailPage: found
-  evidence: pending
+  evidence: imported
 language: mixed

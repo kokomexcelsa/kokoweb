@@ -4,20 +4,37 @@ type: "speaking"
 date: 2022-11-05
 title:
   zh: "Triton as NLP Model Inference Back-end"
-  en: ""
+  en: "Triton as NLP Model Inference Back-end"
 event: "PyCon HK"
 location: "Live stream"
 role: speaker
 format: "online"
-topics: []
-microsoftProducts: []
-links: {}
-evidence: []
+topics:
+  - "Python"
+  - "NLP"
+microsoftProducts:
+  []
+links:
+  event: "https://pycon.hk/2022/pycon-hk-x-coscup-2022-online-special-track-triton-as-nlp-model-inference-back-end/"
+  recording: "https://youtu.be/rOm5fFGd70I?t=819"
+evidence:
+  - type: "link"
+    href: "https://pycon.hk/2022/pycon-hk-x-coscup-2022-online-special-track-triton-as-nlp-model-inference-back-end/"
+    label: "活動紀錄連結點此 / Click here to event link"
+  - type: "recording"
+    href: "https://youtu.be/rOm5fFGd70I?t=819"
+    label: "影片連結點此 / Click here to video link"
+  - type: "screenshot"
+    src: "https://magicpandaengineer.blob.core.windows.net/img/sp-photos/sp20221105-url-1.png"
+    alt: "Triton as NLP Model Inference Back-end"
+  - type: "screenshot"
+    src: "https://magicpandaengineer.blob.core.windows.net/img/sp-photos/sp20221105-url-2.png"
+    alt: "Triton as NLP Model Inference Back-end"
 summary:
-  zh: ""
-  en: ""
+  zh: "這場演講是我在 PyCon HK 所分享的內容。本次為全英文分享。 我介紹了 Triton Server 的基本機制，並且以 Live Demo 的方式部署了一個 NLP model 到 Triton Server。"
+  en: "This speech was shared in PyCon HK, which is the largest Python conference in Hong Kong. This is a English session. I introduced basic knowledge of Triton Inference Server and deploy NLP model to Triton with a practical sample."
 proofStatus:
   importedFromList: ready
   detailPage: found
-  evidence: pending
+  evidence: imported
 language: mixed

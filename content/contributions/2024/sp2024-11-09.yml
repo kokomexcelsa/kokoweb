@@ -3,21 +3,36 @@ legacyPath: "/speech/sp2024-11-09.html"
 type: "speaking"
 date: 2024-11-09
 title:
-  zh: "Exploring NotebookLM: Pros and Cons of AI in Knowledge Management"
-  en: ""
+  zh: "從 NotebookLM 聊 AI與知識管理的優勢和劣勢"
+  en: "Exploring NotebookLM: Pros and Cons of AI in Knowledge Management"
 event: "GDG Taichung"
 location: "Monospace"
 role: speaker
 format: "in-person"
-topics: []
-microsoftProducts: []
-links: {}
-evidence: []
+topics:
+  - "ChatGPT"
+  - "OpenAI"
+  - "NotebookLM"
+microsoftProducts:
+  - "Azure OpenAI"
+  - "Microsoft Azure"
+links:
+  event: "https://gdg.community.dev/events/details/google-gdg-taichung-presents-google-developer-group-taichung-shi-yi-yue-xiao-ju-llm-de-ying-yong/"
+evidence:
+  - type: "link"
+    href: "https://gdg.community.dev/events/details/google-gdg-taichung-presents-google-developer-group-taichung-shi-yi-yue-xiao-ju-llm-de-ying-yong/"
+    label: "活動紀錄連結點此 / Click here to event link"
+  - type: "screenshot"
+    src: "https://magicpandaengineer.blob.core.windows.net/img/sp-photos/sp20241109-url-1.png"
+    alt: "Learn NotebookLM"
+  - type: "screenshot"
+    src: "https://magicpandaengineer.blob.core.windows.net/img/sp-photos/sp20241109-url-2.png"
+    alt: "Learn NotebookLM"
 summary:
-  zh: ""
-  en: ""
+  zh: "這是在 Google Developers Group Taichung 的演講。 在這次的演講中，我分享了我使用 NotebookLM 的經驗和優缺點。 我也示範了如何使用 NotebookLM 來創建一個 AI 知識管理系統。 我還分享了我使用 ChatGPT 和 Azure OpenAI UI 的經驗。"
+  en: "This speech was shared in Google Developers Group Taichung. In this speech, I share my experience of using NotebookLM and its pros and cons. I also demo how to use NotebookLM to create an AI knowledge management system. I also share my experience of using ChatGPT and Azure OpenAI UI."
 proofStatus:
   importedFromList: ready
   detailPage: found
-  evidence: pending
+  evidence: imported
 language: mixed

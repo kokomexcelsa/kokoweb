@@ -9,15 +9,37 @@ event: "Chatbot Developers Taiwan 台中小小聚"
 location: "Monospace"
 role: speaker
 format: "in-person"
-topics: []
-microsoftProducts: []
-links: {}
-evidence: []
+topics:
+  - "Chatbot"
+microsoftProducts:
+  []
+links:
+  event: "https://chatbots.kktix.cc/events/chatbots-taichung-001"
+  event2: "https://chibupapa.com/2019/08/19/attending-chatbots-meetup-taichung-001-on-20190814/"
+evidence:
+  - type: "link"
+    href: "https://chatbots.kktix.cc/events/chatbots-taichung-001"
+    label: "活動連結1點此"
+  - type: "link"
+    href: "https://chibupapa.com/2019/08/19/attending-chatbots-meetup-taichung-001-on-20190814/"
+    label: "活動連結2點此"
+  - type: "photo"
+    src: "/sp-photos/koko-photos/sp20190814-1.jpg"
+    alt: "聊聊通勤學的開發"
+  - type: "photo"
+    src: "/sp-photos/koko-photos/sp20190814-2.jpg"
+    alt: "聊聊通勤學的開發"
+  - type: "screenshot"
+    src: "/sp-photos/url-photos/sp20190814-url1.png"
+    alt: "聊聊通勤學的開發"
+  - type: "screenshot"
+    src: "/sp-photos/url-photos/sp20190814-url2.png"
+    alt: "聊聊通勤學的開發"
 summary:
   zh: ""
   en: ""
 proofStatus:
   importedFromList: ready
   detailPage: found
-  evidence: pending
+  evidence: imported
 language: mixed

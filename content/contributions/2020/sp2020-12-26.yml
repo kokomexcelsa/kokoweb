@@ -4,20 +4,32 @@ type: "speaking"
 date: 2020-12-26
 title:
   zh: "新一代圖形化介面聊天機器人工具：Bot Framework Composer"
-  en: ""
+  en: "A New Generation bot GUI Tool : Bot Framework Composer"
 event: "Chatbot Developers Taiwan 台中小小聚"
 location: "微程式夢森林"
 role: speaker
 format: "in-person"
-topics: []
-microsoftProducts: []
-links: {}
-evidence: []
+topics:
+  - "Chatbot"
+microsoftProducts:
+  - "Microsoft Bot Framework"
+links:
+  event: "https://chatbots.kktix.cc/events/chatbots-meetup-in-central-taiwan-012"
+evidence:
+  - type: "link"
+    href: "https://chatbots.kktix.cc/events/chatbots-meetup-in-central-taiwan-012"
+    label: "活動紀錄連結點此"
+  - type: "photo"
+    src: "https://kokomexcelsa.s3-ap-northeast-1.amazonaws.com/sp-photos/sp20201226-koko-1.jpg"
+    alt: "新一代圖形化介面聊天機器人工具：Bot Framework Composer"
+  - type: "screenshot"
+    src: "https://kokomexcelsa.s3-ap-northeast-1.amazonaws.com/sp-photos/sp20201226-url-1.jpg"
+    alt: "新一代圖形化介面聊天機器人工具：Bot Framework Composer"
 summary:
-  zh: ""
-  en: ""
+  zh: "這是在Chatbot Developers Taiwan台中小聚分享的主題，一步步帶領大家操作Bot Framework Composer，有點 workshop 性質。"
+  en: "This topic was shared in Chatbot Developers Taiwan in Taichung. It was a workshop like speech. I demo how to use Bot Framework Composer step by step."
 proofStatus:
   importedFromList: ready
   detailPage: found
-  evidence: pending
+  evidence: imported
 language: mixed

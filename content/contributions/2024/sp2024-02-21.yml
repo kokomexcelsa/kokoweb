@@ -3,21 +3,36 @@ legacyPath: "/speech/sp2024-02-21.html"
 type: "speaking"
 date: 2024-02-21
 title:
-  zh: "Building Generative AI with Corporate Knowledge Using LangChain and Azure OpenAI"
-  en: ""
+  zh: "用 LangChain 與 Azure OpenAI 快速打造具企業內部知識的生成式 AI"
+  en: "Building Generative AI with Corporate Knowledge Using LangChain and Azure OpenAI"
 event: "Microsoft Reactor GenAI 系列 TW"
 location: "Microsoft Reactor"
 role: speaker
 format: "in-person"
-topics: []
-microsoftProducts: []
-links: {}
-evidence: []
+topics:
+  - "LangChain"
+  - "OpenAI"
+  - "Generative AI"
+microsoftProducts:
+  - "Azure OpenAI"
+  - "Microsoft Azure"
+links:
+  event: "https://developer.microsoft.com/en-us/reactor/events/21884/"
+evidence:
+  - type: "link"
+    href: "https://developer.microsoft.com/en-us/reactor/events/21884/"
+    label: "活動紀錄連結點此 / Click here to event link"
+  - type: "screenshot"
+    src: "https://magicpandaengineer.blob.core.windows.net/img/sp-photos/sp20240221-url-1.png"
+    alt: "Learn LangChain"
+  - type: "screenshot"
+    src: "https://magicpandaengineer.blob.core.windows.net/img/sp-photos/sp20240221-url-2.png"
+    alt: "Learn LangChain"
 summary:
-  zh: ""
-  en: ""
+  zh: "這場演講是我在 Microsoft reactor Gen AI 系列台灣場次的分享。 在這場活動中，我分享了如何使用 LangChain，結合 Azure OpenAI，快速用企業內部的知識來建立生成式 AI。"
+  en: "This is my speech at Microsoft reactor Gen AI series Taiwan event. In this event, I shared how to use LangChain, combined with Azure OpenAI, to quickly build generative AI with corporate knowledge."
 proofStatus:
   importedFromList: ready
   detailPage: found
-  evidence: pending
+  evidence: imported
 language: mixed

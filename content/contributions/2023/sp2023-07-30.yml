@@ -4,20 +4,34 @@ type: "speaking"
 date: 2023-07-30
 title:
   zh: "Building Chatbot With Huggging Face"
-  en: ""
+  en: "Building Chatbot With Huggging Face"
 event: "COSCUP 2023"
 location: "國立台灣科技大學"
 role: speaker
 format: "in-person"
-topics: []
-microsoftProducts: []
-links: {}
-evidence: []
+topics:
+  - "Machine Learning"
+  - "Chatbot"
+microsoftProducts:
+  - "Azure Machine Learning"
+  - "Microsoft Azure"
+links:
+  event: "https://coscup.org/2023/en/session/RL8PFP"
+evidence:
+  - type: "link"
+    href: "https://coscup.org/2023/en/session/RL8PFP"
+    label: "活動紀錄連結點此 / Click here to event link"
+  - type: "screenshot"
+    src: "https://magicpandaengineer.blob.core.windows.net/img/sp-photos/sp20230730-url-1.png"
+    alt: "Building Chatbot With Huggging Face"
+  - type: "screenshot"
+    src: "https://magicpandaengineer.blob.core.windows.net/img/sp-photos/sp20230730-url-2.png"
+    alt: "Building Chatbot With Huggging Face"
 summary:
-  zh: ""
-  en: ""
+  zh: "這場是我在全台灣最大的開源年會（COSCUP 2023）所分享的內容。 在這場分享中，我介紹了如何使用 Hugging Face 的 Transformer 套件來建立聊天機器人，並且在 Azure Machine Learning 上部署 AI model。"
+  en: "This is the content I shared at the largest open source conference in Taiwan (COSCUP 2023). In this sharing, I introduced how to use the Hugging Face Transformer package to build a chatbot and deploy the AI model on Azure Machine Learning."
 proofStatus:
   importedFromList: ready
   detailPage: found
-  evidence: pending
+  evidence: imported
 language: mixed

@@ -3,21 +3,33 @@ legacyPath: "/speech/sp2024-08-04.html"
 type: "speaking"
 date: 2024-08-04
 title:
-  zh: "How LangServe Works and Its Source Code"
-  en: ""
+  zh: "LangServe 的運作原理與原始碼介紹"
+  en: "How LangServe Works and Its Source Code"
 event: "COSCUP 2024"
 location: "台灣科技大學"
 role: speaker
 format: "in-person"
-topics: []
-microsoftProducts: []
-links: {}
-evidence: []
+topics:
+  - "LangServe"
+microsoftProducts:
+  []
+links:
+  event: "https://coscup.org/2024/zh-TW/session/WWBFAT"
+evidence:
+  - type: "link"
+    href: "https://coscup.org/2024/zh-TW/session/WWBFAT"
+    label: "活動紀錄連結點此 / Click here to event link"
+  - type: "screenshot"
+    src: "https://magicpandaengineer.blob.core.windows.net/img/sp-photos/sp20240804-url-1.png"
+    alt: "Learn LangChain"
+  - type: "screenshot"
+    src: "https://magicpandaengineer.blob.core.windows.net/img/sp-photos/sp20240804-url-2.png"
+    alt: "Learn LangChain"
 summary:
-  zh: ""
-  en: ""
+  zh: "這場演講是我在 COSCUP 2024 的分享，這是台灣最大的開源軟體會議。 在這場演講中，我介紹了 LangServe 是什麼，並引導大家了解它的原始碼。"
+  en: "This is my speech at COSCUP 2024, which is the largest conference about open source software in Taiwan. In this speech, I introduced what is LangServe, and guide to understanding its source code."
 proofStatus:
   importedFromList: ready
   detailPage: found
-  evidence: pending
+  evidence: imported
 language: mixed

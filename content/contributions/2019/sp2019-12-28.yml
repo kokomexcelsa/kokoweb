@@ -9,15 +9,37 @@ event: "AI Tech"
 location: "微程式夢森林"
 role: speaker
 format: "in-person"
-topics: []
-microsoftProducts: []
-links: {}
-evidence: []
+topics:
+  []
+microsoftProducts:
+  []
+links:
+  event: "https://aitech.kktix.cc/events/20191228-nlu-chatbot"
+  event2: "https://www.facebook.com/groups/313379262604754/permalink/507941406481871/"
+evidence:
+  - type: "link"
+    href: "https://aitech.kktix.cc/events/20191228-nlu-chatbot"
+    label: "活動連結1點此"
+  - type: "link"
+    href: "https://www.facebook.com/groups/313379262604754/permalink/507941406481871/"
+    label: "活動連結2點此"
+  - type: "photo"
+    src: "/sp-photos/koko-photos/sp20191228-1.jpg"
+    alt: "自然語言理解的 Line 機器人實戰"
+  - type: "photo"
+    src: "/sp-photos/koko-photos/sp20191228-2.jpg"
+    alt: "自然語言理解的 Line 機器人實戰"
+  - type: "screenshot"
+    src: "/sp-photos/url-photos/sp20191228-url1.png"
+    alt: "自然語言理解的 Line 機器人實戰"
+  - type: "screenshot"
+    src: "/sp-photos/url-photos/sp20191228-url2.png"
+    alt: "自然語言理解的 Line 機器人實戰"
 summary:
   zh: ""
   en: ""
 proofStatus:
   importedFromList: ready
   detailPage: found
-  evidence: pending
+  evidence: imported
 language: mixed

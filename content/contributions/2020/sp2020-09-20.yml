@@ -4,20 +4,33 @@ type: "speaking"
 date: 2020-09-20
 title:
   zh: "用Azure Cognitive Service中的Custom Vision來訓練自己的AI Model"
-  en: ""
+  en: "Train Your Own AI Model by Custom Vision in Azure Cognitive Services"
 event: "Azure Show 第七期"
 location: "Bilibili"
 role: speaker
 format: "in-person"
-topics: []
-microsoftProducts: []
-links: {}
-evidence: []
+topics:
+  []
+microsoftProducts:
+  - "Azure Cognitive Services"
+  - "Microsoft Azure"
+links:
+  recording: "https://www.bilibili.com/video/BV13i4y1E7P1"
+evidence:
+  - type: "recording"
+    href: "https://www.bilibili.com/video/BV13i4y1E7P1"
+    label: "活動紀錄連結點此"
+  - type: "photo"
+    src: "https://kokomexcelsa.s3-ap-northeast-1.amazonaws.com/sp-photos/sp20200920-koko-1.jpg"
+    alt: "用Azure Cognitive Service中的Custom Vision來訓練自己的AI Model"
+  - type: "screenshot"
+    src: "https://kokomexcelsa.s3-ap-northeast-1.amazonaws.com/sp-photos/sp20200920-url-1.jpg"
+    alt: "用Azure Cognitive Service中的Custom Vision來訓練自己的AI Model"
 summary:
-  zh: ""
-  en: ""
+  zh: "這場演講是和廣州圖書館合作的Azure Show節目，分享了如何使用 Custom Vision 來訓練自己的 AI model。"
+  en: "This program \"Azure Show\" was co-organized with Guangzhou Library, shared how to train your own AI model by Custom Vision in Azure Cognitive Services."
 proofStatus:
   importedFromList: ready
   detailPage: found
-  evidence: pending
+  evidence: imported
 language: mixed

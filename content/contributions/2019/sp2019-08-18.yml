@@ -9,15 +9,37 @@ event: "開源人年會COSCUP"
 location: "國立臺灣科技大學"
 role: speaker
 format: "in-person"
-topics: []
-microsoftProducts: []
-links: {}
-evidence: []
+topics:
+  - "Chatbot"
+microsoftProducts:
+  []
+links:
+  event: "https://www.facebook.com/coscup/posts/10157640630517249"
+  event2: "https://coscup.org/2019/programs/lightning-talks/"
+evidence:
+  - type: "link"
+    href: "https://www.facebook.com/coscup/posts/10157640630517249"
+    label: "活動連結1點此"
+  - type: "link"
+    href: "https://coscup.org/2019/programs/lightning-talks/"
+    label: "活動連結2點此"
+  - type: "photo"
+    src: "/sp-photos/koko-photos/sp20190818-1.jpg"
+    alt: "數據科學的房地產價格預測"
+  - type: "photo"
+    src: "/sp-photos/koko-photos/sp20190818-2.jpg"
+    alt: "數據科學的房地產價格預測"
+  - type: "screenshot"
+    src: "/sp-photos/url-photos/sp20190818-url1.png"
+    alt: "數據科學的房地產價格預測"
+  - type: "screenshot"
+    src: "/sp-photos/url-photos/sp20190818-url2.png"
+    alt: "數據科學的房地產價格預測"
 summary:
   zh: ""
   en: ""
 proofStatus:
   importedFromList: ready
   detailPage: found
-  evidence: pending
+  evidence: imported
 language: mixed

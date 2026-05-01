@@ -3,21 +3,34 @@ legacyPath: "/speech/sp2023-11-08.html"
 type: "workshop"
 date: 2023-11-08
 title:
-  zh: "Hands-On Workshop: Getting Started with Django and Building a Website with AI Services"
-  en: ""
+  zh: "實戰工作坊：入門 Django 並打造具 AI 服務的網站"
+  en: "Hands-On Workshop: Getting Started with Django and Building a Website with AI Services"
 event: "ModernWeb 2023"
 location: "台北瓶蓋工廠"
 role: speaker
 format: "in-person"
-topics: []
-microsoftProducts: []
-links: {}
-evidence: []
+topics:
+  - "OpenAI"
+microsoftProducts:
+  - "Azure OpenAI"
+  - "Microsoft Azure"
+links:
+  event: "https://modernweb.tw/2023/workshop-page/2437"
+evidence:
+  - type: "link"
+    href: "https://modernweb.tw/2023/workshop-page/2437"
+    label: "活動紀錄連結點此 / Click here to event link"
+  - type: "screenshot"
+    src: "https://magicpandaengineer.blob.core.windows.net/img/sp-photos/sp20231108-url-1.png"
+    alt: " Getting Started with Django and Building a Website with AI Services"
+  - type: "screenshot"
+    src: "https://magicpandaengineer.blob.core.windows.net/img/sp-photos/sp20231108-url-2.png"
+    alt: " Getting Started with Django and Building a Website with AI Services"
 summary:
-  zh: ""
-  en: ""
+  zh: "這場是我在 ModernWeb 2023 年會所舉辦的實戰工作坊。 在這場活動中，我分享了如何使用 Azure OpenAI 整合 Django，打造一個具 AI 功能的網站。"
+  en: "This is a hands-on workshop I held at ModernWeb 2023. In this event, I shared how to use Azure OpenAI to integrate Django and build a website with AI features."
 proofStatus:
   importedFromList: ready
   detailPage: found
-  evidence: pending
+  evidence: imported
 language: mixed

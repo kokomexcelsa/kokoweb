@@ -3,21 +3,34 @@ legacyPath: "/speech/sp2024-12-14.html"
 type: "speaking"
 date: 2024-12-14
 title:
-  zh: "The Paradigm Shift from MLOps to LLMOps"
-  en: ""
+  zh: "從 MLOps 到 LLMOps 的典範轉移"
+  en: "The Paradigm Shift from MLOps to LLMOps"
 event: ".NET Conf Taiwan 2024"
 location: "台中沃茲新創空間"
 role: speaker
 format: "in-person"
-topics: []
-microsoftProducts: []
-links: {}
-evidence: []
+topics:
+  - "LLMOps"
+  - "MLOps"
+microsoftProducts:
+  []
+links:
+  event: "https://dotnetconf.study4.tw/Speaker#KoKo"
+evidence:
+  - type: "link"
+    href: "https://dotnetconf.study4.tw/Speaker#KoKo"
+    label: "活動紀錄連結點此 / Click here to event link"
+  - type: "screenshot"
+    src: "https://magicpandaengineer.blob.core.windows.net/img/sp-photos/sp20241214-url-1.png"
+    alt: "Learn LLMOps"
+  - type: "screenshot"
+    src: "https://magicpandaengineer.blob.core.windows.net/img/sp-photos/sp20241214-url-2.png"
+    alt: "Learn LLMOps"
 summary:
-  zh: ""
-  en: ""
+  zh: "這是我在 .NET Conf Taiwan 2024 的演講。 在這次演講中，我分享了我在 LLMOps 上的經驗，以及如何利用 LLMOps 來提升 AI 開發與監控的效率。 並且我用 MLOps 作為比較，來說明 MLOps 與 LLMOps 的差異與歷程。"
+  en: "This speech was shared in .NET Conf Taiwan 2024. In this speech, I share my experience with LLMOps and how it can be used to improve the efficiency of AI development and monitoring. And I use MLOps as a comparison to explain the differences and evolution between MLOps and LLMOps."
 proofStatus:
   importedFromList: ready
   detailPage: found
-  evidence: pending
+  evidence: imported
 language: mixed

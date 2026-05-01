@@ -4,20 +4,36 @@ type: "speaking"
 date: 2022-11-16
 title:
   zh: "MLOps with Azure Machine Learning and its Python SDK"
-  en: ""
+  en: "MLOps with Azure Machine Learning and its Python SDK"
 event: "DevDays Asia 2022"
 location: "台北華南銀行國際會議中心"
 role: speaker
 format: "in-person"
-topics: []
-microsoftProducts: []
-links: {}
-evidence: []
+topics:
+  - "MLOps"
+  - "Machine Learning"
+  - "Python"
+  - "NLP"
+microsoftProducts:
+  - "Azure Machine Learning"
+  - "Microsoft Azure"
+links:
+  event: "https://www.digitimes.com.tw/Seminar/DevDays2022/agenda.html"
+evidence:
+  - type: "link"
+    href: "https://www.digitimes.com.tw/Seminar/DevDays2022/agenda.html"
+    label: "活動紀錄連結點此 / Click here to event link"
+  - type: "screenshot"
+    src: "https://magicpandaengineer.blob.core.windows.net/img/sp-photos/sp20221116-url-1.png"
+    alt: "MLOps with Azure Machine Learning "
+  - type: "screenshot"
+    src: "https://magicpandaengineer.blob.core.windows.net/img/sp-photos/sp20221116-url-2.JPG"
+    alt: "MLOps with Azure Machine Learning "
 summary:
-  zh: ""
-  en: ""
+  zh: "這場演講是我在 DevDays Asia (亞太技術年會) 所分享的內容，這是台灣政府主辦的最大的技術年會。 我介紹了 Triton Server 的基本機制，並且以 Live Demo 的方式部署了一個 NLP model 到 Triton Server。"
+  en: "This speech was shared in DevDays Asia, which is the largest tech conference by Taiwan government. I introduced the knowledge of MLOps and how to implement it with Azure Machine Learning and its SDK."
 proofStatus:
   importedFromList: ready
   detailPage: found
-  evidence: pending
+  evidence: imported
 language: mixed

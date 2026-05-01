@@ -4,20 +4,32 @@ type: "speaking"
 date: 2022-05-25
 title:
   zh: "入門 Teams Bot"
-  en: ""
+  en: "Introduction to Teams Bot"
 event: "Chatbot Developers Taiwan"
 location: "Live stream"
 role: speaker
 format: "online"
-topics: []
-microsoftProducts: []
-links: {}
-evidence: []
+topics:
+  - "Chatbot"
+microsoftProducts:
+  []
+links:
+  event: "https://events.chatbot.tw/events/30"
+evidence:
+  - type: "link"
+    href: "https://events.chatbot.tw/events/30"
+    label: "活動紀錄連結點此 / Click here to event link"
+  - type: "screenshot"
+    src: "https://magicpandaengineer.blob.core.windows.net/img/sp-photos/sp20220525-url-1.png"
+    alt: "Introduction to Teams Bot"
+  - type: "screenshot"
+    src: "https://magicpandaengineer.blob.core.windows.net/img/sp-photos/sp20220525-url-2.png"
+    alt: "Introduction to Teams Bot"
 summary:
-  zh: ""
-  en: ""
+  zh: "這場演講是我在 Chatbot Developers Taiwan 所分享的內容 我介紹了 Teams Bot 的基本概念，並且在 Live Demo 的過程中做了一隻 Teams Bot。"
+  en: "This speech was shared in Chatbot Developers Taiwan, which is the largest Chatbot developers community in Taiwan. In this speech, I introduced the basic knowledge of Teams Bots, and built a Teams Bot with Live Demo."
 proofStatus:
   importedFromList: ready
   detailPage: found
-  evidence: pending
+  evidence: imported
 language: mixed

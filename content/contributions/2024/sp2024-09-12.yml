@@ -3,21 +3,42 @@ legacyPath: "/speech/sp2024-09-12.html"
 type: "workshop"
 date: 2024-09-12
 title:
-  zh: "Deploy AI with LangServe workshop"
-  en: ""
+  zh: "使用 LangServe 快速部署 AI"
+  en: "Deploy AI with LangServe workshop"
 event: "Hello World Dev Conference 2024"
 location: "台北文創會議中心"
 role: speaker
 format: "in-person"
-topics: []
-microsoftProducts: []
-links: {}
-evidence: []
+topics:
+  - "LangServe"
+  - "OpenAI"
+microsoftProducts:
+  - "Azure OpenAI"
+  - "Microsoft Azure"
+links:
+  event: "https://hwdc.ithome.com.tw/2024/lab-page/3176"
+  event2: "https://hwdc.ithome.com.tw/2024/lab-page/3255"
+evidence:
+  - type: "link"
+    href: "https://hwdc.ithome.com.tw/2024/lab-page/3176"
+    label: "早上場活動紀錄連結點此 / Click here to morning event link"
+  - type: "link"
+    href: "https://hwdc.ithome.com.tw/2024/lab-page/3255"
+    label: "下午場活動紀錄連結點此 / Click here to afternoon event link"
+  - type: "screenshot"
+    src: "https://magicpandaengineer.blob.core.windows.net/img/sp-photos/sp20240912-url-1.png"
+    alt: "Learn LangChain"
+  - type: "screenshot"
+    src: "https://magicpandaengineer.blob.core.windows.net/img/sp-photos/sp20240912-url-2.png"
+    alt: "Learn LangChain"
+  - type: "screenshot"
+    src: "https://magicpandaengineer.blob.core.windows.net/img/sp-photos/sp20240912-url-3.png"
+    alt: "Learn LangChain"
 summary:
-  zh: ""
-  en: ""
+  zh: "這場工作坊是我在 Hello World Dev Conference 2024 的分享，這是台灣最大的軟體開發年會。 這場工作坊分為早上和下午兩場，在這場工作坊中，我介紹了如何使用 Azure OpenAI 開發 LangServe 應用程式，並將其部署到 Azure app service。"
+  en: "This is the workshops at Hello World Dev Conference 2024, which is the largest conference about software developement in Taiwan. This workshop has two sessions, one in the morning and one in the afternoon. During the workshop, I introduced how to develop LangServe application with Azure OpenAI, and deploy it to Azure app service."
 proofStatus:
   importedFromList: ready
   detailPage: found
-  evidence: pending
+  evidence: imported
 language: mixed

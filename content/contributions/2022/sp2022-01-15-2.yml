@@ -4,20 +4,32 @@ type: "speaking"
 date: 2022-01-15
 title:
   zh: "Sharing of practical experience in assisting enterprises to introduce AI"
-  en: ""
+  en: "Sharing of practical experience in assisting enterprises to introduce AI"
 event: "Global AI Bootcamp 2022 Taipei"
 location: "Live stream"
 role: speaker
 format: "online"
-topics: []
-microsoftProducts: []
-links: {}
-evidence: []
+topics:
+  []
+microsoftProducts:
+  []
+links:
+  event: "https://globalai.community/bootcamp-2022/asia-taipei-4980/"
+evidence:
+  - type: "link"
+    href: "https://globalai.community/bootcamp-2022/asia-taipei-4980/"
+    label: "活動紀錄連結點此 / Click here to event link"
+  - type: "screenshot"
+    src: "https://magicpandaengineer.blob.core.windows.net/img/sp-photos/sp20220115-2-url-1.png"
+    alt: " Global AI Bootcamp 2022 Taiwan"
+  - type: "screenshot"
+    src: "https://magicpandaengineer.blob.core.windows.net/img/sp-photos/sp20220115-2-url-2.png"
+    alt: " Global AI Bootcamp 2022 Taiwan"
 summary:
-  zh: ""
-  en: ""
+  zh: "這場演講是在 Global AI Bootcamp 2022 Taiwan 舉辦的。 我分享了協助企業導入 AI 的經驗。"
+  en: "This speech was shared in Global AI Bootcamp 2022 Taiwan. I shared my experience of launching AI to enterprises."
 proofStatus:
   importedFromList: ready
   detailPage: found
-  evidence: pending
+  evidence: imported
 language: mixed

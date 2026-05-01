@@ -9,15 +9,32 @@ event: "Chatbot Developers Taiwan"
 location: "線上Youtube直播"
 role: speaker
 format: "online"
-topics: []
-microsoftProducts: []
-links: {}
-evidence: []
+topics:
+  - "Chatbot"
+  - "LINE Bot"
+microsoftProducts:
+  - "Microsoft Azure"
+links:
+  event: "https://chatbots.kktix.cc/events/meetup-018"
+  event2: "https://engineering.linecorp.com/zh-hant/blog/2020-04-21-chatbots18/"
+evidence:
+  - type: "link"
+    href: "https://chatbots.kktix.cc/events/meetup-018"
+    label: "活動連結1點此"
+  - type: "link"
+    href: "https://engineering.linecorp.com/zh-hant/blog/2020-04-21-chatbots18/"
+    label: "活動連結2點此"
+  - type: "screenshot"
+    src: "/sp-photos/url-photos/sp20200421-url1.png"
+    alt: "用 Azure 快速佈署與開發 LINE bot"
+  - type: "screenshot"
+    src: "/sp-photos/url-photos/sp20200421-url2.png"
+    alt: "用 Azure 快速佈署與開發 LINE bot"
 summary:
   zh: ""
   en: ""
 proofStatus:
   importedFromList: ready
   detailPage: found
-  evidence: pending
+  evidence: imported
 language: mixed
