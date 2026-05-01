@@ -8,6 +8,7 @@ html {
   font-family: var(--font-sans);
   color: var(--color-ink);
   background: var(--color-paper);
+  text-size-adjust: 100%;
 }
 
 body {
@@ -19,6 +20,11 @@ body {
 a {
   color: var(--color-azure);
   text-underline-offset: 0.18em;
+  overflow-wrap: anywhere;
+}
+
+img {
+  max-width: 100%;
 }
 
 a:focus-visible,
@@ -109,6 +115,11 @@ button:focus-visible {
   background: var(--color-soft);
 }
 
+.site-nav a[aria-current='page'] {
+  color: white;
+  background: var(--color-ink);
+}
+
 .site-footer {
   width: min(var(--content-wide), calc(100% - (var(--space-page) * 2)));
   margin: 0 auto;
@@ -156,6 +167,7 @@ h1 {
   font-size: clamp(2rem, 6vw, 4rem);
   line-height: 1.05;
   letter-spacing: 0;
+  overflow-wrap: anywhere;
 }
 
 p {
@@ -268,11 +280,13 @@ h2 {
   font-size: clamp(1.75rem, 4vw, 2.75rem);
   line-height: 1.15;
   letter-spacing: 0;
+  overflow-wrap: anywhere;
 }
 
 h3 {
   margin: 0 0 12px;
   font-size: 1.1rem;
+  overflow-wrap: anywhere;
 }
 
 .detail-content {
@@ -534,6 +548,7 @@ h3 {
   background: white;
   border: 1px solid var(--color-line);
   border-radius: var(--radius);
+  min-width: 0;
 }
 
 .metric-card h2,

@@ -1,5 +1,5 @@
 ---
-import { withBase } from '../utils/url';
+import { withBase, withoutBase } from '../utils/url';
 
 const navItems = [
   { href: '/index.html', label: '首頁' },
@@ -8,6 +8,7 @@ const navItems = [
   { href: '/mvp.html', label: 'MVP' },
   { href: '/about.html', label: '關於' }
 ];
+const currentPath = withoutBase(Astro.url.pathname);
 ---
 
 <header class="site-header">
@@ -19,6 +20,6 @@ const navItems = [
     </span>
   </a>
   <nav class="site-nav" aria-label="主要導覽">
-    {navItems.map((item) => <a href={withBase(item.href)}>{item.label}</a>)}
+    {navItems.map((item) => <a href={withBase(item.href)} aria-current={currentPath === item.href ? 'page' : undefined}>{item.label}</a>)}
   </nav>
 </header>

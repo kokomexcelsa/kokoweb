@@ -14,7 +14,8 @@
     "content:import:speech-list": "node scripts/import-speech-list.mjs",
     "content:import:community": "node scripts/import-community-periods.mjs",
     "assets:brand": "node scripts/create-brand-images.mjs",
-    "check:images": "node scripts/check-image-metadata.mjs"
+    "check:images": "node scripts/check-image-metadata.mjs",
+    "check:a11y": "node scripts/check-static-a11y.mjs"
   },
   "dependencies": {
     "astro": "6.2.1"
