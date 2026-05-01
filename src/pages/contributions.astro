@@ -1,0 +1,113 @@
+---
+import { getCollection } from 'astro:content';
+import type { CollectionEntry } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { formatDate } from '../utils/format';
+import { withBase } from '../utils/url';
+
+type ContributionEntry = CollectionEntry<'contributions'>;
+type CommunityEntry = CollectionEntry<'communityPeriods'>;
+
+const contributions = ((await getCollection('contributions')) as ContributionEntry[])
+  .sort((a: ContributionEntry, b: ContributionEntry) => b.data.date.getTime() - a.data.date.getTime());
+const communityPeriods = ((await getCollection('communityPeriods')) as CommunityEntry[])
+  .sort((a: CommunityEntry, b: CommunityEntry) => b.data.year - a.data.year);
+const [booksEntry] = await getCollection('books');
+const [writingEntry] = await getCollection('writing');
+const books = booksEntry.data.books;
+const writing = writingEntry.data.items;
+
+const latest = contributions.slice(0, 12);
+const microsoftProducts = contributions.flatMap((entry) => entry.data.microsoftProducts as string[]);
+const productCounts = microsoftProducts.reduce<Record<string, number>>((acc, product) => {
+  acc[product] = (acc[product] ?? 0) + 1;
+  return acc;
+}, {});
+const topProducts = Object.entries(productCounts)
+  .sort((a, b) => b[1] - a[1])
+  .slice(0, 8);
+const communityEvidenceCount = communityPeriods.flatMap((period) => period.data.sections).length;
+const proofCount = contributions.reduce((total, entry) => total + entry.data.evidence.length, 0);
+---
+
+<BaseLayout
+  title="貢獻總覽 | 大魔術熊貓工程師"
+  description="Ko Ko 大魔術熊貓工程師的公開技術貢獻，包含演講、社群、出版、課程與技術寫作。"
+>
+  <section class="list-hero">
+    <p class="eyebrow">Contributions</p>
+    <h1>貢獻總覽</h1>
+    <p class="lede">AI 應用開發、Microsoft 技術、社群經營、技術出版與公開教學紀錄。</p>
+    <dl class="stat-strip" aria-label="貢獻統計">
+      <div>
+        <dt>演講與工作坊</dt>
+        <dd>{contributions.length}</dd>
+      </div>
+      <div>
+        <dt>佐證項目</dt>
+        <dd>{proofCount}</dd>
+      </div>
+      <div>
+        <dt>社群紀錄</dt>
+        <dd>{communityEvidenceCount}</dd>
+      </div>
+    </dl>
+  </section>
+
+  <section class="page-section overview-grid" aria-label="貢獻分類">
+    <article class="metric-card">
+      <h2>Microsoft 技術</h2>
+      <ul class="tag-list product-tags">
+        {topProducts.map(([product, count]) => <li>{product} · {count}</li>)}
+      </ul>
+    </article>
+    <article class="metric-card">
+      <h2>出版</h2>
+      <p>{books.length} 本生成式 AI、Azure OpenAI、LangChain 與 AI Agent 相關著作。</p>
+      <a href={withBase('/about.html#books')}>查看書籍</a>
+    </article>
+    <article class="metric-card">
+      <h2>寫作與課程</h2>
+      <p>{writing.length} 筆公開文章系列、投影片或課程紀錄。</p>
+      <a href={withBase('/about.html#writing')}>查看公開資料</a>
+    </article>
+  </section>
+
+  <section class="page-section" aria-labelledby="latest-title">
+    <div class="section-heading">
+      <p class="eyebrow">Latest</p>
+      <h2 id="latest-title">近期公開分享</h2>
+    </div>
+    <div class="record-list">
+      {latest.map((entry) => (
+        <article class="record-row">
+          <time datetime={entry.data.date.toISOString()}>{formatDate(entry.data.date)}</time>
+          <div>
+            <h3><a href={withBase(entry.data.legacyPath)}>{entry.data.title.zh || entry.data.title.en}</a></h3>
+            <p>{entry.data.event}</p>
+            <ul class="inline-meta">
+              <li>{entry.data.type}</li>
+              <li>{entry.data.evidence.length} proof</li>
+              {entry.data.microsoftProducts.length > 0 && <li>{entry.data.microsoftProducts.join(' / ')}</li>}
+            </ul>
+          </div>
+        </article>
+      ))}
+    </div>
+  </section>
+
+  <section class="page-section" aria-labelledby="community-title">
+    <div class="section-heading">
+      <p class="eyebrow">Community</p>
+      <h2 id="community-title">社群經營</h2>
+    </div>
+    <div class="card-grid">
+      {communityPeriods.map((period) => (
+        <article class="metric-card">
+          <h3><a href={withBase(period.data.legacyPath)}>{period.data.title.zh}</a></h3>
+          <p>{period.data.sections.length} 筆社群角色與活動佐證。</p>
+        </article>
+      ))}
+    </div>
+  </section>
+</BaseLayout>
