@@ -72,6 +72,15 @@ function yamlStringArray(values, indent = '') {
   return values.map((value) => `${indent}- ${yamlString(value)}`).join('\n');
 }
 
+function normalizeLegacyDate(value) {
+  const match = String(value ?? '').trim().match(/(\d{4})\/(\d{1,2})\/(\d{1,2})/);
+  if (!match) {
+    return '';
+  }
+  const [, year, month, day] = match;
+  return `${year}-${month.padStart(2, '0')}-${day.padStart(2, '0')}`;
+}
+
 function normalizeUrl(value, currentLegacyPath) {
   if (!value) {
     return '';
@@ -155,6 +164,7 @@ function extractDetail(item) {
   if (!existsSync(detailPath)) {
     return {
       title: { zh: item.title, en: cjkPattern.test(item.title) ? '' : item.title },
+      isoDate: '',
       summary: { zh: '', en: '' },
       links: {},
       evidence: [],
@@ -166,6 +176,7 @@ function extractDetail(item) {
 
   const detailHtml = readFileSync(detailPath, 'utf8');
   const $detail = cheerio.load(detailHtml);
+  const isoDate = normalizeLegacyDate(textOf($detail, $detail('header .portfolio-title').first()));
   const boldTexts = $detail('#portfolio-speech p b')
     .toArray()
     .map((element) => textOf($detail, element).replace(/^Al agent/i, 'AI Agent'))
@@ -224,6 +235,7 @@ function extractDetail(item) {
   const fullText = [item.title, item.event, summary.zh, summary.en].join(' ');
   return {
     title,
+    isoDate,
     summary,
     links,
     evidence,
@@ -283,7 +295,7 @@ function serializeContribution(item) {
     `id: ${yamlString(item.id)}`,
     `legacyPath: ${yamlString(item.legacyPath)}`,
     `type: ${yamlString(item.type)}`,
-    `date: ${item.isoDate}`,
+    `date: ${detail.isoDate || item.isoDate}`,
     'title:',
     `  zh: ${yamlString(detail.title.zh)}`,
     `  en: ${yamlString(detail.title.en)}`,
