@@ -1,0 +1,27 @@
+---
+import { getCollection } from 'astro:content';
+import type { CollectionEntry } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ContributionDetail from '../../components/ContributionDetail.astro';
+
+type ContributionEntry = CollectionEntry<'contributions'>;
+
+export async function getStaticPaths() {
+  const speeches = ((await getCollection('contributions')) as ContributionEntry[])
+    .filter((entry: ContributionEntry) => entry.data.legacyPath.startsWith('/speech/'))
+    .sort((a: ContributionEntry, b: ContributionEntry) => b.data.date.getTime() - a.data.date.getTime());
+
+  return speeches.map((entry: ContributionEntry) => ({
+    params: { slug: entry.data.id },
+    props: { contribution: entry.data }
+  }));
+}
+
+const { contribution } = Astro.props as { contribution: ContributionEntry['data'] };
+const title = `${contribution.title.zh || contribution.title.en} | 大魔術熊貓工程師`;
+const description = contribution.summary.zh || contribution.summary.en || `${contribution.event} ${contribution.location}`;
+---
+
+<BaseLayout title={title} description={description}>
+  <ContributionDetail contribution={contribution} />
+</BaseLayout>

@@ -1,0 +1,111 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import EvidenceGallery from './EvidenceGallery.astro';
+import { formatDate, labelForFormat, splitParagraphs } from '../utils/format';
+import { withBase } from '../utils/url';
+
+interface Props {
+  contribution: CollectionEntry<'contributions'>['data'];
+}
+
+const { contribution } = Astro.props;
+const title = contribution.title.zh || contribution.title.en;
+const summaryZh = splitParagraphs(contribution.summary.zh);
+const summaryEn = splitParagraphs(contribution.summary.en);
+const topics = contribution.topics as string[];
+const microsoftProducts = contribution.microsoftProducts as string[];
+const primaryLinks = Object.entries(contribution.links as Record<string, string>);
+const evidence = contribution.evidence as {
+  type: string;
+  src?: string;
+  href?: string;
+  alt?: string;
+  label?: string;
+}[];
+---
+
+<article>
+  <header class="detail-hero">
+    <div>
+      <p class="eyebrow">{contribution.type}</p>
+      <h1>{title}</h1>
+      {contribution.title.en && contribution.title.en !== title && <p class="lede">{contribution.title.en}</p>}
+    </div>
+    <dl class="meta-list">
+      <div>
+        <dt>日期</dt>
+        <dd>{formatDate(contribution.date)}</dd>
+      </div>
+      <div>
+        <dt>活動</dt>
+        <dd>{contribution.event || '未填'}</dd>
+      </div>
+      <div>
+        <dt>地點</dt>
+        <dd>{contribution.location || labelForFormat(contribution.format)}</dd>
+      </div>
+      <div>
+        <dt>原始網址</dt>
+        <dd><a href={withBase(contribution.legacyPath)}>保留舊網址</a></dd>
+      </div>
+    </dl>
+  </header>
+
+  <section class="page-section detail-content" aria-labelledby="summary-title">
+    <div class="section-heading">
+      <p class="eyebrow">Context</p>
+      <h2 id="summary-title">內容摘要</h2>
+    </div>
+    <div class="summary-grid">
+      <div>
+        <h3>中文</h3>
+        {summaryZh.length > 0 ? summaryZh.map((paragraph) => <p>{paragraph}</p>) : <p>這筆資料已先保留舊頁 URL，摘要待補。</p>}
+      </div>
+      {summaryEn.length > 0 && (
+        <div lang="en">
+          <h3>English</h3>
+          {summaryEn.map((paragraph) => <p>{paragraph}</p>)}
+        </div>
+      )}
+    </div>
+  </section>
+
+  {(topics.length > 0 || microsoftProducts.length > 0 || primaryLinks.length > 0) && (
+    <section class="page-section detail-content" aria-labelledby="proof-title">
+      <div class="section-heading">
+        <p class="eyebrow">Proof</p>
+        <h2 id="proof-title">分類與連結</h2>
+      </div>
+      <div class="proof-layout">
+        {topics.length > 0 && (
+          <div>
+            <h3>主題</h3>
+            <ul class="tag-list">
+              {topics.map((topic: string) => <li>{topic}</li>)}
+            </ul>
+          </div>
+        )}
+        {microsoftProducts.length > 0 && (
+          <div>
+            <h3>Microsoft 技術</h3>
+            <ul class="tag-list product-tags">
+              {microsoftProducts.map((product: string) => <li>{product}</li>)}
+            </ul>
+          </div>
+        )}
+        {primaryLinks.length > 0 && (
+          <div>
+            <h3>主要連結</h3>
+            <ul class="proof-list">
+              {primaryLinks.map(([label, href]) => (
+                <li><a href={href} target="_blank" rel="noreferrer">{label}</a></li>
+              ))}
+            </ul>
+          </div>
+        )}
+      </div>
+    </section>
+  )}
+
+  <EvidenceGallery evidence={evidence} />
+</article>
