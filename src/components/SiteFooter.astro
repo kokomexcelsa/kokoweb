@@ -1,0 +1,30 @@
+---
+import { getCollection } from 'astro:content';
+import { withBase } from '../utils/url';
+
+const [profileEntry] = await getCollection('profile');
+const [linksEntry] = await getCollection('externalLinks');
+const profile = profileEntry.data;
+type FooterLink = {
+  label: string;
+  url: string;
+  primary?: boolean;
+};
+const links = (linksEntry.data.links as FooterLink[]).filter((link) => link.primary);
+const year = new Date().getFullYear();
+---
+
+<footer class="site-footer">
+  <div>
+    <strong>{profile.name.zh}</strong>
+    <p>{profile.headline.zh}</p>
+  </div>
+  <nav aria-label="頁尾連結">
+    <a href={withBase('/speech.html')}>演講紀錄</a>
+    <a href={withBase('/portfolio.html')}>作品集</a>
+    {links.map((link) => (
+      <a href={link.url} target="_blank" rel="noreferrer">{link.label}</a>
+    ))}
+  </nav>
+  <p class="copyright">Copyright &copy; KoKo Mexcelsa 2017 - {year}</p>
+</footer>

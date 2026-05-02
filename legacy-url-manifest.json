@@ -1,0 +1,1042 @@
+[
+  {
+    "path": "/ans/ask-ans.html",
+    "source": "ans/ask-ans.html",
+    "category": "legacy-answer",
+    "migrationStatus": "pending",
+    "sitemap": false,
+    "noindex": true,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/ans/ask-ans.html"
+  },
+  {
+    "path": "/blog-template/blogT.html",
+    "source": "blog-template/blogT.html",
+    "category": "legacy-template",
+    "migrationStatus": "pending",
+    "sitemap": false,
+    "noindex": true,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/blog-template/blogT.html"
+  },
+  {
+    "path": "/cart-template/cartT.html",
+    "source": "cart-template/cartT.html",
+    "category": "legacy-template",
+    "migrationStatus": "pending",
+    "sitemap": false,
+    "noindex": true,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/cart-template/cartT.html"
+  },
+  {
+    "path": "/community/community-2021.html",
+    "source": "community/community-2021.html",
+    "category": "community-period",
+    "migrationStatus": "pending",
+    "sitemap": true,
+    "noindex": false,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/community/community-2021.html"
+  },
+  {
+    "path": "/community/community-2022.html",
+    "source": "community/community-2022.html",
+    "category": "community-period",
+    "migrationStatus": "pending",
+    "sitemap": true,
+    "noindex": false,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/community/community-2022.html"
+  },
+  {
+    "path": "/community/community-2024.html",
+    "source": "community/community-2024.html",
+    "category": "community-period",
+    "migrationStatus": "pending",
+    "sitemap": true,
+    "noindex": false,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/community/community-2024.html"
+  },
+  {
+    "path": "/community/community-2025.html",
+    "source": "community/community-2025.html",
+    "category": "community-period",
+    "migrationStatus": "pending",
+    "sitemap": true,
+    "noindex": false,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/community/community-2025.html"
+  },
+  {
+    "path": "/community/community.html",
+    "source": "community/community.html",
+    "category": "community-index",
+    "migrationStatus": "pending",
+    "sitemap": true,
+    "noindex": false,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/community/community.html"
+  },
+  {
+    "path": "/company-template/companyT.html",
+    "source": "company-template/companyT.html",
+    "category": "legacy-template",
+    "migrationStatus": "pending",
+    "sitemap": false,
+    "noindex": true,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/company-template/companyT.html"
+  },
+  {
+    "path": "/data-template/dataT.html",
+    "source": "data-template/dataT.html",
+    "category": "legacy-template",
+    "migrationStatus": "pending",
+    "sitemap": false,
+    "noindex": true,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/data-template/dataT.html"
+  },
+  {
+    "path": "/data-template/pages/blank.html",
+    "source": "data-template/pages/blank.html",
+    "category": "legacy-html",
+    "migrationStatus": "pending",
+    "sitemap": false,
+    "noindex": true,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/data-template/pages/blank.html"
+  },
+  {
+    "path": "/data-template/pages/buttons.html",
+    "source": "data-template/pages/buttons.html",
+    "category": "legacy-html",
+    "migrationStatus": "pending",
+    "sitemap": false,
+    "noindex": true,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/data-template/pages/buttons.html"
+  },
+  {
+    "path": "/data-template/pages/flot.html",
+    "source": "data-template/pages/flot.html",
+    "category": "legacy-html",
+    "migrationStatus": "pending",
+    "sitemap": false,
+    "noindex": true,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/data-template/pages/flot.html"
+  },
+  {
+    "path": "/data-template/pages/forms.html",
+    "source": "data-template/pages/forms.html",
+    "category": "legacy-html",
+    "migrationStatus": "pending",
+    "sitemap": false,
+    "noindex": true,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/data-template/pages/forms.html"
+  },
+  {
+    "path": "/data-template/pages/grid.html",
+    "source": "data-template/pages/grid.html",
+    "category": "legacy-html",
+    "migrationStatus": "pending",
+    "sitemap": false,
+    "noindex": true,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/data-template/pages/grid.html"
+  },
+  {
+    "path": "/data-template/pages/icons.html",
+    "source": "data-template/pages/icons.html",
+    "category": "legacy-html",
+    "migrationStatus": "pending",
+    "sitemap": false,
+    "noindex": true,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/data-template/pages/icons.html"
+  },
+  {
+    "path": "/data-template/pages/index.html",
+    "source": "data-template/pages/index.html",
+    "category": "legacy-html",
+    "migrationStatus": "pending",
+    "sitemap": false,
+    "noindex": true,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/data-template/pages/index.html"
+  },
+  {
+    "path": "/data-template/pages/login.html",
+    "source": "data-template/pages/login.html",
+    "category": "legacy-html",
+    "migrationStatus": "pending",
+    "sitemap": false,
+    "noindex": true,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/data-template/pages/login.html"
+  },
+  {
+    "path": "/data-template/pages/morris.html",
+    "source": "data-template/pages/morris.html",
+    "category": "legacy-html",
+    "migrationStatus": "pending",
+    "sitemap": false,
+    "noindex": true,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/data-template/pages/morris.html"
+  },
+  {
+    "path": "/data-template/pages/notifications.html",
+    "source": "data-template/pages/notifications.html",
+    "category": "legacy-html",
+    "migrationStatus": "pending",
+    "sitemap": false,
+    "noindex": true,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/data-template/pages/notifications.html"
+  },
+  {
+    "path": "/data-template/pages/panels-wells.html",
+    "source": "data-template/pages/panels-wells.html",
+    "category": "legacy-html",
+    "migrationStatus": "pending",
+    "sitemap": false,
+    "noindex": true,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/data-template/pages/panels-wells.html"
+  },
+  {
+    "path": "/data-template/pages/tables.html",
+    "source": "data-template/pages/tables.html",
+    "category": "legacy-html",
+    "migrationStatus": "pending",
+    "sitemap": false,
+    "noindex": true,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/data-template/pages/tables.html"
+  },
+  {
+    "path": "/data-template/pages/typography.html",
+    "source": "data-template/pages/typography.html",
+    "category": "legacy-html",
+    "migrationStatus": "pending",
+    "sitemap": false,
+    "noindex": true,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/data-template/pages/typography.html"
+  },
+  {
+    "path": "/data-template/vendor/datatables-plugins/index.html",
+    "source": "data-template/vendor/datatables-plugins/index.html",
+    "category": "legacy-html",
+    "migrationStatus": "pending",
+    "sitemap": false,
+    "noindex": true,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/data-template/vendor/datatables-plugins/index.html"
+  },
+  {
+    "path": "/google0d273919ce2cabd0.html",
+    "source": "google0d273919ce2cabd0.html",
+    "category": "search-verification",
+    "migrationStatus": "pending",
+    "sitemap": false,
+    "noindex": true,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/google0d273919ce2cabd0.html"
+  },
+  {
+    "path": "/index-old.html",
+    "source": "index-old.html",
+    "category": "legacy-archive",
+    "migrationStatus": "pending",
+    "sitemap": false,
+    "noindex": true,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/index-old.html"
+  },
+  {
+    "path": "/index.html",
+    "source": "index.html",
+    "category": "home",
+    "migrationStatus": "pending",
+    "sitemap": true,
+    "noindex": false,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/index.html"
+  },
+  {
+    "path": "/private/account-terms.html",
+    "source": "private/account-terms.html",
+    "category": "legal",
+    "migrationStatus": "pending",
+    "sitemap": false,
+    "noindex": true,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/private/account-terms.html"
+  },
+  {
+    "path": "/speech.html",
+    "source": "speech.html",
+    "category": "speech-index",
+    "migrationStatus": "pending",
+    "sitemap": true,
+    "noindex": false,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/speech.html"
+  },
+  {
+    "path": "/speech/sp2019-01-05.html",
+    "source": "speech/sp2019-01-05.html",
+    "category": "speech-detail",
+    "migrationStatus": "pending",
+    "sitemap": true,
+    "noindex": false,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/speech/sp2019-01-05.html"
+  },
+  {
+    "path": "/speech/sp2019-03-17.html",
+    "source": "speech/sp2019-03-17.html",
+    "category": "speech-detail",
+    "migrationStatus": "pending",
+    "sitemap": true,
+    "noindex": false,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/speech/sp2019-03-17.html"
+  },
+  {
+    "path": "/speech/sp2019-05-17.html",
+    "source": "speech/sp2019-05-17.html",
+    "category": "speech-detail",
+    "migrationStatus": "pending",
+    "sitemap": true,
+    "noindex": false,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/speech/sp2019-05-17.html"
+  },
+  {
+    "path": "/speech/sp2019-08-14.html",
+    "source": "speech/sp2019-08-14.html",
+    "category": "speech-detail",
+    "migrationStatus": "pending",
+    "sitemap": true,
+    "noindex": false,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/speech/sp2019-08-14.html"
+  },
+  {
+    "path": "/speech/sp2019-08-18.html",
+    "source": "speech/sp2019-08-18.html",
+    "category": "speech-detail",
+    "migrationStatus": "pending",
+    "sitemap": true,
+    "noindex": false,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/speech/sp2019-08-18.html"
+  },
+  {
+    "path": "/speech/sp2019-09-11.html",
+    "source": "speech/sp2019-09-11.html",
+    "category": "speech-detail",
+    "migrationStatus": "pending",
+    "sitemap": true,
+    "noindex": false,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/speech/sp2019-09-11.html"
+  },
+  {
+    "path": "/speech/sp2019-10-23.html",
+    "source": "speech/sp2019-10-23.html",
+    "category": "speech-detail",
+    "migrationStatus": "pending",
+    "sitemap": true,
+    "noindex": false,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/speech/sp2019-10-23.html"
+  },
+  {
+    "path": "/speech/sp2019-11-09.html",
+    "source": "speech/sp2019-11-09.html",
+    "category": "speech-detail",
+    "migrationStatus": "pending",
+    "sitemap": true,
+    "noindex": false,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/speech/sp2019-11-09.html"
+  },
+  {
+    "path": "/speech/sp2019-12-21.html",
+    "source": "speech/sp2019-12-21.html",
+    "category": "speech-detail",
+    "migrationStatus": "pending",
+    "sitemap": true,
+    "noindex": false,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/speech/sp2019-12-21.html"
+  },
+  {
+    "path": "/speech/sp2019-12-28.html",
+    "source": "speech/sp2019-12-28.html",
+    "category": "speech-detail",
+    "migrationStatus": "pending",
+    "sitemap": true,
+    "noindex": false,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/speech/sp2019-12-28.html"
+  },
+  {
+    "path": "/speech/sp2020-01-03.html",
+    "source": "speech/sp2020-01-03.html",
+    "category": "speech-detail",
+    "migrationStatus": "pending",
+    "sitemap": true,
+    "noindex": false,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/speech/sp2020-01-03.html"
+  },
+  {
+    "path": "/speech/sp2020-02-06.html",
+    "source": "speech/sp2020-02-06.html",
+    "category": "speech-detail",
+    "migrationStatus": "pending",
+    "sitemap": true,
+    "noindex": false,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/speech/sp2020-02-06.html"
+  },
+  {
+    "path": "/speech/sp2020-04-21.html",
+    "source": "speech/sp2020-04-21.html",
+    "category": "speech-detail",
+    "migrationStatus": "pending",
+    "sitemap": true,
+    "noindex": false,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/speech/sp2020-04-21.html"
+  },
+  {
+    "path": "/speech/sp2020-07-15.html",
+    "source": "speech/sp2020-07-15.html",
+    "category": "speech-detail",
+    "migrationStatus": "pending",
+    "sitemap": true,
+    "noindex": false,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/speech/sp2020-07-15.html"
+  },
+  {
+    "path": "/speech/sp2020-08-02-2.html",
+    "source": "speech/sp2020-08-02-2.html",
+    "category": "speech-detail",
+    "migrationStatus": "pending",
+    "sitemap": true,
+    "noindex": false,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/speech/sp2020-08-02-2.html"
+  },
+  {
+    "path": "/speech/sp2020-08-02.html",
+    "source": "speech/sp2020-08-02.html",
+    "category": "speech-detail",
+    "migrationStatus": "pending",
+    "sitemap": true,
+    "noindex": false,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/speech/sp2020-08-02.html"
+  },
+  {
+    "path": "/speech/sp2020-09-20.html",
+    "source": "speech/sp2020-09-20.html",
+    "category": "speech-detail",
+    "migrationStatus": "pending",
+    "sitemap": true,
+    "noindex": false,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/speech/sp2020-09-20.html"
+  },
+  {
+    "path": "/speech/sp2020-10-12.html",
+    "source": "speech/sp2020-10-12.html",
+    "category": "speech-detail",
+    "migrationStatus": "pending",
+    "sitemap": true,
+    "noindex": false,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/speech/sp2020-10-12.html"
+  },
+  {
+    "path": "/speech/sp2020-10-24.html",
+    "source": "speech/sp2020-10-24.html",
+    "category": "speech-detail",
+    "migrationStatus": "pending",
+    "sitemap": true,
+    "noindex": false,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/speech/sp2020-10-24.html"
+  },
+  {
+    "path": "/speech/sp2020-11-10.html",
+    "source": "speech/sp2020-11-10.html",
+    "category": "speech-detail",
+    "migrationStatus": "pending",
+    "sitemap": true,
+    "noindex": false,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/speech/sp2020-11-10.html"
+  },
+  {
+    "path": "/speech/sp2020-12-19.html",
+    "source": "speech/sp2020-12-19.html",
+    "category": "speech-detail",
+    "migrationStatus": "pending",
+    "sitemap": true,
+    "noindex": false,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/speech/sp2020-12-19.html"
+  },
+  {
+    "path": "/speech/sp2020-12-26.html",
+    "source": "speech/sp2020-12-26.html",
+    "category": "speech-detail",
+    "migrationStatus": "pending",
+    "sitemap": true,
+    "noindex": false,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/speech/sp2020-12-26.html"
+  },
+  {
+    "path": "/speech/sp2021-02-03.html",
+    "source": "speech/sp2021-02-03.html",
+    "category": "speech-detail",
+    "migrationStatus": "pending",
+    "sitemap": true,
+    "noindex": false,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/speech/sp2021-02-03.html"
+  },
+  {
+    "path": "/speech/sp2021-03-03.html",
+    "source": "speech/sp2021-03-03.html",
+    "category": "speech-detail",
+    "migrationStatus": "pending",
+    "sitemap": true,
+    "noindex": false,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/speech/sp2021-03-03.html"
+  },
+  {
+    "path": "/speech/sp2021-06-09.html",
+    "source": "speech/sp2021-06-09.html",
+    "category": "speech-detail",
+    "migrationStatus": "pending",
+    "sitemap": true,
+    "noindex": false,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/speech/sp2021-06-09.html"
+  },
+  {
+    "path": "/speech/sp2021-06-28.html",
+    "source": "speech/sp2021-06-28.html",
+    "category": "speech-detail",
+    "migrationStatus": "pending",
+    "sitemap": true,
+    "noindex": false,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/speech/sp2021-06-28.html"
+  },
+  {
+    "path": "/speech/sp2021-08-01-2.html",
+    "source": "speech/sp2021-08-01-2.html",
+    "category": "speech-detail",
+    "migrationStatus": "pending",
+    "sitemap": true,
+    "noindex": false,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/speech/sp2021-08-01-2.html"
+  },
+  {
+    "path": "/speech/sp2021-08-01.html",
+    "source": "speech/sp2021-08-01.html",
+    "category": "speech-detail",
+    "migrationStatus": "pending",
+    "sitemap": true,
+    "noindex": false,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/speech/sp2021-08-01.html"
+  },
+  {
+    "path": "/speech/sp2021-09-25.html",
+    "source": "speech/sp2021-09-25.html",
+    "category": "speech-detail",
+    "migrationStatus": "pending",
+    "sitemap": true,
+    "noindex": false,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/speech/sp2021-09-25.html"
+  },
+  {
+    "path": "/speech/sp2021-10-24-2.html",
+    "source": "speech/sp2021-10-24-2.html",
+    "category": "speech-detail",
+    "migrationStatus": "pending",
+    "sitemap": true,
+    "noindex": false,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/speech/sp2021-10-24-2.html"
+  },
+  {
+    "path": "/speech/sp2021-10-24.html",
+    "source": "speech/sp2021-10-24.html",
+    "category": "speech-detail",
+    "migrationStatus": "pending",
+    "sitemap": true,
+    "noindex": false,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/speech/sp2021-10-24.html"
+  },
+  {
+    "path": "/speech/sp2021-10-25.html",
+    "source": "speech/sp2021-10-25.html",
+    "category": "speech-detail",
+    "migrationStatus": "pending",
+    "sitemap": true,
+    "noindex": false,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/speech/sp2021-10-25.html"
+  },
+  {
+    "path": "/speech/sp2021-11-30.html",
+    "source": "speech/sp2021-11-30.html",
+    "category": "speech-detail",
+    "migrationStatus": "pending",
+    "sitemap": true,
+    "noindex": false,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/speech/sp2021-11-30.html"
+  },
+  {
+    "path": "/speech/sp2021-12-18.html",
+    "source": "speech/sp2021-12-18.html",
+    "category": "speech-detail",
+    "migrationStatus": "pending",
+    "sitemap": true,
+    "noindex": false,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/speech/sp2021-12-18.html"
+  },
+  {
+    "path": "/speech/sp2022-01-15-2.html",
+    "source": "speech/sp2022-01-15-2.html",
+    "category": "speech-detail",
+    "migrationStatus": "pending",
+    "sitemap": true,
+    "noindex": false,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/speech/sp2022-01-15-2.html"
+  },
+  {
+    "path": "/speech/sp2022-01-15.html",
+    "source": "speech/sp2022-01-15.html",
+    "category": "speech-detail",
+    "migrationStatus": "pending",
+    "sitemap": true,
+    "noindex": false,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/speech/sp2022-01-15.html"
+  },
+  {
+    "path": "/speech/sp2022-02-08.html",
+    "source": "speech/sp2022-02-08.html",
+    "category": "speech-detail",
+    "migrationStatus": "pending",
+    "sitemap": true,
+    "noindex": false,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/speech/sp2022-02-08.html"
+  },
+  {
+    "path": "/speech/sp2022-05-25.html",
+    "source": "speech/sp2022-05-25.html",
+    "category": "speech-detail",
+    "migrationStatus": "pending",
+    "sitemap": true,
+    "noindex": false,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/speech/sp2022-05-25.html"
+  },
+  {
+    "path": "/speech/sp2022-06-14.html",
+    "source": "speech/sp2022-06-14.html",
+    "category": "speech-detail",
+    "migrationStatus": "pending",
+    "sitemap": true,
+    "noindex": false,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/speech/sp2022-06-14.html"
+  },
+  {
+    "path": "/speech/sp2022-07-21.html",
+    "source": "speech/sp2022-07-21.html",
+    "category": "speech-detail",
+    "migrationStatus": "pending",
+    "sitemap": true,
+    "noindex": false,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/speech/sp2022-07-21.html"
+  },
+  {
+    "path": "/speech/sp2022-07-30.html",
+    "source": "speech/sp2022-07-30.html",
+    "category": "speech-detail",
+    "migrationStatus": "pending",
+    "sitemap": true,
+    "noindex": false,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/speech/sp2022-07-30.html"
+  },
+  {
+    "path": "/speech/sp2022-08-16.html",
+    "source": "speech/sp2022-08-16.html",
+    "category": "speech-detail",
+    "migrationStatus": "pending",
+    "sitemap": true,
+    "noindex": false,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/speech/sp2022-08-16.html"
+  },
+  {
+    "path": "/speech/sp2022-09-03-2.html",
+    "source": "speech/sp2022-09-03-2.html",
+    "category": "speech-detail",
+    "migrationStatus": "pending",
+    "sitemap": true,
+    "noindex": false,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/speech/sp2022-09-03-2.html"
+  },
+  {
+    "path": "/speech/sp2022-09-03.html",
+    "source": "speech/sp2022-09-03.html",
+    "category": "speech-detail",
+    "migrationStatus": "pending",
+    "sitemap": true,
+    "noindex": false,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/speech/sp2022-09-03.html"
+  },
+  {
+    "path": "/speech/sp2022-10-30.html",
+    "source": "speech/sp2022-10-30.html",
+    "category": "speech-detail",
+    "migrationStatus": "pending",
+    "sitemap": true,
+    "noindex": false,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/speech/sp2022-10-30.html"
+  },
+  {
+    "path": "/speech/sp2022-11-05.html",
+    "source": "speech/sp2022-11-05.html",
+    "category": "speech-detail",
+    "migrationStatus": "pending",
+    "sitemap": true,
+    "noindex": false,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/speech/sp2022-11-05.html"
+  },
+  {
+    "path": "/speech/sp2022-11-16.html",
+    "source": "speech/sp2022-11-16.html",
+    "category": "speech-detail",
+    "migrationStatus": "pending",
+    "sitemap": true,
+    "noindex": false,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/speech/sp2022-11-16.html"
+  },
+  {
+    "path": "/speech/sp2022-12-17.html",
+    "source": "speech/sp2022-12-17.html",
+    "category": "speech-detail",
+    "migrationStatus": "pending",
+    "sitemap": true,
+    "noindex": false,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/speech/sp2022-12-17.html"
+  },
+  {
+    "path": "/speech/sp2023-02-16.html",
+    "source": "speech/sp2023-02-16.html",
+    "category": "speech-detail",
+    "migrationStatus": "pending",
+    "sitemap": true,
+    "noindex": false,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/speech/sp2023-02-16.html"
+  },
+  {
+    "path": "/speech/sp2023-03-03.html",
+    "source": "speech/sp2023-03-03.html",
+    "category": "speech-detail",
+    "migrationStatus": "pending",
+    "sitemap": true,
+    "noindex": false,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/speech/sp2023-03-03.html"
+  },
+  {
+    "path": "/speech/sp2023-05-20-2.html",
+    "source": "speech/sp2023-05-20-2.html",
+    "category": "speech-detail",
+    "migrationStatus": "pending",
+    "sitemap": true,
+    "noindex": false,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/speech/sp2023-05-20-2.html"
+  },
+  {
+    "path": "/speech/sp2023-05-20.html",
+    "source": "speech/sp2023-05-20.html",
+    "category": "speech-detail",
+    "migrationStatus": "pending",
+    "sitemap": true,
+    "noindex": false,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/speech/sp2023-05-20.html"
+  },
+  {
+    "path": "/speech/sp2023-06-10.html",
+    "source": "speech/sp2023-06-10.html",
+    "category": "speech-detail",
+    "migrationStatus": "pending",
+    "sitemap": true,
+    "noindex": false,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/speech/sp2023-06-10.html"
+  },
+  {
+    "path": "/speech/sp2023-07-02.html",
+    "source": "speech/sp2023-07-02.html",
+    "category": "speech-detail",
+    "migrationStatus": "pending",
+    "sitemap": true,
+    "noindex": false,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/speech/sp2023-07-02.html"
+  },
+  {
+    "path": "/speech/sp2023-07-19.html",
+    "source": "speech/sp2023-07-19.html",
+    "category": "speech-detail",
+    "migrationStatus": "pending",
+    "sitemap": true,
+    "noindex": false,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/speech/sp2023-07-19.html"
+  },
+  {
+    "path": "/speech/sp2023-07-30.html",
+    "source": "speech/sp2023-07-30.html",
+    "category": "speech-detail",
+    "migrationStatus": "pending",
+    "sitemap": true,
+    "noindex": false,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/speech/sp2023-07-30.html"
+  },
+  {
+    "path": "/speech/sp2023-07-31.html",
+    "source": "speech/sp2023-07-31.html",
+    "category": "speech-detail",
+    "migrationStatus": "pending",
+    "sitemap": true,
+    "noindex": false,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/speech/sp2023-07-31.html"
+  },
+  {
+    "path": "/speech/sp2023-08-19.html",
+    "source": "speech/sp2023-08-19.html",
+    "category": "speech-detail",
+    "migrationStatus": "pending",
+    "sitemap": true,
+    "noindex": false,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/speech/sp2023-08-19.html"
+  },
+  {
+    "path": "/speech/sp2023-08-25.html",
+    "source": "speech/sp2023-08-25.html",
+    "category": "speech-detail",
+    "migrationStatus": "pending",
+    "sitemap": true,
+    "noindex": false,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/speech/sp2023-08-25.html"
+  },
+  {
+    "path": "/speech/sp2023-08-30.html",
+    "source": "speech/sp2023-08-30.html",
+    "category": "speech-detail",
+    "migrationStatus": "pending",
+    "sitemap": true,
+    "noindex": false,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/speech/sp2023-08-30.html"
+  },
+  {
+    "path": "/speech/sp2023-11-08.html",
+    "source": "speech/sp2023-11-08.html",
+    "category": "speech-detail",
+    "migrationStatus": "pending",
+    "sitemap": true,
+    "noindex": false,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/speech/sp2023-11-08.html"
+  },
+  {
+    "path": "/speech/sp2023-11-30.html",
+    "source": "speech/sp2023-11-30.html",
+    "category": "speech-detail",
+    "migrationStatus": "pending",
+    "sitemap": true,
+    "noindex": false,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/speech/sp2023-11-30.html"
+  },
+  {
+    "path": "/speech/sp2023-12-10.html",
+    "source": "speech/sp2023-12-10.html",
+    "category": "speech-detail",
+    "migrationStatus": "pending",
+    "sitemap": true,
+    "noindex": false,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/speech/sp2023-12-10.html"
+  },
+  {
+    "path": "/speech/sp2024-02-21.html",
+    "source": "speech/sp2024-02-21.html",
+    "category": "speech-detail",
+    "migrationStatus": "pending",
+    "sitemap": true,
+    "noindex": false,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/speech/sp2024-02-21.html"
+  },
+  {
+    "path": "/speech/sp2024-05-13.html",
+    "source": "speech/sp2024-05-13.html",
+    "category": "speech-detail",
+    "migrationStatus": "pending",
+    "sitemap": true,
+    "noindex": false,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/speech/sp2024-05-13.html"
+  },
+  {
+    "path": "/speech/sp2024-07-13.html",
+    "source": "speech/sp2024-07-13.html",
+    "category": "speech-detail",
+    "migrationStatus": "pending",
+    "sitemap": true,
+    "noindex": false,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/speech/sp2024-07-13.html"
+  },
+  {
+    "path": "/speech/sp2024-07-22.html",
+    "source": "speech/sp2024-07-22.html",
+    "category": "speech-detail",
+    "migrationStatus": "pending",
+    "sitemap": true,
+    "noindex": false,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/speech/sp2024-07-22.html"
+  },
+  {
+    "path": "/speech/sp2024-08-04.html",
+    "source": "speech/sp2024-08-04.html",
+    "category": "speech-detail",
+    "migrationStatus": "pending",
+    "sitemap": true,
+    "noindex": false,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/speech/sp2024-08-04.html"
+  },
+  {
+    "path": "/speech/sp2024-08-14.html",
+    "source": "speech/sp2024-08-14.html",
+    "category": "speech-detail",
+    "migrationStatus": "pending",
+    "sitemap": true,
+    "noindex": false,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/speech/sp2024-08-14.html"
+  },
+  {
+    "path": "/speech/sp2024-09-12.html",
+    "source": "speech/sp2024-09-12.html",
+    "category": "speech-detail",
+    "migrationStatus": "pending",
+    "sitemap": true,
+    "noindex": false,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/speech/sp2024-09-12.html"
+  },
+  {
+    "path": "/speech/sp2024-09-24.html",
+    "source": "speech/sp2024-09-24.html",
+    "category": "speech-detail",
+    "migrationStatus": "pending",
+    "sitemap": true,
+    "noindex": false,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/speech/sp2024-09-24.html"
+  },
+  {
+    "path": "/speech/sp2024-10-17.html",
+    "source": "speech/sp2024-10-17.html",
+    "category": "speech-detail",
+    "migrationStatus": "pending",
+    "sitemap": true,
+    "noindex": false,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/speech/sp2024-10-17.html"
+  },
+  {
+    "path": "/speech/sp2024-11-09.html",
+    "source": "speech/sp2024-11-09.html",
+    "category": "speech-detail",
+    "migrationStatus": "pending",
+    "sitemap": true,
+    "noindex": false,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/speech/sp2024-11-09.html"
+  },
+  {
+    "path": "/speech/sp2024-12-14.html",
+    "source": "speech/sp2024-12-14.html",
+    "category": "speech-detail",
+    "migrationStatus": "pending",
+    "sitemap": true,
+    "noindex": false,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/speech/sp2024-12-14.html"
+  },
+  {
+    "path": "/speech/sp2025-03-15.html",
+    "source": "speech/sp2025-03-15.html",
+    "category": "speech-detail",
+    "migrationStatus": "pending",
+    "sitemap": true,
+    "noindex": false,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/speech/sp2025-03-15.html"
+  }
+]

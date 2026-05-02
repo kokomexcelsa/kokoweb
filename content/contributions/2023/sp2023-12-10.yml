@@ -1,0 +1,38 @@
+id: "sp2023-12-10"
+legacyPath: "/speech/sp2023-12-10.html"
+type: "speaking"
+date: 2023-12-10
+title:
+  zh: "在 Azure Machine Learning 上學習 LangChain"
+  en: "Learn LangChain on Azure Machine Learning"
+event: ".NET Conference Taiwan 2023"
+location: "台灣大學"
+role: speaker
+format: "in-person"
+topics:
+  - "LangChain"
+  - "Machine Learning"
+microsoftProducts:
+  - "Azure Machine Learning"
+  - "Microsoft Azure"
+links:
+  event: "https://dotnetconf.study4.tw/Speaker#KoKo"
+evidence:
+  - type: "link"
+    href: "https://dotnetconf.study4.tw/Speaker#KoKo"
+    label: "活動紀錄連結點此 / Click here to event link"
+  - type: "screenshot"
+    src: "https://magicpandaengineer.blob.core.windows.net/img/sp-photos/sp20231210-url-1.png"
+    alt: "Learn LangChain on Azure ML"
+  - type: "screenshot"
+    src: "https://magicpandaengineer.blob.core.windows.net/img/sp-photos/sp20231210-url-2.png"
+    alt: "Learn LangChain on Azure ML"
+summary:
+  zh: "這場演講是我在 .NET Conf Taiwan 2023 所分享的主題。 在這場活動中，我分享了 LangChain 的幾個重要概念，並且示範如何在 Azure Machine Learning 上跑 LangChain。"
+  en: "This speech is my topic in .NET Conf Taiwan 2023. In this event, I shared several important concepts of LangChain and demonstrated how to run LangChain on Azure Machine Learning."
+proofStatus:
+  importedFromList: ready
+  detailPage: found
+  evidence: imported
+  title: synthesized
+language: mixed

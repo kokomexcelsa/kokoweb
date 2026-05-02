@@ -1,0 +1,35 @@
+id: "sp2020-10-12"
+legacyPath: "/speech/sp2020-10-12.html"
+type: "speaking"
+date: 2020-10-12
+title:
+  zh: "PWA 開發血淚史"
+  en: "History of Developing PWA with blood and tears"
+event: "ModernWeb Conference 2020"
+location: "iThome"
+role: speaker
+format: "in-person"
+topics:
+  []
+microsoftProducts:
+  []
+links:
+  event: "https://modernweb.tw/speaker-page/7460"
+evidence:
+  - type: "link"
+    href: "https://modernweb.tw/speaker-page/7460"
+    label: "活動紀錄連結點此"
+  - type: "photo"
+    src: "https://kokomexcelsa.s3-ap-northeast-1.amazonaws.com/sp-photos/sp20201012-koko-1.jpg"
+    alt: "PWA 開發血淚史"
+  - type: "screenshot"
+    src: "https://kokomexcelsa.s3-ap-northeast-1.amazonaws.com/sp-photos/sp20201012-url-1.jpg"
+    alt: "PWA 開發血淚史"
+summary:
+  zh: "這場演講是在台灣最大Web年會：Modern Web 2020，裡分享的主題，主要在講開發PWA時的經驗和如何避開地雷。"
+  en: "This topic was shared in Modern Web 2020, which is the largest web conference in Taiwan. This speech focused on developing PWA and how to avoid bugs."
+proofStatus:
+  importedFromList: ready
+  detailPage: found
+  evidence: imported
+language: mixed

@@ -1,0 +1,52 @@
+---
+import '../styles/global.css';
+import SeoMeta from '../components/SeoMeta.astro';
+import SiteFooter from '../components/SiteFooter.astro';
+import SiteHeader from '../components/SiteHeader.astro';
+
+interface Props {
+  title?: string;
+  description?: string;
+  noindex?: boolean;
+  image?: string;
+  canonicalPath?: string;
+  structuredData?: Record<string, unknown> | Record<string, unknown>[];
+}
+
+const {
+  title = '大魔術熊貓工程師 Ko Ko',
+  description = 'Ko Ko 是 Microsoft AI MVP、技術作者、講者與 AI 應用架構開發者。',
+  noindex = false,
+  image = '/img/og-panda-engineer.jpg',
+  canonicalPath,
+  structuredData = []
+} = Astro.props;
+---
+
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <SeoMeta
+      title={title}
+      description={description}
+      noindex={noindex}
+      image={image}
+      canonicalPath={canonicalPath}
+      structuredData={structuredData}
+    />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">跳到主要內容</a>
+    <div class="site-shell">
+      <SiteHeader />
+      <main id="main">
+        <slot />
+      </main>
+      <SiteFooter />
+    </div>
+  </body>
+</html>

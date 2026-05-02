@@ -1,0 +1,45 @@
+id: "sp2019-09-11"
+legacyPath: "/speech/sp2019-09-11.html"
+type: "speaking"
+date: 2019-09-11
+title:
+  zh: "基於數據科學的房地產價格預測，做成chatbot應用，最後如何被政府一句話終止開發"
+  en: ""
+event: "Chatbot Developers Taiwan 台中小小聚"
+location: "微程式夢森林"
+role: speaker
+format: "in-person"
+topics:
+  - "Chatbot"
+microsoftProducts:
+  []
+links:
+  event: "https://chatbots.kktix.cc/events/chatbots-taichung-002"
+  event2: "https://chibupapa.com/2019/09/17/attending-chatbots-meetup-taichung-002-on-20190911/"
+evidence:
+  - type: "link"
+    href: "https://chatbots.kktix.cc/events/chatbots-taichung-002"
+    label: "活動連結1點此"
+  - type: "link"
+    href: "https://chibupapa.com/2019/09/17/attending-chatbots-meetup-taichung-002-on-20190911/"
+    label: "活動連結2點此"
+  - type: "photo"
+    src: "/sp-photos/koko-photos/sp20190911-1.jpg"
+    alt: "數據科學的房地產價格預測"
+  - type: "photo"
+    src: "/sp-photos/koko-photos/sp20190911-2.jpg"
+    alt: "數據科學的房地產價格預測"
+  - type: "screenshot"
+    src: "/sp-photos/url-photos/sp20190911-url1.png"
+    alt: "數據科學的房地產價格預測"
+  - type: "screenshot"
+    src: "/sp-photos/url-photos/sp20190911-url2.png"
+    alt: "數據科學的房地產價格預測"
+summary:
+  zh: ""
+  en: ""
+proofStatus:
+  importedFromList: ready
+  detailPage: found
+  evidence: imported
+language: mixed

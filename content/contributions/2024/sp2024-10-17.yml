@@ -1,0 +1,37 @@
+id: "sp2024-10-17"
+legacyPath: "/speech/sp2024-10-17.html"
+type: "workshop"
+date: 2024-10-17
+title:
+  zh: "應用 LLM 框架：LangChain 入門工作坊"
+  en: "Applying LLM Frameworks: Getting Started with LangChain"
+event: "資料科學家小聚"
+location: "Live Stream"
+role: speaker
+format: "online"
+topics:
+  - "LangChain"
+  - "OpenAI"
+microsoftProducts:
+  - "Azure OpenAI"
+  - "Microsoft Azure"
+links:
+  event: "https://www.accupass.com/event/2410070534505682057000"
+evidence:
+  - type: "link"
+    href: "https://www.accupass.com/event/2410070534505682057000"
+    label: "活動紀錄連結點此 / Click here to event link"
+  - type: "screenshot"
+    src: "https://magicpandaengineer.blob.core.windows.net/img/sp-photos/sp20241017-url-1.png"
+    alt: "Learn LangChain"
+  - type: "screenshot"
+    src: "https://magicpandaengineer.blob.core.windows.net/img/sp-photos/sp20241017-url-2.png"
+    alt: "Learn LangChain"
+summary:
+  zh: "這是在資料科學家小聚的工作坊的活動，這是台灣最大的資料科學家社群。 在這次的工作坊中，我示範了如何快速開發一個 prototype，使用 LangChain 和 Azure OpenAI。"
+  en: "This speech was shared in Data Scientists Group Taiwan, which is the largest data scientists group in Taiwan. In this speech, I demo how to quick develop a prototype with LangChain and Azure OpenAI."
+proofStatus:
+  importedFromList: ready
+  detailPage: found
+  evidence: imported
+language: mixed

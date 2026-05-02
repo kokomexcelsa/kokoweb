@@ -1,0 +1,49 @@
+items:
+  - id: blog
+    title: 大魔術熊貓工程師技術部落格
+    type: blog
+    url: https://magic-panda-engineer.github.io/
+    publisher: 大魔術熊貓工程師
+    summary: 對外發表的技術筆記與 AI、雲端、軟體工程實作文章。
+    topics:
+      - AI
+      - Azure
+      - OpenAI
+      - Software Engineering
+  - id: ithome-ironman-2023-llm
+    title: 全端 LLM 應用開發
+    type: series
+    url: https://ithelp.ithome.com.tw/users/20120030/ironman/7039
+    year: 2023
+    publisher: iThome 鐵人賽
+    summary: 30 篇大型語言模型應用開發系列，涵蓋向量資料庫、Hugging Face、Azure ML、LangChain 與 FastAPI。
+    topics:
+      - LLM
+      - Azure ML
+      - LangChain
+      - FastAPI
+      - Vector Database
+  - id: tibame-azure-openai
+    title: 駕馭 Azure OpenAI
+    type: course
+    url: https://www.tibame.com/program/Azure_OpenAI
+    publisher: 緯育 TibaMe
+    summary: Azure OpenAI、Azure AI、向量資料庫、LangChain、FastAPI 與雲端部署課程。
+    topics:
+      - Azure OpenAI
+      - Azure AI
+      - LangChain
+      - FastAPI
+  - id: ithome-ironman-2025-langchain-azure-ai
+    title: LangChain 愛 Azure AI
+    type: series
+    url: https://ithelp.ithome.com.tw/articles/10380646
+    year: 2025
+    publisher: iThome 鐵人賽
+    summary: 2025 iThome 鐵人賽系列文章，聚焦 LangChain 1.0、Azure AI Foundry、Azure OpenAI、Azure AI Search、RAG 與 Azure AI 相關套件整合。
+    topics:
+      - LangChain
+      - Azure AI Foundry
+      - Azure OpenAI
+      - Azure AI Search
+      - RAG

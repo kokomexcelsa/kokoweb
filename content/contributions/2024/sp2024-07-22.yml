@@ -1,0 +1,38 @@
+id: "sp2024-07-22"
+legacyPath: "/speech/sp2024-07-22.html"
+type: "speaking"
+date: 2024-07-22
+title:
+  zh: "向量資料庫與 Qdrant 的介紹"
+  en: "Introduce to Vector Database and Qdrant"
+event: "R-Ladies"
+location: "Live Stream"
+role: speaker
+format: "online"
+topics:
+  - "OpenAI"
+  - "Vector Database"
+  - "Qdrant"
+microsoftProducts:
+  - "Azure OpenAI"
+  - "Microsoft Azure"
+links:
+  event: "https://www.accupass.com/event/2406011404591120877198"
+evidence:
+  - type: "link"
+    href: "https://www.accupass.com/event/2406011404591120877198"
+    label: "活動紀錄連結點此 / Click here to event link"
+  - type: "screenshot"
+    src: "https://magicpandaengineer.blob.core.windows.net/img/sp-photos/sp20240722-url-1.png"
+    alt: "Learn LangChain"
+  - type: "screenshot"
+    src: "https://magicpandaengineer.blob.core.windows.net/img/sp-photos/sp20240722-url-2.png"
+    alt: "Learn LangChain"
+summary:
+  zh: "這場演講是我在 R-ladies Taipei 的分享。 在這場活動中，我分享了向量資料庫的知識。 結合 Azure OpenAI，我 demo 了如何 embedding data，並使用 Qdrant 來儲存和搜索資料。"
+  en: "This is my speech at R-ladies Taipei. In this event, I shared the knowledges of vector database. Combined with Azure OpenAI, I demostrated how to embeded data and use Qdrant to store and search data."
+proofStatus:
+  importedFromList: ready
+  detailPage: found
+  evidence: imported
+language: mixed

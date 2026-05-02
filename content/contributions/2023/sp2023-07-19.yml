@@ -1,0 +1,38 @@
+id: "sp2023-07-19"
+legacyPath: "/speech/sp2023-07-19.html"
+type: "speaking"
+date: 2023-07-19
+title:
+  zh: "AI Skills Challenge Reactor Live Sessions(繁體中文)：AI 基礎"
+  en: "AI Skills Challenge Reactor Live Sessions(Chinese Traditional)： The foundation of AI"
+event: "AI Skills Challenge"
+location: "Microsoft Reactor"
+role: speaker
+format: "in-person"
+topics:
+  - "OpenAI"
+  - "Machine Learning"
+microsoftProducts:
+  - "Azure OpenAI"
+  - "Azure Machine Learning"
+  - "Microsoft Azure"
+links:
+  event: "https://developer.microsoft.com/zh-cn/reactor/series/S-1190/"
+evidence:
+  - type: "link"
+    href: "https://developer.microsoft.com/zh-cn/reactor/series/S-1190/"
+    label: "活動紀錄連結點此 / Click here to event link"
+  - type: "screenshot"
+    src: "https://magicpandaengineer.blob.core.windows.net/img/sp-photos/sp20230719-url-1.png"
+    alt: "AI Skills Challenge Reactor Live Sessions(Chinese Traditional)： The foundation of AI"
+  - type: "screenshot"
+    src: "https://magicpandaengineer.blob.core.windows.net/img/sp-photos/sp20230719-url-2.png"
+    alt: "AI Skills Challenge Reactor Live Sessions(Chinese Traditional)： The foundation of AI"
+summary:
+  zh: "這場是微軟主辦的 AI Skills Challenge 活動，在 Microsoft Reactor 上面直播。 在這場分享中，分享了 AI 的基礎知識，並且介紹了 Azure Machine Learning 與 Azure OpenAI 等重要的 AI 服務。"
+  en: "This is a Microsoft-hosted AI Skills Challenge event, live on Microsoft Reactor. In this sharing, I shared the basic knowledge of AI and introduced important AI services such as Azure Machine Learning and Azure OpenAI."
+proofStatus:
+  importedFromList: ready
+  detailPage: found
+  evidence: imported
+language: mixed

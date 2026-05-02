@@ -1,0 +1,35 @@
+id: "sp2020-02-06"
+legacyPath: "/speech/sp2020-02-06.html"
+type: "speaking"
+date: 2020-02-06
+title:
+  zh: "簡介Wordpress部署在AWS上的幾種架構"
+  en: ""
+event: "Wordpress台中小聚"
+location: "Monospace"
+role: speaker
+format: "in-person"
+topics:
+  []
+microsoftProducts:
+  []
+links:
+  event: "https://www.meetup.com/Taichung-WordPress-Meetup/events/268417575/"
+evidence:
+  - type: "link"
+    href: "https://www.meetup.com/Taichung-WordPress-Meetup/events/268417575/"
+    label: "活動連結點此"
+  - type: "photo"
+    src: "/sp-photos/koko-photos/sp20200216-1.jpg"
+    alt: "Wordpress部署在AWS上的幾種架構"
+  - type: "screenshot"
+    src: "/sp-photos/url-photos/sp20200216-url1.png"
+    alt: "Wordpress部署在AWS上的幾種架構"
+summary:
+  zh: ""
+  en: ""
+proofStatus:
+  importedFromList: ready
+  detailPage: found
+  evidence: imported
+language: mixed

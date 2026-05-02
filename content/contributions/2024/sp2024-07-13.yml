@@ -1,0 +1,42 @@
+id: "sp2024-07-13"
+legacyPath: "/speech/sp2024-07-13.html"
+type: "speaking"
+date: 2024-07-13
+title:
+  zh: "用 LangChain 串接 LINE Bot"
+  en: "Integrate LINE bot with LangChain"
+event: "Chatbot Developers Taiwan"
+location: "N型未來學院"
+role: speaker
+format: "in-person"
+topics:
+  - "LangChain"
+  - "OpenAI"
+  - "Chatbot"
+  - "LINE Bot"
+microsoftProducts:
+  - "Azure OpenAI"
+  - "Microsoft Azure"
+links:
+  event: "https://chatbots.kktix.cc/events/chatbots-meetup-in-central-taiwan-027"
+evidence:
+  - type: "link"
+    href: "https://chatbots.kktix.cc/events/chatbots-meetup-in-central-taiwan-027"
+    label: "活動紀錄連結點此 / Click here to event link"
+  - type: "screenshot"
+    src: "https://magicpandaengineer.blob.core.windows.net/img/sp-photos/sp20240713-url-1.png"
+    alt: "Learn LangChain"
+  - type: "screenshot"
+    src: "https://magicpandaengineer.blob.core.windows.net/img/sp-photos/sp20240713-url-2.png"
+    alt: "Learn LangChain"
+  - type: "screenshot"
+    src: "https://magicpandaengineer.blob.core.windows.net/img/sp-photos/sp20240713-url-3.jpg"
+    alt: "Learn LangChain"
+summary:
+  zh: "這場演講是我在 Chatbot Developers Taiwan 的分享。 在這場活動中，我分享了如何使用 LangChain 串接 LINE Bot，並且使用 Azure OpenAI。"
+  en: "This is my speech at Chatbot Developers Taiwan. In this event, I shared how to Integrate LINE bot with LangChain. The AI is Azure OpenAI."
+proofStatus:
+  importedFromList: ready
+  detailPage: found
+  evidence: imported
+language: mixed

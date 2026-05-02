@@ -1,0 +1,79 @@
+records:
+  - id: blog-about
+    label: 關於 KoKo Mexcelsa
+    category: brand
+    url: https://magic-panda-engineer.github.io/about/
+    summary: 公開品牌來源，說明 KoKo、Mexcelsa 與「大魔術熊貓工程師」的命名脈絡。
+    verifiedAt: 2026-04-30
+  - id: hello-world-2024-speaker
+    label: Hello World 2024 講者頁
+    category: speaking
+    url: https://hwdc.ithome.com.tw/2024/speaker-page/352
+    summary: iThome Hello World Dev Conference 2024 講者與工作坊頁面。
+    verifiedAt: 2026-04-30
+  - id: ithome-ironman-2023
+    label: iThome 鐵人賽：全端 LLM 應用開發
+    category: writing
+    url: https://ithelp.ithome.com.tw/users/20120030/ironman/7039
+    summary: 2023 iThome 鐵人賽 30 篇 LLM 應用開發系列。
+    verifiedAt: 2026-04-30
+  - id: tibame-azure-openai
+    label: TibaMe Azure OpenAI 課程
+    category: teaching
+    url: https://www.tibame.com/program/Azure_OpenAI
+    summary: 公開課程頁，標示微軟 MVP KOKO 老師與 Azure OpenAI 企業應用課程內容。
+    verifiedAt: 2026-04-30
+  - id: season-of-agent-2025
+    label: Season of Agent 2025 - Taiwan 活動頁
+    category: speaking
+    url: https://www.accupass.com/event/2504231451581062831903
+    summary: ACCUPASS 活動頁標示 KoKo 擔任 Vibe Coding MCP 講者，活動主題包含 Azure AI Foundry、Azure AI 與 Azure OpenAI。
+    verifiedAt: 2026-05-01
+  - id: gdg-nchu-build-with-ai-2025
+    label: GDG on Campus NCHU Build with AI 2025 專家講座
+    category: speaking
+    url: https://gdg.community.dev/events/details/google-gdg-on-campus-national-chung-hsing-university-taichung-taiwan-presents-gdg-on-campus-nchu-build-with-ai-2025-session-2-zhuan-jia-jiang-zuo/
+    summary: GDG 活動頁標示 Ko Ko 擔任 Build with AI 2025 Session 2 專家講座講者，主題為運用 AI 解決問題與傳統工廠 AI 應用經驗。
+    verifiedAt: 2026-05-01
+  - id: microsoft-reactor-langchain-azure-ai-search-2025
+    label: Microsoft Reactor LangChain 整合 Azure AI Search 活動頁
+    category: speaking
+    url: https://developer.microsoft.com/en-us/reactor/events/25411/
+    summary: Microsoft Reactor 活動頁標示 Ko Ko 於 MVP 聚技站分享 LangChain 整合 Azure AI Search，打造智能 AI Agent 最佳實踐。
+    verifiedAt: 2026-05-01
+  - id: coscup-2025-openai-agent-sdk-langgraph
+    label: COSCUP 2025 OpenAI Agent SDK vs LangGraph 講題頁
+    category: speaking
+    url: https://coscup.org/2025/en/sessions/SMVJFB
+    summary: COSCUP x RubyConf Taiwan 2025 session 頁，列出 Ko Ko 的 OpenAI Agent SDK 與 LangGraph 原始碼解析演講。
+    verifiedAt: 2026-05-01
+  - id: ithome-ironman-2025-langchain-azure-ai
+    label: 2025 iThome 鐵人賽 LangChain 愛 Azure AI 系列
+    category: writing
+    url: https://ithelp.ithome.com.tw/articles/10380646
+    summary: iT 邦幫忙文章頁標示大魔術熊貓工程師撰寫 LangChain 愛 Azure AI 系列，內容聚焦 LangChain、Azure AI Foundry、Azure OpenAI 與 langchain-azure-ai。
+    verifiedAt: 2026-05-01
+  - id: microsoft-agentic-ai-hackathon-2025
+    label: Microsoft Agentic AI Hackathon 技術專家頁
+    category: speaking
+    url: https://event.ithome.com.tw/live/agenticai2025/index.html?v=1759482586
+    summary: iThome 活動頁標示 Ko Ko / 大魔術熊貓工程師為 Microsoft AI MVP 技術專家，活動由數位發展部數位產業署與台灣微軟共同主辦，聚焦企業 Agentic AI 與 Multi-Agent 應用。
+    verifiedAt: 2026-05-01
+  - id: devfest-taichung-2025
+    label: DevFest Taichung 2025 活動頁
+    category: speaking
+    url: https://gdg.community.dev/events/details/google-gdg-taichung-presents-devfest-taichung-2025/
+    summary: GDG Taichung 活動頁標示 Ko Ko 擔任「使用 Gemini 與 LangGraph 來開發 AI Agent」講者。
+    verifiedAt: 2026-05-01
+  - id: dotnet-conf-taiwan-2025
+    label: .NET Conf 2025 Taiwan 活動頁
+    category: speaking
+    url: https://study4-tw.kktix.cc/events/dotnetconf2025
+    summary: KKTIX 活動頁說明 .NET Conf 2025 Taiwan 於 2025/11/29 舉辦，主題包含 AI、.NET、ASP.NET Core、Blazor、C# 與雲端技術。
+    verifiedAt: 2026-05-01
+  - id: agentcamp-taoyuan-2026
+    label: AgentCamp - Taoyuan 活動頁
+    category: speaking
+    url: https://www.accupass.com/event/2512200233551606245038
+    summary: ACCUPASS 活動頁標示 KoKo 在 AgentCamp - Taoyuan 分享 Microsoft Foundry 與 LangGraph 的 multi-agent 議程。
+    verifiedAt: 2026-05-01

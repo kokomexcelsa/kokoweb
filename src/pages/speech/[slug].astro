@@ -1,0 +1,72 @@
+---
+import { getCollection } from 'astro:content';
+import type { CollectionEntry } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ContributionDetail from '../../components/ContributionDetail.astro';
+import { withBase } from '../../utils/url';
+
+type ContributionEntry = CollectionEntry<'contributions'>;
+
+export async function getStaticPaths() {
+  const speeches = ((await getCollection('contributions')) as ContributionEntry[])
+    .filter((entry: ContributionEntry) => entry.data.legacyPath.startsWith('/speech/'))
+    .sort((a: ContributionEntry, b: ContributionEntry) => b.data.date.getTime() - a.data.date.getTime());
+
+  return speeches.map((entry: ContributionEntry) => ({
+    params: { slug: entry.data.id },
+    props: { contribution: entry.data }
+  }));
+}
+
+const { contribution } = Astro.props as { contribution: ContributionEntry['data'] };
+const title = `${contribution.title.zh || contribution.title.en} | 大魔術熊貓工程師`;
+const description = contribution.summary.zh || contribution.summary.en || `${contribution.event} ${contribution.location}`;
+const site = Astro.site ?? new URL('https://kokomexcelsa.github.io');
+const pageUrl = new URL(withBase(contribution.legacyPath), site).toString();
+const speechIndexUrl = new URL(withBase('/speech.html'), site).toString();
+const homeUrl = new URL(withBase('/index.html'), site).toString();
+const structuredData = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: contribution.title.zh || contribution.title.en,
+    alternateName: contribution.title.en || undefined,
+    description,
+    datePublished: contribution.date.toISOString(),
+    author: {
+      '@type': 'Person',
+      name: 'Ko Ko',
+      alternateName: ['大魔術熊貓工程師', 'KoKo Mexcelsa']
+    },
+    mainEntityOfPage: pageUrl
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      {
+        '@type': 'ListItem',
+        position: 1,
+        name: '首頁',
+        item: homeUrl
+      },
+      {
+        '@type': 'ListItem',
+        position: 2,
+        name: '演講紀錄',
+        item: speechIndexUrl
+      },
+      {
+        '@type': 'ListItem',
+        position: 3,
+        name: contribution.title.zh || contribution.title.en,
+        item: pageUrl
+      }
+    ]
+  }
+];
+---
+
+<BaseLayout title={title} description={description} canonicalPath={contribution.legacyPath} structuredData={structuredData}>
+  <ContributionDetail contribution={contribution} />
+</BaseLayout>

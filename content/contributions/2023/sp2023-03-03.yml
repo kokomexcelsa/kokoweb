@@ -1,0 +1,37 @@
+id: "sp2023-03-03"
+legacyPath: "/speech/sp2023-03-03.html"
+type: "speaking"
+date: 2023-03-03
+title:
+  zh: "Introduction to the Principles of ChatGPT and its GPT Family."
+  en: "Introduction to the Principles of ChatGPT and its GPT Family."
+event: "2023 Global AI Bootcamp"
+location: "Live stream"
+role: speaker
+format: "online"
+topics:
+  - "ChatGPT"
+  - "Machine Learning"
+microsoftProducts:
+  - "Azure Machine Learning"
+  - "Microsoft Azure"
+links:
+  event: "https://globalai.community/bootcamp-2023/asia-global-ai-in-taiwan-5905/"
+evidence:
+  - type: "link"
+    href: "https://globalai.community/bootcamp-2023/asia-global-ai-in-taiwan-5905/"
+    label: "活動紀錄連結點此 / Click here to event link"
+  - type: "screenshot"
+    src: "https://magicpandaengineer.blob.core.windows.net/img/sp-photos/sp20230303-url-1.png"
+    alt: "Introduction to the Principles of ChatGPT and its GPT Family"
+  - type: "screenshot"
+    src: "https://magicpandaengineer.blob.core.windows.net/img/sp-photos/sp20230303-url-2.png"
+    alt: "Introduction to the Principles of ChatGPT and its GPT Family"
+summary:
+  zh: "這場是我在 2023 Global AI Bootcamp 分享的。 ChatGPT 已成為全球矚目的服務，比歷史上任何其他服務更快地達到了 100 萬使用者。但你是否曾想過 GPT 是什麼，以及 ChatGPT 與其 GPT 家族有何不同？在本議程中，我解釋了 GPT 背後的模型架構，並使用簡單的程式碼幫助聽眾理解和使用 GPT。"
+  en: "This session was shared in 2023 Global AI Bootcamp. ChatGPT has become a global sensation, reaching 1 million users faster than any other service in history. But have you ever wondered what GPT is and how ChatGPT differs from its GPT family? In this session, I explained the model architecture behind GPT and use simple code with Azure Machine Learning to help the audiences understand and use GPT."
+proofStatus:
+  importedFromList: ready
+  detailPage: found
+  evidence: imported
+language: mixed

@@ -1,0 +1,81 @@
+---
+import { getCollection } from 'astro:content';
+import type { CollectionEntry } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { formatDate, labelForFormat, labelForType } from '../utils/format';
+import { withBase } from '../utils/url';
+
+type ContributionEntry = CollectionEntry<'contributions'>;
+
+const speeches = ((await getCollection('contributions')) as ContributionEntry[])
+  .filter((entry: ContributionEntry) => entry.data.legacyPath.startsWith('/speech/'))
+  .sort((a: ContributionEntry, b: ContributionEntry) => b.data.date.getTime() - a.data.date.getTime());
+
+const grouped = speeches.reduce<Record<string, ContributionEntry[]>>((acc, entry) => {
+  const year = String(entry.data.date.getUTCFullYear());
+  acc[year] = acc[year] ?? [];
+  acc[year].push(entry);
+  return acc;
+}, {});
+
+const years = Object.keys(grouped).sort((a, b) => Number(b) - Number(a));
+---
+
+<BaseLayout
+  title="演講紀錄 | 大魔術熊貓工程師"
+  description="Ko Ko 大魔術熊貓工程師的技術演講、工作坊與公開分享紀錄。"
+>
+  <section class="list-hero">
+    <p class="eyebrow">Speaking</p>
+    <h1>演講紀錄</h1>
+    <p class="lede">公開技術演講、工作坊與社群分享紀錄，聚焦 AI Agent、Azure AI、LangChain、雲端架構與軟體工程實作。</p>
+    <dl class="stat-strip" aria-label="演講統計">
+      <div>
+        <dt>總筆數</dt>
+        <dd>{speeches.length}</dd>
+      </div>
+      <div>
+        <dt>年度範圍</dt>
+        <dd>{years.at(-1)} - {years.at(0)}</dd>
+      </div>
+    </dl>
+  </section>
+
+  <section class="page-section">
+    <div class="year-index" aria-label="年度索引">
+      {years.map((year) => <a href={`#year-${year}`}>{year}</a>)}
+    </div>
+
+    <div class="timeline-list">
+      {years.map((year) => (
+        <section class="year-block" id={`year-${year}`} aria-labelledby={`year-title-${year}`}>
+          <div class="year-heading">
+            <h2 id={`year-title-${year}`}>{year}</h2>
+            <span>{grouped[year].length} 場</span>
+          </div>
+          <div class="record-list">
+            {grouped[year].map((entry) => (
+              <article class="record-row">
+                <time datetime={entry.data.date.toISOString()}>{formatDate(entry.data.date)}</time>
+                <div>
+                  <h3>
+                    <a href={withBase(entry.data.legacyPath)}>{entry.data.title.zh || entry.data.title.en}</a>
+                    {entry.data.title.en && entry.data.title.en !== (entry.data.title.zh || entry.data.title.en) && (
+                      <span class="record-title-en" lang="en">{entry.data.title.en}</span>
+                    )}
+                  </h3>
+                  <p>{entry.data.event}</p>
+                  <ul class="inline-meta">
+                    <li>{labelForType(entry.data.type)}</li>
+                    <li>{entry.data.location || labelForFormat(entry.data.format)}</li>
+                    {entry.data.microsoftProducts.length > 0 && <li>{entry.data.microsoftProducts.join(' / ')}</li>}
+                  </ul>
+                </div>
+              </article>
+            ))}
+          </div>
+        </section>
+      ))}
+    </div>
+  </section>
+</BaseLayout>

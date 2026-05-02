@@ -1,0 +1,35 @@
+id: "sp2023-06-10"
+legacyPath: "/speech/sp2023-06-10.html"
+type: "speaking"
+date: 2023-06-10
+title:
+  zh: "使用 Django 打造平台工程"
+  en: "Platform engineering with Django"
+event: "Hong Kong Open Source Conference"
+location: "Hong Kong Science Park"
+role: speaker
+format: "in-person"
+topics:
+  []
+microsoftProducts:
+  []
+links:
+  event: "https://hkoscon.org/2023/topics/platform-engineering-django"
+evidence:
+  - type: "link"
+    href: "https://hkoscon.org/2023/topics/platform-engineering-django"
+    label: "活動紀錄連結點此 / Click here to event link"
+  - type: "screenshot"
+    src: "https://magicpandaengineer.blob.core.windows.net/img/sp-photos/sp20230610-url-1.png"
+    alt: "Platform engineering with Django"
+  - type: "screenshot"
+    src: "https://magicpandaengineer.blob.core.windows.net/img/sp-photos/sp20230610-url-2.png"
+    alt: "Platform engineering with Django"
+summary:
+  zh: "這場是我在香港開源年會（HKOSCon 2023）所分享的內容。 在這場分享中，我分享了我使用 Django 打造平台工程的經驗，包括如何使用 Django 開發網站、整合監控與部署等功能，進而管理部署在全球的 AI 邊緣運算的伺服器。"
+  en: "This session was shared in HKOSCon 2023. In this session, I shared my experience of using Django to build platform engineering, including how to develop websites with Django, integrate monitoring and deployment functions, and then manage servers deployed on the edge of AI computing worldwide."
+proofStatus:
+  importedFromList: ready
+  detailPage: found
+  evidence: imported
+language: mixed

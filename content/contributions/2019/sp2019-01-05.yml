@@ -1,0 +1,35 @@
+id: "sp2019-01-05"
+legacyPath: "/speech/sp2019-01-05.html"
+type: "speaking"
+date: 2019-01-05
+title:
+  zh: "AI也能看風水買房"
+  en: ""
+event: "台灣人工智慧學校開學典禮"
+location: "台中市政府"
+role: speaker
+format: "in-person"
+topics:
+  []
+microsoftProducts:
+  []
+links:
+  event: "https://www.flickr.com/photos/dsconf/39675382823/in/album-72157705500530834/"
+evidence:
+  - type: "link"
+    href: "https://www.flickr.com/photos/dsconf/39675382823/in/album-72157705500530834/"
+    label: "活動連結點此"
+  - type: "photo"
+    src: "/sp-photos/koko-photos/sp20190105-1.jpg"
+    alt: "AI也能看風水買房"
+  - type: "screenshot"
+    src: "/sp-photos/url-photos/sp20190105-url1.png"
+    alt: "AI也能看風水買房"
+summary:
+  zh: ""
+  en: ""
+proofStatus:
+  importedFromList: ready
+  detailPage: found
+  evidence: imported
+language: mixed

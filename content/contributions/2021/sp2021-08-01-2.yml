@@ -1,0 +1,35 @@
+id: "sp2021-08-01-2"
+legacyPath: "/speech/sp2021-08-01-2.html"
+type: "speaking"
+date: 2021-08-01
+title:
+  zh: "從婚禮用聊天機器人談世代對立"
+  en: "Discuss Generation Alienation via Chatbot in Marriage."
+event: "開源人年會COSCUP"
+location: "Live stream"
+role: speaker
+format: "online"
+topics:
+  - "Chatbot"
+microsoftProducts:
+  []
+links:
+  event: "https://coscup.org/2021/en/session/E9ZJVS"
+evidence:
+  - type: "link"
+    href: "https://coscup.org/2021/en/session/E9ZJVS"
+    label: "活動紀錄連結點此 / Click here to event link"
+  - type: "screenshot"
+    src: "https://magicpandaengineer.blob.core.windows.net/img/sp-photos/sp20210801-2-url-1.png"
+    alt: "Discuss Generation Alienation via Chatbot in Marriage"
+  - type: "screenshot"
+    src: "https://magicpandaengineer.blob.core.windows.net/img/sp-photos/sp20210801-2-url-2.png"
+    alt: "Discuss Generation Alienation via Chatbot in Marriage"
+summary:
+  zh: "這場演講是在開源人年會（COSCUP）分享的。世代對立是現代社會的一個重要議題，這場演講我分享了在推廣婚禮用聊天機器人時的一些世代對立的觀察。"
+  en: "This topic was shared in Conference for Open Source Coders, Users, and Promoters(COSCUP), which is the largest open source conference in Taiwan. Generation Alienation is a big issue among society. I shared my observations of Generation Alienation during weddings, where I was promoting my wedding chatbot."
+proofStatus:
+  importedFromList: ready
+  detailPage: found
+  evidence: imported
+language: mixed

@@ -1,0 +1,32 @@
+id: "sp2021-06-09"
+legacyPath: "/speech/sp2021-06-09.html"
+type: "speaking"
+date: 2021-06-09
+title:
+  zh: "使用 C# 與 .NET 也能打造機器學習模型你所不知道的 ML.NET 初體驗"
+  en: "Using C# and .NET Building Machine Learning Models with ML.NET"
+event: "Will 保哥的技術交流中心"
+location: "Live stream"
+role: speaker
+format: "online"
+topics:
+  - "AutoML"
+microsoftProducts:
+  []
+links:
+  event: "https://www.facebook.com/will.fans/videos/329991415166213"
+evidence:
+  - type: "link"
+    href: "https://www.facebook.com/will.fans/videos/329991415166213"
+    label: "活動紀錄連結點此 / Click here to event link"
+  - type: "screenshot"
+    src: "https://magicpandaengineer.blob.core.windows.net/img/sp-photos/sp20210609-url-1.png"
+    alt: "使用 C# 與 .NET 也能打造機器學習模型，你所不知道的 ML.NET 初體驗"
+summary:
+  zh: "This topic was shared in \"Will 保哥的技術交流中心\". I introduced how to build an AI models with ML.NET. I made a live demo about AutoML and how to deploy ML.NET model to a web API.\n\n這個主題是在「Will 保哥的技術交流中心」分享的。介紹了如何使用 ML.NET 來建立一個 AI 模型，也做了 AutoML 和部署的 Live Demo。"
+  en: ""
+proofStatus:
+  importedFromList: ready
+  detailPage: found
+  evidence: imported
+language: mixed

@@ -1,0 +1,60 @@
+---
+import { withBase } from '../utils/url';
+
+type EvidenceItem = {
+  type: string;
+  src?: string;
+  href?: string;
+  alt?: string;
+  label?: string;
+};
+
+interface Props {
+  evidence: EvidenceItem[];
+}
+
+const { evidence } = Astro.props;
+const visualEvidence = evidence.filter((item) => item.src);
+const linkEvidence = evidence.filter((item) => item.href && !item.src);
+const labelMap: Record<string, string> = {
+  link: 'Link / 連結',
+  screenshot: 'Screenshot / 截圖',
+  photo: 'Photo / 照片',
+  recording: 'Video / 錄影',
+  article: 'Article / 文章',
+  profile: 'Profile / 公開頁面'
+};
+---
+
+{
+  evidence.length > 0 && (
+    <section class="page-section evidence-section" aria-labelledby="evidence-title">
+      <div class="section-heading">
+        <p class="eyebrow">Event Records</p>
+        <h2 id="evidence-title">活動紀錄</h2>
+      </div>
+
+      {linkEvidence.length > 0 && (
+        <div class="evidence-links" aria-label="活動紀錄連結">
+          {linkEvidence.map((item) => (
+            <a href={item.href} target="_blank" rel="noreferrer">
+              <span>{labelMap[item.type] ?? item.type}</span>
+              {item.label || item.href}
+            </a>
+          ))}
+        </div>
+      )}
+
+      {visualEvidence.length > 0 && (
+        <div class="evidence-grid">
+          {visualEvidence.map((item) => (
+            <figure class="evidence-card">
+              <img src={withBase(item.src ?? '')} alt={item.alt || item.label || '活動紀錄圖片'} loading="lazy" />
+              <figcaption>{labelMap[item.type] ?? item.type}</figcaption>
+            </figure>
+          ))}
+        </div>
+      )}
+    </section>
+  )
+}

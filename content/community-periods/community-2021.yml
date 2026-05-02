@@ -1,0 +1,63 @@
+id: "community-2021"
+legacyPath: "/community/community-2021.html"
+year: 2021
+period:
+  start: 2021-01-01
+  end: 2021-12-31
+title:
+  zh: "2021 社群活動規畫整理"
+  en: ""
+sections:
+  - communityId: "aitech-admin"
+    role: "admin"
+    summary: "AI Tech 社群的管理人員之一"
+    evidence:
+      - type: "screenshot"
+        src: "/community-photo/aitech-admin.jpg"
+        alt: "aitech-admin"
+    relatedContributionIds: []
+  - communityId: "chatbot"
+    role: "admin"
+    summary: "Chatbot 社群核心幹部"
+    evidence:
+      - type: "screenshot"
+        src: "https://magicpandaengineer.blob.core.windows.net/img/commu-photos/commu-chatbot-admin.png"
+        alt: "chatbot taiwan"
+    relatedContributionIds: []
+  - communityId: "2021-coscup"
+    role: "staff"
+    summary: "2021 COSCUP開源人年會協辦社群"
+    evidence:
+      - type: "screenshot"
+        src: "https://magicpandaengineer.blob.core.windows.net/img/commu-photos/commu-20210731-coadmin.png"
+        alt: "2021 COSCUP開源人年會協辦社群"
+      - type: "screenshot"
+        src: "https://magicpandaengineer.blob.core.windows.net/img/commu-photos/commu-20210801-coadmin.png"
+        alt: "2021 COSCUP開源人年會協辦社群"
+    relatedContributionIds: []
+  - communityId: "2021-mopcon"
+    role: "staff"
+    summary: "2021 MOPCON行動科技年會協辦社群"
+    evidence:
+      - type: "screenshot"
+        src: "https://magicpandaengineer.blob.core.windows.net/img/commu-photos/commu-20211024-coadmin.png"
+        alt: "2021 MOPCON行動科技年會協辦社群"
+    relatedContributionIds: []
+  - communityId: "2021-mopcon-android-bof"
+    role: "facilitator"
+    summary: "2021 MOPCON行動科技年會，Android BoF"
+    evidence:
+      - type: "screenshot"
+        src: "https://magicpandaengineer.blob.core.windows.net/img/commu-photos/commu-20211024-bof.png"
+        alt: "2021 MOPCON行動科技年會，Android BoF"
+    relatedContributionIds: []
+  - communityId: "2021-net-conf-taiwan-staff"
+    role: "staff"
+    summary: "2021 .NET Conf Taiwan Staff"
+    evidence:
+      - type: "screenshot"
+        src: "https://magicpandaengineer.blob.core.windows.net/img/commu-photos/commu-20211218-staff.png"
+        alt: "2021 .NET Conf Taiwan Staff"
+    relatedContributionIds: []
+sitemap: true
+noindex: false

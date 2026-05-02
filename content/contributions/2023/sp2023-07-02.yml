@@ -1,0 +1,36 @@
+id: "sp2023-07-02"
+legacyPath: "/speech/sp2023-07-02.html"
+type: "speaking"
+date: 2023-07-02
+title:
+  zh: "Semantic Kernel -- 做 LLM 應用的超強套件概覽"
+  en: "Introduction to the Semantic Kernel - The powerful tool of making LLM application"
+event: "Microsoft Build After Party in Taiwan 2023"
+location: "Live Stream"
+role: speaker
+format: "online"
+topics:
+  - "Semantic Kernel"
+microsoftProducts:
+  - "Semantic Kernel"
+links:
+  event: "https://www.accupass.com/event/2305110324255942935370"
+evidence:
+  - type: "link"
+    href: "https://www.accupass.com/event/2305110324255942935370"
+    label: "活動紀錄連結點此 / Click here to event link"
+  - type: "screenshot"
+    src: "https://magicpandaengineer.blob.core.windows.net/img/sp-photos/sp20230702-url-1.png"
+    alt: "Introduction to the Semantic Kernel"
+  - type: "screenshot"
+    src: "https://magicpandaengineer.blob.core.windows.net/img/sp-photos/sp20230702-url-2.png"
+    alt: "Introduction to the Semantic Kernel"
+summary:
+  zh: "這場是我所主辦的微軟 Build After Party in Taiwan 2023 活動。 在這場分享中，我介紹了 Semantic Kernel，一個可以幫助開發者快速打造 LLM 應用的強大工具。並且帶聽眾回顧了 Microsoft Build 2023 裡關於 Semantic Kernel 的重要訊息。"
+  en: "This is the event I hosted, Microsoft Build After Party in Taiwan 2023. In this sharing, I introduced Semantic Kernel, a powerful tool that can help developers quickly build LLM applications. And I reviewed the important messages to the audiences about Semantic Kernel in Microsoft Build 2023."
+proofStatus:
+  importedFromList: ready
+  detailPage: found
+  evidence: imported
+  title: synthesized
+language: mixed

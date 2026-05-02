@@ -1,0 +1,36 @@
+id: "sp2021-10-24"
+legacyPath: "/speech/sp2021-10-24.html"
+type: "speaking"
+date: 2021-10-24
+title:
+  zh: "立刻打造一個聊天機器人，並部署到 AZURE"
+  en: "Build a chatbot and depoly it to Azure in 30 minutes"
+event: "行動科技年會MOPCON"
+location: "Live stream"
+role: speaker
+format: "online"
+topics:
+  - "Chatbot"
+microsoftProducts:
+  - "Microsoft Bot Framework"
+  - "Microsoft Azure"
+links:
+  event: "https://mopcon.org/2021/schedule_unconf"
+evidence:
+  - type: "link"
+    href: "https://mopcon.org/2021/schedule_unconf"
+    label: "活動紀錄連結點此 / Click here to event link"
+  - type: "screenshot"
+    src: "https://magicpandaengineer.blob.core.windows.net/img/sp-photos/sp20211024-url-1.png"
+    alt: "Build a chatbot and depoly it to Azure in 30 minutes"
+  - type: "screenshot"
+    src: "https://magicpandaengineer.blob.core.windows.net/img/sp-photos/sp20211024-url-2.png"
+    alt: "Build a chatbot and depoly it to Azure in 30 minutes"
+summary:
+  zh: "這場演講是在台灣最大的行動科技年會 MOPCON 所分享的。我示範了如何用 Bot Framework Composer 在 30 分鐘內做一個聊天機器人並部署到 Azure。"
+  en: "This topic was shared in MOPCON, which is the largest mobile tech conference in Taiwan. I demostrated how to build a chatbot and depoly it to Azure in 30 minutes, with the powerful tool Bot Framework Composer."
+proofStatus:
+  importedFromList: ready
+  detailPage: found
+  evidence: imported
+language: mixed

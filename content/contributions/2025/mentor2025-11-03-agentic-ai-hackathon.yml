@@ -1,0 +1,45 @@
+id: mentor2025-11-03-agentic-ai-hackathon
+legacyPath: /speech/mentor2025-11-03-agentic-ai-hackathon.html
+type: mentoring
+date: 2025-11-03
+title:
+  zh: Microsoft Agentic AI Hackathon 技術專家指導
+  en: Technical Mentoring for Microsoft Agentic AI Hackathon
+event: Microsoft Agentic AI Hackathon 2025
+location: 台北 / 線上媒合
+role: mentor
+format: hybrid
+topics:
+  - Agentic AI
+  - AI Agent
+  - Multi-Agent
+  - Enterprise AI
+microsoftProducts:
+  - Azure AI Foundry
+  - Azure OpenAI
+  - Azure AI Search
+  - Microsoft Azure
+  - Microsoft Copilot Studio
+links:
+  event: https://event.ithome.com.tw/live/agenticai2025/index.html?v=1759482586
+evidence:
+  - type: link
+    href: https://event.ithome.com.tw/live/agenticai2025/index.html?v=1759482586
+    label: iThome 活動頁
+  - type: screenshot
+    src: /sp-photos/url-photos/mentor20251103-url-1.png
+    alt: Microsoft Agentic AI Hackathon 活動頁截圖，包含 Ko Ko 技術專家資訊
+    label: Microsoft Agentic AI Hackathon 活動頁截圖，包含 Ko Ko 技術專家資訊
+summary:
+  zh: |-
+    這是我擔任 Microsoft Agentic AI Hackathon 2025 技術專家的公開紀錄。活動由數位發展部數位產業署與台灣微軟共同主辦，聚焦企業 AI Agent 與 Multi-Agent 應用；活動頁列出 Ko Ko / 大魔術熊貓工程師作為 Microsoft AI MVP 技術專家。
+
+    這次參與不是一般演講，而是針對參賽隊伍提供技術方向、架構可行性與 Agentic AI 實作建議，呈現我在 Microsoft AI 生態系中協助團隊把企業應用概念推進到可落地架構的 mentoring 角色。
+  en: |-
+    This is the public record of my role as a technical expert for Microsoft Agentic AI Hackathon 2025. The event was co-hosted by Taiwan's Administration for Digital Industries and Microsoft Taiwan, focusing on enterprise AI Agent and multi-agent applications; the page lists Ko Ko / Magic Panda Engineer as a Microsoft AI MVP technical expert.
+
+    This engagement was mentoring rather than a regular talk. It involved providing finalist teams with technical direction, architecture feasibility feedback, and Agentic AI implementation guidance, demonstrating my mentoring role in the Microsoft AI ecosystem and enterprise AI adoption.
+proofStatus:
+  eventPage: found
+  evidence: public-link-and-screenshot
+language: mixed

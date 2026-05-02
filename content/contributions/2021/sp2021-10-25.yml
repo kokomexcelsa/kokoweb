@@ -1,0 +1,33 @@
+id: "sp2021-10-25"
+legacyPath: "/speech/sp2021-10-25.html"
+type: "speaking"
+date: 2021-10-25
+title:
+  zh: "Building Chatbots with Low-Code / No-Code"
+  en: "Building Chatbots with Low-Code / No-Code"
+event: "ModernWeb'21"
+location: "Live stream"
+role: speaker
+format: "online"
+topics:
+  - "Chatbot"
+microsoftProducts:
+  - "Microsoft Bot Framework"
+  - "Microsoft Azure"
+links:
+  event: "https://modernweb.ithome.com.tw/session-inner#471"
+evidence:
+  - type: "link"
+    href: "https://modernweb.ithome.com.tw/session-inner#471"
+    label: "活動紀錄連結點此 / Click here to event link"
+  - type: "screenshot"
+    src: "https://magicpandaengineer.blob.core.windows.net/img/sp-photos/sp20211025-url-1.png"
+    alt: "Building Chatbots with Low-Code / No-Code"
+summary:
+  zh: "這場演講是在台灣最大的網頁開發年會 ModernWeb'21 所分享的。 我介紹了 Low-Code / No-Code 的概念，並且用 Low-Code / No-Code 的工具：Bot Framework Composer，去建立一個聊天機器人然後部署到 Azure。 最後可以得到一個 iframe，可以在任意網頁上嵌入聊天機器人。"
+  en: "This topic was shared in ModernWeb'21, which is the largest web devloping conference in Taiwan. I introduced concept of Low-Code / No-Code, and I demostrated how to build a chatbot and depoly it to Azure with Low-Code / No-Code: Bot Framework Composer. In the end of live demo, I got an iframe and I can embed it in any website."
+proofStatus:
+  importedFromList: ready
+  detailPage: found
+  evidence: imported
+language: mixed

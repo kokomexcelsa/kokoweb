@@ -1,0 +1,35 @@
+id: "sp2023-11-30"
+legacyPath: "/speech/sp2023-11-30.html"
+type: "speaking"
+date: 2023-11-30
+title:
+  zh: "用 ChatGPT 學寫 web 的那些事"
+  en: "Learning Web Development with ChatGPT"
+event: "科科科技人"
+location: "Live Stream"
+role: speaker
+format: "online"
+topics:
+  - "ChatGPT"
+microsoftProducts:
+  []
+links:
+  event: "https://www.facebook.com/permalink.php?story_fbid=pfbid0HEimoUawTvUooa2q5PazUyH1p8qgdjCPnLxDktu6hYeCWwPVTREvao9XF4UBtUFFl&id=100092499602680"
+evidence:
+  - type: "link"
+    href: "https://www.facebook.com/permalink.php?story_fbid=pfbid0HEimoUawTvUooa2q5PazUyH1p8qgdjCPnLxDktu6hYeCWwPVTREvao9XF4UBtUFFl&id=100092499602680"
+    label: "活動紀錄連結點此 / Click here to event link"
+  - type: "screenshot"
+    src: "https://magicpandaengineer.blob.core.windows.net/img/sp-photos/sp20231130-url-1.png"
+    alt: "Learning Web Development with ChatGPT"
+  - type: "screenshot"
+    src: "https://magicpandaengineer.blob.core.windows.net/img/sp-photos/sp20231130-url-2.png"
+    alt: "Learning Web Development with ChatGPT"
+summary:
+  zh: "This is the topic I shared at the 科科科技人 Community. In this event, I shared how to learn a new web technology using ChatGPT.\n\n這場是我在科科科技人社群所分享的主題。 在這場活動中，我分享了如何使用 ChatGPT 學習一門新的網頁技術。"
+  en: ""
+proofStatus:
+  importedFromList: ready
+  detailPage: found
+  evidence: imported
+language: mixed

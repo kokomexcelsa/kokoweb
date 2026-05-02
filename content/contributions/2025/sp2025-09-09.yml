@@ -1,0 +1,33 @@
+id: sp2025-09-09
+legacyPath: /speech/sp2025-09-09.html
+type: speaking
+date: 2025-09-09
+title:
+  zh: 九月九 PK AI 兄弟：用 TDD 實戰 Codex CLI + GPT-5 與 Claude Code + Opus 4.1
+  en: "TDD Showdown: Codex CLI + GPT-5 vs Claude Code + Opus 4.1"
+event: Open Vibe Developer
+location: Open Vibe Developer
+role: speaker
+format: other
+topics:
+  - AI Coding
+  - TDD
+  - Codex CLI
+  - Claude Code
+  - GPT-5
+microsoftProducts: []
+links: {}
+evidence: []
+summary:
+  zh: |-
+    這是我在 Open Vibe Developer 的 AI coding 分享。主題用 TDD 作為共同標準，比較 Codex CLI + GPT-5 與 Claude Code + Opus 4.1 兩種終端機原生 AI 開發工作流。
+
+    分享重點包含 TDD 的 Red-Green-Refactor 流程、如何用測試限制 AI 工具的發散、如何設計同一組任務讓不同 coding agent 公平比較，以及終端機原生 AI 工具在實務開發中的優缺點。
+  en: |-
+    This AI coding session was delivered for Open Vibe Developer. It used TDD as a shared benchmark to compare two terminal-native AI development workflows: Codex CLI with GPT-5 and Claude Code with Opus 4.1.
+
+    The session covered the Red-Green-Refactor workflow, how tests constrain AI-generated implementation, how to design a fair comparison task for different coding agents, and the practical strengths and weaknesses of terminal-native AI coding tools.
+proofStatus:
+  eventPage: not-found
+  evidence: pending-photo
+language: mixed

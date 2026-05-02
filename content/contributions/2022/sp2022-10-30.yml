@@ -1,0 +1,37 @@
+id: "sp2022-10-30"
+legacyPath: "/speech/sp2022-10-30.html"
+type: "speaking"
+date: 2022-10-30
+title:
+  zh: "Developing NLP with Hugging Face on Azure Machine Learning"
+  en: "Developing NLP with Hugging Face on Azure Machine Learning"
+event: "2022 Global AI Community Developer Days"
+location: "Live stream"
+role: speaker
+format: "online"
+topics:
+  - "Machine Learning"
+  - "NLP"
+microsoftProducts:
+  - "Azure Machine Learning"
+  - "Microsoft Azure"
+links:
+  event: "https://globalai.community/developer-days/asia-global-ai-in-taiwan-5628/"
+evidence:
+  - type: "link"
+    href: "https://globalai.community/developer-days/asia-global-ai-in-taiwan-5628/"
+    label: "活動紀錄連結點此 / Click here to event link"
+  - type: "screenshot"
+    src: "https://magicpandaengineer.blob.core.windows.net/img/sp-photos/sp20221030-url-1.png"
+    alt: "Developing NLP with Hugging Face on Azure Machine Learning"
+  - type: "screenshot"
+    src: "https://magicpandaengineer.blob.core.windows.net/img/sp-photos/sp20221030-url-2.png"
+    alt: "Developing NLP with Hugging Face on Azure Machine Learning"
+summary:
+  zh: "這場演講是我在 2022 Global AI Community Developer Days 所分享的內容。 我用 Live Demo 分享如何使用 Hugging Face 來做 NLP，並且在 Azure Machine Learning 上訓練模型。"
+  en: "This speech was shared in 2022 Global AI Community Developer Days. In this session, I introduced how to do NLP with Hugging Face on Azure Machine Learning with Live Demo."
+proofStatus:
+  importedFromList: ready
+  detailPage: found
+  evidence: imported
+language: mixed

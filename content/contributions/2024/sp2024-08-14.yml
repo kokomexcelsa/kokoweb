@@ -1,0 +1,38 @@
+id: "sp2024-08-14"
+legacyPath: "/speech/sp2024-08-14.html"
+type: "speaking"
+date: 2024-08-14
+title:
+  zh: "用 Azure 快速開發與部署 LangChain 應用"
+  en: "Develop and Deploy LangChain Application with Azure"
+event: "DevDays Asia 2024"
+location: "華南銀行國際會議中心"
+role: speaker
+format: "in-person"
+topics:
+  - "LangChain"
+  - "LangServe"
+  - "OpenAI"
+microsoftProducts:
+  - "Azure OpenAI"
+  - "Microsoft Azure"
+links:
+  event: "https://www.digitimes.com.tw/seminar/DevDaysAsia2024/agenda.html?from=ADI_2#nov13"
+evidence:
+  - type: "link"
+    href: "https://www.digitimes.com.tw/seminar/DevDaysAsia2024/agenda.html?from=ADI_2#nov13"
+    label: "活動紀錄連結點此 / Click here to event link"
+  - type: "screenshot"
+    src: "https://magicpandaengineer.blob.core.windows.net/img/sp-photos/sp20240814-url-1.png"
+    alt: "Learn LangChain"
+  - type: "screenshot"
+    src: "https://magicpandaengineer.blob.core.windows.net/img/sp-photos/sp20240814-url-2.png"
+    alt: "Learn LangChain"
+summary:
+  zh: "這是 DevDays Asia 2024 的演講，這是台灣政府與台灣微軟合作舉辦的最大型技術會議。 在這次演講中，我介紹了如何使用 Azure 快速開發 LangServe 應用，特別是在 Azure OpenAI 和 Azure app service 上。"
+  en: "This speech was shared in DevDays Asia 2024, which is the largest tech conference by Taiwan government and Microsoft Taiwan. In this speech, I introduced how to fast develop LangServe application with Azure, especially in Azure OpenAI and Azure app service."
+proofStatus:
+  importedFromList: ready
+  detailPage: found
+  evidence: imported
+language: mixed

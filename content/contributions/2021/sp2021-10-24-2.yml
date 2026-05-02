@@ -1,0 +1,36 @@
+id: "sp2021-10-24-2"
+legacyPath: "/speech/sp2021-10-24-2.html"
+type: "speaking"
+date: 2021-10-24
+title:
+  zh: "靠 Chatbot 晉升人生勝利組"
+  en: "How chatbot make my life better."
+event: "行動科技年會MOPCON"
+location: "Live stream"
+role: speaker
+format: "online"
+topics:
+  - "RAG"
+  - "Chatbot"
+microsoftProducts:
+  []
+links:
+  article: "https://hackmd.io/@mopcon/B1wDKr7rY"
+evidence:
+  - type: "article"
+    href: "https://hackmd.io/@mopcon/B1wDKr7rY"
+    label: "活動紀錄連結點此 / Click here to event link"
+  - type: "screenshot"
+    src: "https://magicpandaengineer.blob.core.windows.net/img/sp-photos/sp20211024-2-url-1.png"
+    alt: "How chatbot make my life better."
+  - type: "screenshot"
+    src: "https://magicpandaengineer.blob.core.windows.net/img/sp-photos/sp20211024-2-url-2.png"
+    alt: "How chatbot make my life better."
+summary:
+  zh: "這場演講是在台灣最大的行動科技年會 MOPCON 所分享的。我分享了 Chatbot 如何改變我的生活並且過得更好，並鼓勵大家加入 Chatbot 社群。"
+  en: "This topic was shared in MOPCON, which is the largest mobile tech conference in Taiwan. I shared what my life changed after I dedicated myself to building Chatbot and how my life become better. And I encouraged everyone join Chatbot Developers Taiwan."
+proofStatus:
+  importedFromList: ready
+  detailPage: found
+  evidence: imported
+language: mixed

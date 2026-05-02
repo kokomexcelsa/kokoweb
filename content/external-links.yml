@@ -1,0 +1,53 @@
+links:
+  - id: blog
+    label: 大魔術熊貓工程師 Blog
+    url: https://magic-panda-engineer.github.io/
+    category: writing
+    primary: true
+  - id: linktree
+    label: Ko Ko Linktree
+    url: https://linktr.ee/qqkerk
+    category: profile
+    primary: true
+  - id: github
+    label: GitHub
+    url: https://github.com/Ko-Ko-Kirk
+    category: social
+    primary: true
+  - id: mvp
+    label: Microsoft MVP Page
+    url: https://mvp.microsoft.com/en-us/PublicProfile/5003846?fullName=Ko%20Ko
+    category: credential
+    primary: true
+  - id: scholar
+    label: Google Scholar
+    url: https://scholar.google.com/citations?hl=en&user=7UJzn3sAAAAJ
+    category: profile
+  - id: credly
+    label: Certification in Credly
+    url: https://www.credly.com/users/ko-ko/badges
+    category: credential
+  - id: facebook
+    label: 大魔術熊貓工程師 Facebook
+    url: https://www.facebook.com/magic.panda.engineer/
+    category: social
+  - id: hello-world-2024
+    label: Hello World 2024 Speaker Page
+    url: https://hwdc.ithome.com.tw/2024/speaker-page/352
+    category: speaking
+  - id: agentic-ai-2025
+    label: Microsoft Agentic AI Hackathon
+    url: https://event.ithome.com.tw/live/agenticai2025/index.html
+    category: speaking
+  - id: source-about
+    label: 關於 KoKo Mexcelsa
+    url: https://magic-panda-engineer.github.io/about/
+    category: source
+  - id: source-linktree
+    label: Linktree public profile
+    url: https://linktr.ee/qqkerk
+    category: source
+  - id: source-current-site
+    label: Current KoKo Web
+    url: https://kokomexcelsa.github.io/kokoweb/
+    category: source

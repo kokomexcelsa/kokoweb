@@ -1,0 +1,32 @@
+id: "sp2023-02-16"
+legacyPath: "/speech/sp2023-02-16.html"
+type: "speaking"
+date: 2023-02-16
+title:
+  zh: "Let's talk about Chat GPT - Google's strongest rival in the advertising empire."
+  en: "Let's talk about Chat GPT - Google's strongest rival in the advertising empire."
+event: "Tech Job N Coding"
+location: "Clubhouse"
+role: speaker
+format: "in-person"
+topics:
+  - "ChatGPT"
+microsoftProducts:
+  []
+links:
+  event: "https://www.clubhouse.com/room/mywbEJ2e"
+evidence:
+  - type: "link"
+    href: "https://www.clubhouse.com/room/mywbEJ2e"
+    label: "活動紀錄連結點此 / Click here to event link"
+  - type: "screenshot"
+    src: "https://magicpandaengineer.blob.core.windows.net/img/sp-photos/sp20230216-url-1.png"
+    alt: "Let's talk about Chat GPT"
+summary:
+  zh: "這場是我在 Tech Job N Coding 的分享，這是一個分享科技業工作經驗的社群。 我在這場分享中了我們討論了 ChatGPT 如何運作、它對我們生活的影響，以及它對 Google 廣告帝國的威脅。"
+  en: "This session was shared in Tech Job N Coding, which is a community sharing working experence in tech industry. In this session, we dicussed how ChatGPT worked, how it will impact our life, and how it could be a threat to Google's advertising empire."
+proofStatus:
+  importedFromList: ready
+  detailPage: found
+  evidence: imported
+language: mixed

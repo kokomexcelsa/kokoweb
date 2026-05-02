@@ -1,0 +1,34 @@
+id: "sp2021-03-03"
+legacyPath: "/speech/sp2021-03-03.html"
+type: "speaking"
+date: 2021-03-03
+title:
+  zh: "從架設環境開始在Azure 上開發 AI"
+  en: "Developing AI on Azure from Environment Building"
+event: "Azure Taiwan"
+location: "Live stream"
+role: speaker
+format: "online"
+topics:
+  - "Machine Learning"
+microsoftProducts:
+  - "Azure Machine Learning"
+  - "Azure Cognitive Services"
+  - "Microsoft Azure"
+links:
+  event: "https://www.meetup.com/Azure-Taiwan/events/273243359/"
+evidence:
+  - type: "link"
+    href: "https://www.meetup.com/Azure-Taiwan/events/273243359/"
+    label: "活動紀錄連結點此"
+  - type: "screenshot"
+    src: "https://kokomexcelsa.s3-ap-northeast-1.amazonaws.com/sp-photos/sp20210303-url-1.jpg"
+    alt: "從架設環境開始在Azure 上開發 AI"
+summary:
+  zh: "這個主題是 Azure Taiwan 分享的。我介紹了如何在Azure 上從頭開始建立 AI 開發環境。然後也簡單介紹如何使用Azure Machine Learning and Cognitive Services。"
+  en: "This topic was shared in Azure Taiwan. I introduced how to build an AI developing environment from scratch. And briefly introduced how to use Azure Machine Learning and Cognitive Services."
+proofStatus:
+  importedFromList: ready
+  detailPage: found
+  evidence: imported
+language: mixed

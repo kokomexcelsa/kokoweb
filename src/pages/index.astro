@@ -1,0 +1,87 @@
+---
+import { getCollection } from 'astro:content';
+import type { CollectionEntry } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { formatDate } from '../utils/format';
+import { withBase } from '../utils/url';
+
+type ContributionEntry = CollectionEntry<'contributions'>;
+
+const [profileEntry] = await getCollection('profile');
+const [booksEntry] = await getCollection('books');
+const profile = profileEntry.data;
+const specialties = profile.specialties as string[];
+const contributions = ((await getCollection('contributions')) as ContributionEntry[])
+  .sort((a: ContributionEntry, b: ContributionEntry) => b.data.date.getTime() - a.data.date.getTime());
+const latest = contributions.slice(0, 5);
+const years = [...new Set(contributions.map((entry) => entry.data.date.getUTCFullYear()))].sort();
+---
+
+<BaseLayout
+  title="大魔術熊貓工程師 Ko Ko | Microsoft AI MVP"
+  description={profile.shortBio.zh}
+  canonicalPath="/index.html"
+>
+  <section class="home-hero" style={`--hero-image: url("${withBase('/img/pohutukawa-hero.jpg')}")`}>
+    <div class="home-hero-content">
+      <p class="eyebrow">Ko Ko · Microsoft AI MVP</p>
+      <h1>大魔術熊貓工程師</h1>
+      <p>{profile.shortBio.zh}</p>
+      <div class="hero-actions">
+        <a href={withBase('/portfolio.html')}>作品集</a>
+        <a href={withBase('/speech.html')}>演講紀錄</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="page-section overview-grid" aria-label="品牌摘要">
+    <article class="metric-card">
+      <h2>{contributions.length}</h2>
+      <p>{years.at(0)} 年至 {years.at(-1)} 年公開演講與工作坊紀錄。</p>
+    </article>
+    <article class="metric-card">
+      <h2>Microsoft AI MVP</h2>
+      <p>Azure OpenAI、Microsoft Foundry、Azure AI 與 AI Agent 相關實務分享。</p>
+    </article>
+    <article class="metric-card">
+      <h2>{booksEntry.data.books.length}</h2>
+      <p>生成式 AI、LangChain、Azure OpenAI 與 AI Agent 相關著作。</p>
+    </article>
+  </section>
+
+  <section class="page-section" aria-labelledby="latest-home-title">
+    <div class="section-heading">
+      <p class="eyebrow">Latest</p>
+      <h2 id="latest-home-title">近期公開分享</h2>
+    </div>
+    <div class="record-list">
+      {latest.map((entry) => (
+        <article class="record-row">
+          <time datetime={entry.data.date.toISOString()}>{formatDate(entry.data.date)}</time>
+          <div>
+            <h3>
+              <a href={withBase(entry.data.legacyPath)}>{entry.data.title.zh || entry.data.title.en}</a>
+              {entry.data.title.en && entry.data.title.en !== (entry.data.title.zh || entry.data.title.en) && (
+                <span class="record-title-en" lang="en">{entry.data.title.en}</span>
+              )}
+            </h3>
+            <p>{entry.data.event}</p>
+            {entry.data.microsoftProducts.length > 0 && (
+              <ul class="inline-meta">
+                <li>{entry.data.microsoftProducts.join(' / ')}</li>
+              </ul>
+            )}
+          </div>
+        </article>
+      ))}
+    </div>
+  </section>
+
+  <section class="page-section card-grid" aria-label="專業定位">
+    {specialties.slice(0, 6).map((specialty: string) => (
+      <article class="metric-card">
+        <h2>{specialty}</h2>
+      </article>
+    ))}
+  </section>
+</BaseLayout>

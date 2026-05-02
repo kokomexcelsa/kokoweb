@@ -1,0 +1,23 @@
+[
+  {
+    "path": "/fix.patch",
+    "source": "fix.patch",
+    "category": "patch-file",
+    "deploy": true,
+    "requiresApprovalToRemove": true
+  },
+  {
+    "path": "/pohu.JPG",
+    "source": "pohu.JPG",
+    "category": "public-file",
+    "deploy": true,
+    "requiresApprovalToRemove": true
+  },
+  {
+    "path": "/sitemap.xml",
+    "source": "sitemap.xml",
+    "category": "sitemap",
+    "deploy": true,
+    "requiresApprovalToRemove": true
+  }
+]

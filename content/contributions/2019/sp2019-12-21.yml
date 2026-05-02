@@ -1,0 +1,32 @@
+id: "sp2019-12-21"
+legacyPath: "/speech/sp2019-12-21.html"
+type: "speaking"
+date: 2019-12-21
+title:
+  zh: "烏豬烏烏---開源êERP介紹（台語）"
+  en: ""
+event: "開源人年會COSCUP來台講"
+location: "國立臺中科技大學"
+role: speaker
+format: "in-person"
+topics:
+  []
+microsoftProducts:
+  []
+links:
+  event: "https://coscup.org/taigi2019/"
+evidence:
+  - type: "link"
+    href: "https://coscup.org/taigi2019/"
+    label: "活動連結點此"
+  - type: "photo"
+    src: "/sp-photos/koko-photos/sp20191221-1.jpg"
+    alt: "烏豬烏烏"
+summary:
+  zh: ""
+  en: ""
+proofStatus:
+  importedFromList: ready
+  detailPage: found
+  evidence: imported
+language: mixed

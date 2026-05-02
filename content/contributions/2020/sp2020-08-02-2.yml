@@ -1,0 +1,38 @@
+id: "sp2020-08-02-2"
+legacyPath: "/speech/sp2020-08-02-2.html"
+type: "speaking"
+date: 2020-08-02
+title:
+  zh: "我在健身房學Python---工程師的時間管理"
+  en: "Learning Python in World Gym --- Time Management of Software Engineer"
+event: "開源人年會COSCUP"
+location: "國立臺灣科技大學"
+role: speaker
+format: "in-person"
+topics:
+  - "Python"
+microsoftProducts:
+  []
+links:
+  event: "https://coscup.org/2020/zh-TW/agenda/N9BDJJ"
+evidence:
+  - type: "link"
+    href: "https://coscup.org/2020/zh-TW/agenda/N9BDJJ"
+    label: "活動紀錄連結點此"
+  - type: "photo"
+    src: "/sp-photos/koko-photos/sp20200802-2-1.jpg"
+    alt: "我在健身房學Python---工程師的時間管理"
+  - type: "photo"
+    src: "/sp-photos/koko-photos/sp20200802-2-2.jpg"
+    alt: "我在健身房學Python---工程師的時間管理"
+  - type: "screenshot"
+    src: "/sp-photos/url-photos/sp20200802-2-url1.png"
+    alt: "我在健身房學Python---工程師的時間管理"
+summary:
+  zh: "這場演講是在全台最大的開源人年會COSCUP中分享的主題。我分享了工程師的時間管理，如何把握健身房的時間學習一個新的程式語言。"
+  en: "The speech was shared in COSCUP 2020, which is the largest international open source conference in Taiwan. I shared how to manage time and learn a new programming language during working out."
+proofStatus:
+  importedFromList: ready
+  detailPage: found
+  evidence: imported
+language: mixed

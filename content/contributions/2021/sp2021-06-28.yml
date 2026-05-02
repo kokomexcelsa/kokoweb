@@ -1,0 +1,35 @@
+id: "sp2021-06-28"
+legacyPath: "/speech/sp2021-06-28.html"
+type: "speaking"
+date: 2021-06-28
+title:
+  zh: "來玩 Bot Framework Composer 2.0 版吧！"
+  en: "Let's Play Bot Framework Composer 2.0"
+event: "Chatbot Developers Taiwan 台中小小聚"
+location: "Live stream"
+role: speaker
+format: "online"
+topics:
+  - "Chatbot"
+microsoftProducts:
+  - "Microsoft Bot Framework"
+links:
+  event: "https://chatbots.kktix.cc/events/chatbots-meetup-in-central-taiwan-015"
+evidence:
+  - type: "link"
+    href: "https://chatbots.kktix.cc/events/chatbots-meetup-in-central-taiwan-015"
+    label: "活動紀錄連結點此 / Click here to event link"
+  - type: "screenshot"
+    src: "https://magicpandaengineer.blob.core.windows.net/img/sp-photos/sp20210628-url-1.png"
+    alt: "Let's Play Bot Framework Composer 2.0"
+  - type: "screenshot"
+    src: "https://magicpandaengineer.blob.core.windows.net/img/sp-photos/sp20210628-url-2.png"
+    alt: "Let's Play Bot Framework Composer 2.0"
+summary:
+  zh: "這場演講是在 Chatbot Developers Taiwan 分享的。用 Live Demo 分享了 Bot Framework Composer 的新特性，並且最後和 LINE 串接在一起。"
+  en: "This topic was shared in Chatbot Developers Taiwan. I introduced features of Bot Framework Composer 2.0 with live demo. And I integrated bot with LINE in the end of live demo."
+proofStatus:
+  importedFromList: ready
+  detailPage: found
+  evidence: imported
+language: mixed

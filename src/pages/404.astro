@@ -1,0 +1,13 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { withBase } from '../utils/url';
+---
+
+<BaseLayout title="找不到頁面 | 大魔術熊貓工程師" description="找不到這個頁面。">
+  <section class="page-section">
+    <p class="eyebrow">404</p>
+    <h1>找不到這個頁面</h1>
+    <p>這個網址目前沒有對應內容。舊有演講與社群貢獻頁面會在遷移過程中維持原網址。</p>
+    <p><a href={withBase('/index.html')}>回首頁</a></p>
+  </section>
+</BaseLayout>
