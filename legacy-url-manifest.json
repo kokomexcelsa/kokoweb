@@ -80,6 +80,16 @@
     "canonical": "https://kokomexcelsa.github.io/kokoweb/community/community.html"
   },
   {
+    "path": "/community.html",
+    "source": "community/community.html",
+    "category": "community-index-alias",
+    "migrationStatus": "generated-alias",
+    "sitemap": false,
+    "noindex": false,
+    "deploy": true,
+    "canonical": "https://kokomexcelsa.github.io/kokoweb/community/community.html"
+  },
+  {
     "path": "/company-template/companyT.html",
     "source": "company-template/companyT.html",
     "category": "legacy-template",

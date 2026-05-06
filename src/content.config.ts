@@ -88,7 +88,11 @@ const communityPeriods = defineCollection({
       z.object({
         communityId: z.string().min(1),
         role: z.string().optional().default(''),
+        roleEn: z.string().optional().default(''),
         summary: z.string().optional().default(''),
+        summaryEn: z.string().optional().default(''),
+        description: z.string().optional().default(''),
+        descriptionEn: z.string().optional().default(''),
         evidence: z.array(evidenceItem).optional().default([]),
         relatedContributionIds: z.array(z.string()).optional().default([])
       })
