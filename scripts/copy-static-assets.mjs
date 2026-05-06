@@ -31,6 +31,7 @@ const files = [
 
 const generatedLegacyCategories = new Set([
   'community-index',
+  'community-index-alias',
   'community-period',
   'home',
   'speech-detail',
