@@ -1,0 +1,49 @@
+id: "community-2026"
+legacyPath: "/community/community-2026.html"
+kind: "period"
+year: 2026
+period:
+  start: 2025-04-01
+  end: 2026-03-31
+title:
+  zh: "202504-202603 社群活動與管理紀錄"
+  en: "2025-04 to 2026-03 Community Ownership Records"
+sections:
+  - communityId: "aitech-admin"
+    role: "管理員"
+    roleEn: "Administrator"
+    summary: "AI Tech 社群管理人員"
+    summaryEn: "AI Tech community administrator"
+    description: "延續 AI Tech 社群管理與開發者支援，協助分享 AI、雲端與應用開發實務。"
+    descriptionEn: "Continued AI Tech community administration and developer support, sharing AI, cloud, and application development practices."
+    evidence:
+      - type: "screenshot"
+        src: "/community-photo/aitech-admin.jpg"
+        alt: "AI Tech 社群管理人員截圖 / AI Tech community administrator screenshot"
+    relatedContributionIds: []
+  - communityId: "chatbot-developers-taiwan"
+    role: "核心幹部"
+    roleEn: "Core Member"
+    summary: "Chatbot Developers Taiwan 社群核心幹部"
+    summaryEn: "Core member of Chatbot Developers Taiwan"
+    description: "持續協助聊天機器人與 AI 應用開發者交流 Bot Framework、Azure AI、Azure OpenAI、RAG 與 AI Agent 實務。"
+    descriptionEn: "Continued supporting chatbot and AI application developers discussing Bot Framework, Azure AI, Azure OpenAI, RAG, and AI agent practices."
+    evidence:
+      - type: "screenshot"
+        src: "https://magicpandaengineer.blob.core.windows.net/img/commu-photos/commu-chatbot-admin.png"
+        alt: "Chatbot Developers Taiwan 核心幹部截圖 / Chatbot Developers Taiwan core member screenshot"
+    relatedContributionIds: []
+  - communityId: "langchain-developers-taiwan"
+    role: "管理員"
+    roleEn: "Administrator"
+    summary: "LangChain Developers Taiwan 管理員"
+    summaryEn: "Administrator of LangChain Developers Taiwan"
+    description: "管理 LangChain Developers Taiwan，協助開發者討論 LangChain、Azure AI Search、RAG、MCP 與 AI Agent 應用架構。"
+    descriptionEn: "Administrator of LangChain Developers Taiwan, helping developers discuss LangChain, Azure AI Search, RAG, MCP, and AI agent application architecture."
+    evidence:
+      - type: "screenshot"
+        src: "https://magicpandaengineer.blob.core.windows.net/img/commu-photos/commu-langchain-admin.png"
+        alt: "LangChain Developers Taiwan 管理員截圖 / LangChain Developers Taiwan administrator screenshot"
+    relatedContributionIds: []
+sitemap: true
+noindex: false
