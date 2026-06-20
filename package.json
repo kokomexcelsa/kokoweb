@@ -22,7 +22,7 @@
     "validate": "npm run check && npm run build && npm run check:images && npm run check:a11y && npm run check:content && npm run check:legacy-urls && npm run check:links"
   },
   "dependencies": {
-    "astro": "6.2.1"
+    "astro": "6.4.6"
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.5",
