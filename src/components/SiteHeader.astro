@@ -2,10 +2,10 @@
 import { normalizeCurrentPath, withBase } from '../utils/url';
 
 const navItems = [
-  { href: '/index.html', label: '首頁' },
-  { href: '/speech.html', label: '演講' },
-  { href: '/portfolio.html', label: '作品集' },
-  { href: '/about.html', label: '關於' }
+  { href: '/index.html', label: '首頁', labelEn: 'Home' },
+  { href: '/speech.html', label: '演講', labelEn: 'Speaking' },
+  { href: '/portfolio.html', label: '作品集', labelEn: 'Portfolio' },
+  { href: '/about.html', label: '關於', labelEn: 'About' }
 ];
 const currentPath = normalizeCurrentPath(Astro.url.pathname);
 ---
@@ -19,6 +19,11 @@ const currentPath = normalizeCurrentPath(Astro.url.pathname);
     </span>
   </a>
   <nav class="site-nav" aria-label="主要導覽">
-    {navItems.map((item) => <a href={withBase(item.href)} aria-current={currentPath === item.href ? 'page' : undefined}>{item.label}</a>)}
+    {navItems.map((item) => (
+      <a href={withBase(item.href)} aria-current={currentPath === item.href ? 'page' : undefined}>
+        <span>{item.label}</span>
+        <small lang="en">{item.labelEn}</small>
+      </a>
+    ))}
   </nav>
 </header>

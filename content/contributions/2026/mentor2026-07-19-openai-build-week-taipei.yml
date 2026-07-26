@@ -34,6 +34,10 @@ evidence:
   - type: link
     href: https://www.facebook.com/magic.panda.engineer/posts/1679291384206001/
     label: 大魔術熊貓工程師粉專評審紀錄
+  - type: screenshot
+    src: /sp-photos/url-photos/mentor20260719-url-1.png
+    alt: 大魔術熊貓工程師公開貼文截圖，包含 OpenAI 全球黑客松台北場評審文字與現場 Judges 投影
+    label: OpenAI Build Week 台北黑客松公開評審紀錄截圖
 summary:
   zh: |-
     這是我擔任 OpenAI Build Week Community Hackathon - Taipei 評審的公開紀錄。OpenAI 官方 Build Week 頁面說明這是一個鼓勵全球開發者使用 Codex 建立作品的活動；台灣在地頁面則整理台中、高雄工作坊與台北全日黑客松，台北場聚焦 agentic coding、AI-native 產品、開發者工具與 domain agents 等題目。
@@ -45,5 +49,5 @@ summary:
     I served as a judge for the Taipei hackathon, reviewing projects based on technical implementation, product experience, potential impact, and idea quality. This record captures my judging and mentoring role around AI-native products, Codex, agentic coding, and developer tooling.
 proofStatus:
   eventPage: found
-  evidence: public-link
+  evidence: public-link-and-screenshot
 language: mixed

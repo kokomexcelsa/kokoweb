@@ -3,6 +3,7 @@ import '../styles/global.css';
 import SeoMeta from '../components/SeoMeta.astro';
 import SiteFooter from '../components/SiteFooter.astro';
 import SiteHeader from '../components/SiteHeader.astro';
+import { withBase } from '../utils/url';
 
 interface Props {
   title?: string;
@@ -28,6 +29,8 @@ const {
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#fbfbf8" />
+    <link rel="icon" href={withBase('/img/icon-mexcelsa.ico')} sizes="any" />
     <title>{title}</title>
     <meta name="description" content={description} />
     <SeoMeta
