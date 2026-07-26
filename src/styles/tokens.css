@@ -1,19 +1,26 @@
 :root {
   color-scheme: light;
-  --color-ink: #15171a;
-  --color-paper: #ffffff;
-  --color-soft: #f5f7fa;
-  --color-line: #dce3eb;
-  --color-muted: #5e6875;
-  --color-azure: #0067b8;
-  --color-azure-dark: #064c86;
-  --color-pohutukawa: #b31b34;
-  --color-leaf: #2f7d57;
-  --color-gold: #b27a16;
-  --shadow-soft: 0 16px 40px rgb(21 23 26 / 10%);
-  --radius-small: 6px;
+  --color-ink: #111210;
+  --color-ink-soft: #292a27;
+  --color-paper: #fbfbf8;
+  --color-paper-deep: #f1f1ec;
+  --color-soft: #ecece7;
+  --color-line: #c9c9c1;
+  --color-muted: #555750;
+  --color-azure: #252725;
+  --color-azure-dark: #111210;
+  --color-pohutukawa: #9d2b24;
+  --color-leaf: #315e4a;
+  --color-gold: #76633d;
+  --color-seal: #9d2b24;
+  --shadow-soft: 0 18px 48px rgb(17 18 16 / 12%);
+  --shadow-ink: 0 8px 24px rgb(17 18 16 / 16%);
+  --radius: 4px;
+  --radius-small: 3px;
   --space-page: clamp(20px, 5vw, 56px);
   --content-wide: 1180px;
   --content-text: 760px;
   --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", sans-serif;
+  --font-display: "Noto Serif TC", "Songti TC", "PMingLiU", Georgia, serif;
+  --motion-ink: 420ms cubic-bezier(0.2, 0.75, 0.25, 1);
 }
