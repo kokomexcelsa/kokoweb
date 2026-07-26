@@ -1,0 +1,45 @@
+id: sp2026-06-13-microsoft-build-localhost-changhua
+legacyPath: /speech/sp2026-06-13-microsoft-build-localhost-changhua.html
+type: speaking
+date: 2026-06-13
+title:
+  zh: Microsoft Foundry Models 建立 AI 應用
+  en: Build AI Apps with Microsoft Foundry Models
+event: Microsoft Build //localhost:changhua
+location: 彰化高賓閣（彰化鐵路醫院）
+role: speaker
+format: in-person
+topics:
+  - AI Agent
+  - Microsoft Foundry
+  - Foundry Models
+  - GitHub Copilot
+  - Azure AI
+microsoftProducts:
+  - Microsoft Foundry
+  - Azure AI Foundry
+  - GitHub Copilot
+  - Microsoft Azure
+links:
+  event: https://developer.microsoft.com/en-us/reactor/events/27093/
+  source: https://news.microsoft.com/source/asia/2026/06/03/microsoft-build-2026/?lang=zh-hant
+evidence:
+  - type: link
+    href: https://developer.microsoft.com/en-us/reactor/events/27093/
+    label: Microsoft Reactor 活動頁
+  - type: link
+    href: https://news.microsoft.com/source/asia/2026/06/03/microsoft-build-2026/?lang=zh-hant
+    label: Microsoft Build 2026 官方新聞
+summary:
+  zh: |-
+    這是 Microsoft Reactor 舉辦的 Microsoft Build //localhost:changhua 彰化實體場。活動頁公開列出 2026 年 6 月 13 日於彰化高賓閣舉辦，並列出 4 位 Microsoft AI MVP 講者：Ko Ko、陳佳新、Ryan Chung 與 Ian Chen。
+
+    我的議程為「Microsoft Foundry Models 建立 AI 應用」，聚焦 Microsoft Build 2026 後的 AI 應用開發實務，協助中部與彰化地區開發者理解如何使用 Microsoft Foundry Models、Azure AI Foundry 與相關 Microsoft AI 技術建立 AI 應用。
+  en: |-
+    This was the in-person Changhua stop of Microsoft Build //localhost:changhua, hosted through Microsoft Reactor. The public event page lists the event date as June 13, 2026, the venue as Changhua Railway Hospital / Gao Bin Ge, and the four Microsoft AI MVP speakers: Ko Ko, Chia-Hsin Chen, Ryan Chung, and Ian Chen.
+
+    My session was "Build AI Apps with Microsoft Foundry Models." It focused on practical AI application development after Microsoft Build 2026, helping developers in central Taiwan understand how to build AI apps with Microsoft Foundry Models, Azure AI Foundry, and related Microsoft AI technologies.
+proofStatus:
+  eventPage: found
+  evidence: public-link
+language: mixed

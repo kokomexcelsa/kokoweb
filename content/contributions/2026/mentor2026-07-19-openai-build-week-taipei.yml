@@ -1,0 +1,49 @@
+id: mentor2026-07-19-openai-build-week-taipei
+legacyPath: /speech/mentor2026-07-19-openai-build-week-taipei.html
+type: mentoring
+date: 2026-07-19
+title:
+  zh: OpenAI Build Week 台北黑客松評審
+  en: Judge for OpenAI Build Week Community Hackathon Taipei
+event: OpenAI Build Week Community Hackathon - Taipei
+location: 台北
+role: judge
+format: in-person
+topics:
+  - OpenAI
+  - Codex
+  - Agentic Coding
+  - AI-native Product
+  - Hackathon
+microsoftProducts: []
+links:
+  event: https://buildweek.buildwithharry.com/
+  official: https://openai.com/build-week/
+  article: https://www.blocktempo.com/openai-build-week-taiwan-taichung-kaohsiung-taipei-codex-hackathon-agentic/
+  post: https://www.facebook.com/magic.panda.engineer/posts/1679291384206001/
+evidence:
+  - type: link
+    href: https://buildweek.buildwithharry.com/
+    label: OpenAI Build Week Taiwan 活動頁
+  - type: link
+    href: https://openai.com/build-week/
+    label: OpenAI Build Week 官方頁
+  - type: link
+    href: https://www.blocktempo.com/openai-build-week-taiwan-taichung-kaohsiung-taipei-codex-hackathon-agentic/
+    label: OpenAI Build Week Taiwan 媒體報導
+  - type: link
+    href: https://www.facebook.com/magic.panda.engineer/posts/1679291384206001/
+    label: 大魔術熊貓工程師粉專評審紀錄
+summary:
+  zh: |-
+    這是我擔任 OpenAI Build Week Community Hackathon - Taipei 評審的公開紀錄。OpenAI 官方 Build Week 頁面說明這是一個鼓勵全球開發者使用 Codex 建立作品的活動；台灣在地頁面則整理台中、高雄工作坊與台北全日黑客松，台北場聚焦 agentic coding、AI-native 產品、開發者工具與 domain agents 等題目。
+
+    我在台北場擔任評審，針對參賽作品的技術實作、產品體驗、潛在影響與想法品質進行評選。這筆紀錄呈現我在 AI-native 產品、Codex、agentic coding 與開發者工具實作上的社群評審與 mentoring 角色。
+  en: |-
+    This is the public record of my role as a judge for OpenAI Build Week Community Hackathon - Taipei. OpenAI's Build Week page describes the global program as an opportunity for developers to build projects with Codex, while the Taiwan event page covers the Taichung and Kaohsiung workshops and the full-day Taipei hackathon focused on agentic coding, AI-native products, developer tools, and domain agents.
+
+    I served as a judge for the Taipei hackathon, reviewing projects based on technical implementation, product experience, potential impact, and idea quality. This record captures my judging and mentoring role around AI-native products, Codex, agentic coding, and developer tooling.
+proofStatus:
+  eventPage: found
+  evidence: public-link
+language: mixed
