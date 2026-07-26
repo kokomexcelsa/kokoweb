@@ -30,6 +30,10 @@ evidence:
   - type: link
     href: https://news.microsoft.com/source/asia/2026/06/03/microsoft-build-2026/?lang=zh-hant
     label: Microsoft Build 2026 官方新聞
+  - type: screenshot
+    src: /sp-photos/url-photos/sp20260613-url-1.png
+    alt: Microsoft Reactor 彰化活動頁截圖，包含 Microsoft Build localhost changhua 活動資訊與 Ko Ko 議程
+    label: Microsoft Reactor 彰化活動頁截圖，包含 Ko Ko 講者與議程資訊
 summary:
   zh: |-
     這是 Microsoft Reactor 舉辦的 Microsoft Build //localhost:changhua 彰化實體場。活動頁公開列出 2026 年 6 月 13 日於彰化高賓閣舉辦，並列出 4 位 Microsoft AI MVP 講者：Ko Ko、陳佳新、Ryan Chung 與 Ian Chen。
@@ -41,5 +45,5 @@ summary:
     My session was "Build AI Apps with Microsoft Foundry Models." It focused on practical AI application development after Microsoft Build 2026, helping developers in central Taiwan understand how to build AI apps with Microsoft Foundry Models, Azure AI Foundry, and related Microsoft AI technologies.
 proofStatus:
   eventPage: found
-  evidence: public-link
+  evidence: public-link-and-screenshot
 language: mixed
